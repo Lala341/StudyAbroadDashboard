@@ -4,138 +4,276 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<title>Inequality in Education</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+  rel="stylesheet" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+<script src="https://cdn.tailwindcss.com/3.3.0"></script>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+        body: ["Roboto", "sans-serif"],
+        mono: ["ui-monospace", "monospace"],
+      },
+    },
+    corePlugins: {
+      preflight: false,
+    },
+  };
+</script>
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./indexmap/style.css">
+
 </head>
-
 <body>
-	<h1 class="responsive-svg-container mt-4" style="text-align:center">
-		Learning indicators across the world
-	</h1>
-	<h6 class="responsive-svg-container" style="text-align:center">
 
-		PISA Results (Based on Mathematics, Science and Reading)
-	</h6>
-	<div class="container mt-4">
-		<div class="row">
-			<div class="col-md-9 col-ms-12">
-				<div id="radar" class="responsive-svg-container"></div>
-			</div>
-			<div class="col-md-3 col-ms-12">
+	<div class="flex items-center justify-center max-w-full p-10">
 
-				<div class="controlpanel">
-					<h5>Control Panel</h5>
-
-
-					<label for="dataYear" class="form-label">Select Field: </label>
-
-					<select class="form-select" id="dataField" onchange="updateRadarChart()">
-						<option value="m">Mathematics</option>
-						<option value="r">Reading</option>
-						<option value="s">Science</option>
-
-					</select>
-
-
-					<label for="dataYear" class="form-label">Select Year: </label>
-
-					<select class="form-select" id="dataYear" onchange="updateRadarChart()">
-						<option value="2018">2018</option>
-						<option value="2012">2012</option>
-					</select>
-
-
-					<label for="dataYear" class="form-label">Select Type: </label>
-
-					<select class="form-select" id="dataType" onchange="updateRadarChart()">
-						<option value="m">Percentage</option>
-						<option value="no">No Students</option>
-
-					</select>
-
-					<label class="form-check-label">Select Level:</label>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" id="Level1Checkbox" checked
-							onchange="updateRadarChart()">
-						<label class="form-check-label" for="Level1Checkbox">Level 1 (Lowest) </label>
-					</div>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" id="Level2Checkbox" checked
-							onchange="updateRadarChart()">
-						<label class="form-check-label" for="Level2Checkbox">Level 2</label>
-					</div>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" id="Level3Checkbox" checked
-							onchange="updateRadarChart()">
-						<label class="form-check-label" for="Level3Checkbox">Level 3</label>
-					</div>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" id="Level4Checkbox" checked
-							onchange="updateRadarChart()">
-						<label class="form-check-label" for="Level4Checkbox">Level 4 (Highest)</label>
-					</div>
-				</div>
-				<div class="definitions mt-4">
-					<div>
-						<h6>PISA </h6>
-						<p>
-							PISA assesses global educational systems, measuring performance
-							in math, science, and reading.
-							[<a href="https://www.datocms-assets.com/41369/1611507907-about-wide.pdf"
-								target="_blank">source</a>]
-
-						</p>
-
-						<h6>Definition </h6>
-						<p> Percentage or number of children taking part in a reading / mathematics / science assessment
-							passing four proficiency levels of increasing difficulty. </p>
-
-						<div id="tabledefinition" class="responsive-svg-container"></div>
-
-						<h6>Educational Level </h6>
-						<p> End of lower secondary </p>
-						
-					</div>
-
-					<div>
-
-						<h6>Data source: WIDE (2023) </h6>
-						<p>
-							The World Inequality Database on Education (WIDE) is a platform consolidating data from
-							global surveys. Operating in over 170 countries, WIDE enables users to compare educational
-							outcomes globally and within nations, considering factors like wealth, gender, ethnicity,
-							and location that contribute to inequality.</p>
-					</div>
-					<div>
-						<h5> Graph </h5>
-						<h6>Data variables</h6>
-						<p> Country, Results by level.</p>
-						<h6>Type of visualization</h6>
-						<p>Circular stacked bar plot (Radial stacked bar chart)</p>
-						<h6>Visual elements</h6>
-						<p>Task: Compare the results of each country for specific field. <br />
-							Channels: color hue, length </p>
-
-
-
-					</div>
+		<div class="max-w-full p-10 bg-white rounded shadow-lg w-[80%] relative">
+			<!-- Section 1 -->
+			<div id="graph1" class="section-content">
+				<h1 class="text-4xl font-bold mb-2">Question 1</h1>
+				<!-- Content for Section 1 -->
+	
+				<div>
+					
+					<div id="map-title" class="map-title">Education Quality Index of Countries</div>
+	<p>This interactive world map visualizes the global education quality index. The higher the quality, the larger the index. Each country 
+		is colored based on its education index value, providing a clear comparison of educational standards around the world. 
+		Countries not included in the dataset are displayed in gray. Hover over a country to see its name and specific education 
+		index value.</p>
+    <svg id="world-map"></svg>
+	
+	
 				</div>
 			</div>
+	
+			<!-- Section 2 -->
+			<div id="graph2" class="section-content hidden">
+				<h1 class="text-4xl font-bold mb-2">Question 2</h1>
+				<!-- Content for Section 2 -->
+				<div id="map-title" class="map-title">University Ranking</div>
+	<p>This interactive world map visualizes the global education quality index. The higher the quality, the larger the index. Each country 
+		is colored based on its education index value, providing a clear comparison of educational standards around the world. 
+		Countries not included in the dataset are displayed in gray. Hover over a country to see its name and specific education 
+		index value.</p>
+        <div class="grid grid-cols-4 gap-4 p-5 mb-4">
+            <div class="col-span-1">
+                <label for="startNumber" class="block text-sm font-medium text-gray-700">Start Number</label>
+                <input type="range" id="startNumber" name="startNumber" min="1" max="200" step="1" value="1"
+                       class="mt-1 range-input">
+                <span class="ml-2" id="startNumberValue">1</span>
+            </div>
+            <div class="col-span-1">
+                <label for="nomUniv" class="block text-sm font-medium text-gray-700">Number of Universities</label>
+            <input type="range" id="nomUniv" name="nomUniv" min="5" max="15" step="1" value="10"
+                   class="mt-1 range-input">
+            <span class="ml-2" id="nomUnivValue">10</span>
+            </div>
 
+
+            
+        </div>
+    
+        <!-- Number of Universities Range Slider -->
+        <div class="pl-5 mb-4">
+            
+        </div>
+    <svg id="world-map2"></svg>
+				
+			</div>
+	
+			<!-- Section 3 -->
+			<div id="graph3" class="section-content hidden">
+				<h1 class="text-4xl font-bold mb-2">Question 3</h1>
+				<!-- Content for Section 3 -->
+
+				<div>
+					<div class="container mt-2">
+						<div class="row">
+							<div class="col-md-9 col-ms-12">
+								<div id="radar" class="responsive-svg-container"></div>
+							</div>
+							<div class="col-md-3 col-ms-12">
+	
+								<div class="controlpanel">
+									
+									<p class="responsive-svg-container" style="text-align:center">
+										PISA Results
+									</p>
+									<label for="dataYear" class="form-label">Select Field: </label>
+	
+									<select class="form-select" id="dataField" onchange="updateRadarChart()">
+										<option value="m">Mathematics</option>
+										<option value="r">Reading</option>
+										<option value="s">Science</option>
+	
+									</select>
+	
+	
+									<label for="dataYear" class="form-label">Select Type: </label>
+	
+									<select class="form-select" id="dataType" onchange="updateRadarChart()">
+										<option value="m">Percentage</option>
+										<option value="no">No Students</option>
+	
+									</select>
+	
+									<label class="form-check-label">Select Level:</label>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Level1Checkbox" checked
+											onchange="updateRadarChart()">
+										<label class="form-check-label" for="Level1Checkbox">Level 1 (Lowest) </label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Level2Checkbox" checked
+											onchange="updateRadarChart()">
+										<label class="form-check-label" for="Level2Checkbox">Level 2</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Level3Checkbox" checked
+											onchange="updateRadarChart()">
+										<label class="form-check-label" for="Level3Checkbox">Level 3</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Level4Checkbox" checked
+											onchange="updateRadarChart()">
+										<label class="form-check-label" for="Level4Checkbox">Level 4 (Highest)</label>
+									</div>
+								</div>
+							</div>
+							
+	
+	
+							<div>
+								<div class="controlpaneltwo" id="information">
+									<div class="definitions mt-2">
+										<div>
+											<h2>Information</h2>
+											<h6>PISA </h6>
+											<br/>
+											<p>
+												PISA assesses global educational systems, measuring performance
+												in math, science, and reading.
+												[<a href="https://www.datocms-assets.com/41369/1611507907-about-wide.pdf"
+													target="_blank">source</a>]
+	
+											</p>
+											<br/>
+											<h6>Definition </h6>
+											<br/>
+											<p> Percentage or number of children taking part in a reading / mathematics / science assessment
+												passing four proficiency levels of increasing difficulty. </p>
+	
+											<div id="tabledefinition" class="responsive-svg-container"></div>
+											<br/>
+											<h6>Educational Level </h6>
+											<p> End of lower secondary </p>
+	
+										</div>
+	
+										<div>
+											<br/>
+											<h6>Data source: WIDE (2023) </h6>
+											<p>
+												The World Inequality Database on Education (WIDE) is a platform consolidating data from
+												global surveys. Operating in over 170 countries, WIDE enables users to compare educational
+												outcomes globally and within nations, considering factors like wealth, gender, ethnicity,
+												and location that contribute to inequality.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+						</div>
+	
+					</div>
+	
+	
+				</div>
+			</div>
+	
+			<!-- Section 4 -->
+			<div id="graph4" class="section-content hidden">
+				<h1 class="text-4xl font-bold mb-2">Question 4</h1>
+				<!-- Content for Section 4 -->
+			</div>
+	
+			<!-- Section 5 -->
+			<div id="graph5" class="section-content hidden">
+				<h1 class="text-4xl font-bold mb-2">Question 5</h1>
+				<!-- Content for Section 5 -->
+			</div>
+	
+			
 		</div>
-
+	<!-- Navigation Buttons -->
+	<div class="absolute bottom-2 right-2 flex">
+		<button onclick="changeSection('next')" class="nav-button bg-dark text-white p-2 rounded-full mr-2">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+				 class="h-6 w-6 transform rotate-270">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					  d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+			</svg>
+		</button>
+		<button onclick="changeSection('prev')" class="nav-button bg-dark text-white p-2 rounded-full mr-2">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+				 class="h-6 w-6 transform rotate-0">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					  d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+			</svg>
+		</button>
+		<button onclick="scrollToInformation()"  class="nav-button bg-dark text-white p-2 rounded-full">
+			Information
+		</button>
+	</div>
 	</div>
 
+	  <script>
+		let currentSection = 1;
+	
+		function scrollToInformation() {
+        const informationElement = document.getElementById('information');
+        if (informationElement) {
+            informationElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+		function changeSection(direction) {
+			// Hide all sections
+			document.querySelectorAll('.section-content').forEach(function (el) {
+				el.classList.add('hidden');
+			});
+	
+			// Update current section based on the direction
+			if (direction === 'next') {
+				currentSection = Math.min(currentSection + 1, 5);
+			} else if (direction === 'prev') {
+				currentSection = Math.max(currentSection - 1, 1);
+			}
+	
+			// Show the selected section
+			document.getElementById('graph' + currentSection).classList.remove('hidden');
+		}
+	</script>
 
 
-	</div>
-
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-	<script src="./script.js"></script>
+	<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+	<script src="script.js"></script>
+	<script src="learningmap/script.js"></script>
+	<script src="indexmap/script.js"></script>
+	<script src="ranking/script.js"></script>
+
 </body>
 
 </html>

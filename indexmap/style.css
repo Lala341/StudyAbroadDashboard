@@ -1,0 +1,45 @@
+#world-map {
+  margin: 0 auto; 
+  display: block;
+  padding-top: 10px;
+}
+
+
+.map-title {
+  text-align: center;
+  font-size: 24px; 
+  margin-bottom: 10px; 
+  fill: #000;
+}
+
+.tooltip {    
+  position: absolute;           
+  text-align: center;           
+  width: auto;                  
+  height: auto;                 
+  padding: 5px;             
+  font: 14px sans-serif;      
+  background: white;   
+  border: 1px solid #f5f5f5;        
+  border-radius: 8px;           
+  pointer-events: none;         
+  opacity: 0.8; 
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
+}
+
+#legend {
+  font: 10px sans-serif;
+}
+
+
+#legend text {
+  font-size: 11px; 
+    fill: #444;
+    font-weight: normal;
+}
+
+/* .text-title {
+  font-size: 24px; 
+  font-weight: bold;
+  text-anchor: middle; 
+} */
