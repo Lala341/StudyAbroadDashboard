@@ -41,32 +41,46 @@
 		<div class="max-w-full p-10 bg-white rounded shadow-lg w-[80%] relative">
 			<!-- Section 1 -->
 			<div id="graph1" class="section-content">
-				<h1 class="text-4xl font-bold mb-2">Question 1</h1>
+				<h1 class="text-4xl font-bold mb-2">Unlock Your Potential: Study Abroad.</h1>
 				<!-- Content for Section 1 -->
+
 	
-				<div>
-					
-					<div id="map-title" class="map-title">Education Quality Index of Countries</div>
-	<p>This interactive world map visualizes the global education quality index. The higher the quality, the larger the index. Each country 
-		is colored based on its education index value, providing a clear comparison of educational standards around the world. 
-		Countries not included in the dataset are displayed in gray. Hover over a country to see its name and specific education 
-		index value.</p>
-    <svg id="world-map"></svg>
+				<div >
+					<div class="flex items-center justify-center h-full">
+						<h1 class="text-2xl font-bold mt-2 mb-2 ">Which Countries Offer the Best University Education?</h1>
+
+					</div>
+
+						<div class="text-[0.8rem]">
+							<p>This interactive world map visualizes the global education quality index. The higher the quality, the larger the index. Each country 
+								is colored based on its education index value, providing a clear comparison of educational standards around the world. 
+								Countries not included in the dataset are displayed in gray. Hover over a country to see its name and specific education 
+								index value.</p>
+					</div>
+				
+
+	
+   
 	
 	
 				</div>
+				<svg id="world-map"></svg>
 			</div>
 	
 			<!-- Section 2 -->
 			<div id="graph2" class="section-content hidden">
-				<h1 class="text-4xl font-bold mb-2">Question 2</h1>
-				<!-- Content for Section 2 -->
-				<div id="map-title" class="map-title">University Ranking</div>
-	<p>This interactive world map visualizes the global education quality index. The higher the quality, the larger the index. Each country 
-		is colored based on its education index value, providing a clear comparison of educational standards around the world. 
-		Countries not included in the dataset are displayed in gray. Hover over a country to see its name and specific education 
-		index value.</p>
-        <div class="grid grid-cols-4 gap-4 p-5 mb-4">
+				<div class="flex items-center justify-center h-full">
+					<h1 class="text-2xl font-bold mt-2 mb-2 "> Where Do Universities Stand Globally? </h1>
+
+
+				</div><div class="flex items-center justify-center h-full">
+					
+					<h1 class="text-lg font-bold mb-2 "> Find Your Ideal Study Destination!</h1>
+
+				</div><!-- Content for Section 2 -->
+				<div id="map-title" class="map-title text-xs">University Ranking [Times Higher Education World University Ranking] </div>
+	<p></p>
+        <div class="grid grid-cols-4 gap-4 p-2 mb-4">
             <div class="col-span-1">
                 <label for="startNumber" class="block text-sm font-medium text-gray-700">Start Number</label>
                 <input type="range" id="startNumber" name="startNumber" min="1" max="200" step="1" value="1"
@@ -75,7 +89,7 @@
             </div>
             <div class="col-span-1">
                 <label for="nomUniv" class="block text-sm font-medium text-gray-700">Number of Universities</label>
-            <input type="range" id="nomUniv" name="nomUniv" min="5" max="15" step="1" value="10"
+            <input type="range" id="nomUniv" name="nomUniv" min="5" max="20" step="1" value="10"
                    class="mt-1 range-input">
             <span class="ml-2" id="nomUnivValue">10</span>
             </div>
@@ -94,25 +108,27 @@
 	
 			<!-- Section 3 -->
 			<div id="graph3" class="section-content hidden">
-				<h1 class="text-4xl font-bold mb-2">Question 3</h1>
-				<!-- Content for Section 3 -->
+				<div class="flex items-center justify-center h-full">
+					<h1 class="text-2xl font-bold mt-2 mb-2 "> Unlocking Educational Excellence: Which Countries Shine in PISA Results for Your Study Abroad Journey?</h1>
 
+				</div>
+				
+				<!-- Content for Section 3 -->
 				<div>
 					<div class="container mt-2">
 						<div class="row">
-							<div class="col-md-9 col-ms-12">
-								<div id="radar" class="responsive-svg-container"></div>
-							</div>
-							<div class="col-md-3 col-ms-12">
-	
+							
+							<div class="col-md-12 col-ms-12">
+								<p class="responsive-svg-container" style="text-align:center">
+									PISA Results
+								</p>
 								<div class="controlpanel">
 									
-									<p class="responsive-svg-container" style="text-align:center">
-										PISA Results
-									</p>
-									<label for="dataYear" class="form-label">Select Field: </label>
+									
+									<div class="flex">
+									<label for="dataYear" class="form-label flex-1">Field: </label>
 	
-									<select class="form-select" id="dataField" onchange="updateRadarChart()">
+									<select class="form-select flex-1" id="dataField" onchange="updateRadarChart()">
 										<option value="m">Mathematics</option>
 										<option value="r">Reading</option>
 										<option value="s">Science</option>
@@ -120,38 +136,41 @@
 									</select>
 	
 	
-									<label for="dataYear" class="form-label">Select Type: </label>
+									<label for="dataYear" class="form-label flex-1">Type: </label>
 	
-									<select class="form-select" id="dataType" onchange="updateRadarChart()">
+									<select class="form-select flex-1" id="dataType" onchange="updateRadarChart()">
 										<option value="m">Percentage</option>
 										<option value="no">No Students</option>
 	
 									</select>
 	
-									<label class="form-check-label">Select Level:</label>
-									<div class="form-check">
+									<label class="form-check-label flex-1">Select Level:</label>
+									<div class="form-check flex-1">
 										<input class="form-check-input" type="checkbox" id="Level1Checkbox" checked
 											onchange="updateRadarChart()">
 										<label class="form-check-label" for="Level1Checkbox">Level 1 (Lowest) </label>
 									</div>
-									<div class="form-check">
+									<div class="form-check flex-1">
 										<input class="form-check-input" type="checkbox" id="Level2Checkbox" checked
 											onchange="updateRadarChart()">
 										<label class="form-check-label" for="Level2Checkbox">Level 2</label>
 									</div>
-									<div class="form-check">
+									<div class="form-check flex-1">
 										<input class="form-check-input" type="checkbox" id="Level3Checkbox" checked
 											onchange="updateRadarChart()">
 										<label class="form-check-label" for="Level3Checkbox">Level 3</label>
 									</div>
-									<div class="form-check">
+									<div class="form-check flex-1">
 										<input class="form-check-input" type="checkbox" id="Level4Checkbox" checked
 											onchange="updateRadarChart()">
 										<label class="form-check-label" for="Level4Checkbox">Level 4 (Highest)</label>
 									</div>
 								</div>
+								</div>
 							</div>
-							
+							<div class="col-md-12 col-ms-12">
+								<div id="radar" class="responsive-svg-container"></div>
+							</div>
 	
 	
 							<div>
@@ -204,14 +223,54 @@
 	
 			<!-- Section 4 -->
 			<div id="graph4" class="section-content hidden">
-				<h1 class="text-4xl font-bold mb-2">Question 4</h1>
-				<!-- Content for Section 4 -->
+				<div class="flex items-center justify-center h-full">
+					<h1 class="text-2xl font-bold mt-2 mb-2 ">  Which Places Offer the Most Affordable and Comfortable Living Abroad?</h1>
+
+				</div>
+				<div >
+					
+					<p id="chartDescription" class="text-xs mb-2"> Select a country to display the corresponding data. Use the other selectors to adjust the number of cities shown and the sorting order. <br/> Cost of Living: Price per Square Meter to Buy Apartment in City Centre (USD).</p>
+					
+					<div id="selectors mt-4">
+						<label for="countrySelector">Select Country:</label>
+						<select id="countrySelector"></select>
+			
+						<label for="topKSelector">Select Number of Cities:</label>
+						<select id="topKSelector">
+							<option value="5">Top 5</option>
+							<option value="10">Top 10</option>
+							<option value="15">Top 15</option>
+							<option value="20">Top 20</option>
+							<!-- Add more options as needed -->
+						</select>
+			
+						<label for="sortOrderSelector">Sort Order:</label>
+						<select id="sortOrderSelector">
+							<option value="lowest">Lowest Prices</option>
+							<option value="highest">Highest Prices</option>
+						</select>
+					</div>
+					<svg width="960" height="600" id="cost"></svg> <!-- SVG container for the D3 visualization -->
+
+				</div>
 			</div>
 	
 			<!-- Section 5 -->
 			<div id="graph5" class="section-content hidden">
-				<h1 class="text-4xl font-bold mb-2">Question 5</h1>
+				<div class="flex items-center justify-center h-full">
+					<div class="flex-1">
+						<div id="visualization-container"></div>
+
+					</div>
+					<div class="flex-1">
+						<h1 class="text-4xl font-bold mb-4">Still not sure about choosing a program abroad?</h1>
+						
+						<h6 class="text-2xl">Benefits of studying abroad. <br/> According Europa EU</h6>
+
+					</div>
+				</div>
 				<!-- Content for Section 5 -->
+
 			</div>
 	
 			
@@ -273,6 +332,8 @@
 	<script src="learningmap/script.js"></script>
 	<script src="indexmap/script.js"></script>
 	<script src="ranking/script.js"></script>
+	<script src="costLiving/script.js"></script>
+	<script src="stats/script.js"></script>
 
 </body>
 

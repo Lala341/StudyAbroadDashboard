@@ -1,0 +1,4957 @@
+city,country,price
+Seoul,South Korea,22067.7
+Shanghai,China,17746.11
+Guangzhou,China,12892.82
+Mumbai,India,6092.45
+Delhi,India,2506.73
+Dhaka,Bangladesh,1119.98
+Osaka,Japan,8043.38
+Jakarta,Indonesia,2632.8
+Shenzhen,China,17898.73
+Kinshasa,Congo,6170.63
+Bangkok,Thailand,5534.11
+Karachi,Pakistan,760.64
+Cairo,Egypt,549.42
+Sao Paulo,Brazil,2542.37
+Mexico City,Mexico,2769.15
+Lagos,Nigeria,746.59
+Kolkata,India,1038.75
+Beijing,China,17761.99
+Moscow,Russia,7750.96
+Tokyo,Japan,9144.73
+Manila,Philippines,3578.46
+New York,United States,14784.44
+Istanbul,Turkey,2374.69
+Buenos Aires,Argentina,2518.29
+Bangalore,India,1638.59
+Lahore,Pakistan,465.59
+Chennai,India,1948.95
+Chengdu,China,3855.3
+London,United Kingdom,14704.63
+Wuhan,China,3559.63
+Hyderabad,India,1132.49
+Tehran,Iran,2183.1
+Paris,France,13043.59
+Nagoya,Japan,3494.13
+Ho Chi Minh City,Vietnam,4404.92
+Los Angeles,United States,9219.44
+Baoding,China,1992.97
+Lima,Peru,1962.17
+Rio de Janeiro,Brazil,2116.26
+Tianjin,China,5576.09
+Nanyang,China,nan
+Shijiazhuang,China,2562.39
+Zhengzhou,China,2746.29
+Luanda,Angola,5421.61
+Weifang,China,nan
+Linyi,China,2135.32
+Chicago,United States,3498
+Hanoi,Vietnam,2255.75
+Chongqing,China,2763.72
+Ganzhou,China,2704.74
+Ahmedabad,India,1038.45
+Pune,India,1690.47
+Foshan,China,5456.94
+Tongshan,China,2348.85
+Heze,China,nan
+Changchun,China,1708.26
+Nanjing,China,7231.63
+Bogota,Colombia,1444.09
+Kuala Lumpur,Malaysia,2272.27
+Hefei,China,3985.94
+Dongguan,China,4840.06
+Jinan,China,4270.65
+Hong Kong,Hong Kong,31427.61
+Dar es Salaam,Tanzania,3901.17
+Cangzhou,China,2562.39
+Shenyang,China,2526.8
+Santiago,Chile,2279.57
+Xi'an,China,2633.56
+Zhanjiang,China,2135.32
+Nantong,China,9490.32
+Riyadh,Saudi Arabia,1758.36
+Nanning,China,7775.86
+Yancheng,China,3558.87
+Hangzhou,China,7780.17
+Miami,United States,6516.5
+Yantai,China,nan
+Luoyang,China,42706.45
+Kunming,China,5517.93
+Baghdad,Iraq,2099.93
+Quanzhou,China,nan
+Madrid,Spain,5612.64
+Khartoum,Sudan,1160
+Qingdao,China,5338.31
+Wuxi,China,3495.67
+Huanggang,China,nan
+Maoming,China,nan
+Nanchong,China,nan
+Dallas,United States,3209.07
+Giza,Egypt,406.98
+Allahabad,India,614.09
+Yulin,China,nan
+Changde,China,nan
+Philadelphia,United States,5651.05
+Liaocheng,China,nan
+Nairobi,Kenya,1415.61
+Guadalajara,Mexico,1578.73
+Xiangyang,China,nan
+Houston,United States,2958.88
+Atlanta,United States,4122.58
+Nanchang,China,2847.1
+Dezhou,China,nan
+Suzhou,China,9490.32
+Toronto,Canada,9834.67
+Singapore,Singapore,20752.74
+Rangoon,Myanmar,nan
+Shantou,China,2135.32
+Washington,United States,7882.02
+Changzhou,China,3416.52
+Abidjan,Ivory Coast,1579.65
+Fuzhou,China,6405.97
+Surat,India,687.08
+Alexandria,Egypt,696.65
+Belo Horizonte,Brazil,1697.83
+Taizhou,China,nan
+Pingdingshan,China,nan
+Guilin,China,1850.61
+Boston,United States,11011.48
+Sydney,Australia,11820.92
+Jiujiang,China,nan
+Bozhou,China,10726.06
+Barcelona,Spain,5103.12
+Huizhou,China,2562.39
+Melbourne,Australia,6263.8
+Chenzhou,China,2642.46
+Dalian,China,3894.83
+Anqing,China,nan
+Jiangmen,China,nan
+Harbin,China,2242.09
+Johannesburg,South Africa,735.61
+Zibo,China,1850.61
+Casablanca,Morocco,1863.17
+Kabul,Afghanistan,694.92
+Phoenix,United States,2628.55
+Xiamen,China,9964.84
+Amman,Jordan,1311.2
+Chifeng,China,nan
+Kano,Nigeria,1125.7
+Luzhou,China,nan
+Taiyuan,China,1423.55
+Zhaoqing,China,nan
+Yokohama,Japan,6886.8
+Liuzhou,China,nan
+Seattle,United States,6897.61
+Jeddah,Saudi Arabia,1296.93
+Berlin,Germany,8604.37
+Baojishi,China,nan
+Zaozhuang,China,nan
+Algiers,Algeria,1624.07
+Busan,South Korea,7259.92
+Anshan,China,nan
+Detroit,United States,1076.39
+Montreal,Canada,6069.66
+Jiaozuo,China,nan
+Lucknow,India,1067.19
+Faisalabad,Pakistan,258.76
+Zhongshan,China,3558.87
+Jaipur,India,1750.63
+San Diego,United States,8702.59
+Brasilia,Brazil,2092.97
+Mashhad,Iran,1364.89
+Zhenjiang,China,nan
+Urumqi,China,nan
+Minneapolis,United States,5651.05
+Addis Ababa,Ethiopia,1457.18
+Kuwait City,Kuwait,7057.23
+Incheon,South Korea,11011.3
+Quezon City,Philippines,1492.18
+Sanaa,Yemen,2786.35
+Surabaya,Indonesia,1901.77
+Bandung,Indonesia,1143.43
+Tampa,United States,3869.29
+Salvador,Brazil,1417.79
+Rome,Italy,7125.32
+Guatemala City,Guatemala,1534.68
+Denver,United States,4539.68
+Kyiv,Ukraine,1967.7
+Putian,China,nan
+Taichung,Taiwan,4697.34
+Daqing,China,nan
+Guayaquil,Ecuador,1225
+Kaohsiung,Taiwan,4161.39
+La Paz,Bolivia,1282.05
+Hohhot,China,2372.58
+Pyongyang,North Korea,4700
+Weihai,China,1708.26
+Rizhao,China,nan
+Taipei,Taiwan,14799.79
+Baotou,China,nan
+Antananarivo,Madagascar,916.38
+Ankang,China,nan
+Brooklyn,United States,12542.11
+Santo Domingo,Dominican Republic,2186.2
+Ibadan,Nigeria,290.81
+Yangjiang,China,2847.1
+Medellin,Colombia,1132.5
+Dubai,United Arab Emirates,3752.32
+Tashkent,Uzbekistan,1206.66
+Cali,Colombia,769.26
+Douala,Cameroon,1499.33
+Daegu,South Korea,5158.12
+Fortaleza,Brazil,1386.09
+Ouagadougou,Burkina Faso,266.02
+Yaounde,Cameroon,963.85
+Nagpur,India,1364.64
+Brisbane,Australia,6667.65
+Ghaziabad,India,648.49
+Accra,Ghana,1156.33
+Tangerang,Indonesia,1750.11
+Fukuoka,Japan,5658.34
+Vancouver,Canada,9983.22
+Bekasi,Indonesia,1454.82
+Omdurman,Sudan,nan
+Depok,Indonesia,1296.38
+Queens,United States,15547.57
+Baku,Azerbaijan,1548.48
+Havana,Cuba,490.89
+Medan,Indonesia,1979.08
+Ningbo,China,5836.55
+Xining,China,5694.19
+Harare,Zimbabwe,1344.1
+Rawalpindi,Pakistan,575.34
+Phnom Penh,Cambodia,2339.5
+Mogadishu,Somalia,67123.87
+Haiphong,Vietnam,1223.87
+Huaibei,China,nan
+Baltimore,United States,1076.39
+Riverside,United States,2690.98
+Las Vegas,United States,2775.55
+Vadodara,India,479.33
+Portland,United States,5085.95
+Kumasi,Ghana,114.29
+Gujranwala,Pakistan,1266.4
+Pingliang,China,3202.98
+Quito,Ecuador,1285
+Perth,Australia,4587.16
+Vishakhapatnam,India,993.95
+Peshawar,Pakistan,1920.2
+Minsk,Belarus,1919.96
+Caracas,Venezuela,805.57
+Sapporo,Japan,2978.07
+Fushun,China,nan
+Indore,India,1061.13
+Tijuana,Mexico,1595.76
+Bamako,Mali,nan
+Yinchuan,China,nan
+Esfahan,Iran,2010.62
+Almaty,Kazakhstan,1501.51
+Thane,India,2809.25
+Vienna,Austria,9318.15
+Sacramento,United States,8072.93
+Aleppo,Syria,875
+Blantyre,Malawi,nan
+Tainan,Taiwan,5529.46
+Zhuhai,China,5658.6
+Curitiba,Brazil,1729.51
+Multan,Pakistan,236.34
+Bucharest,Romania,2526.67
+Hamburg,Germany,9257.9
+Orlando,United States,3309.9
+Ecatepec,Mexico,1127.35
+Manaus,Brazil,1337.32
+Bhopal,India,540.74
+Davao,Philippines,2332.47
+Brazzaville,Congo,16687.53
+Meru,Kenya,2445.98
+Damascus,Syria,2000
+Brussels,Belgium,4091.43
+Warsaw,Poland,4469.94
+Lusaka,Zambia,10763.91
+Lubumbashi,Congo,12916.69
+Haikou,China,3558.87
+Cleveland,United States,2152.78
+San Jose,United States,11763.42
+Budapest,Hungary,3407.13
+Pittsburgh,United States,4305.56
+Patna,India,1233.86
+Austin,United States,7864.35
+Mecca,Saudi Arabia,1010.94
+Recife,Brazil,1772.23
+Cincinnati,United States,2421.88
+Kampala,Uganda,1264.36
+Conakry,Guinea,363.49
+Caloocan City,Philippines,1345.65
+Mosul,Iraq,509.85
+Hyderabad City,Pakistan,181.04
+Manhattan,United States,nan
+Semarang,Indonesia,1215.36
+Novosibirsk,Russia,2441.44
+Ludhiana,India,4050.21
+Agra,India,1350.99
+Indianapolis,United States,2260.42
+Bilaspur,India,637.54
+Kansas City,United States,nan
+Puebla,Mexico,762.5
+Kalyan,India,2423.66
+Karaj,Iran,1897.69
+Madurai,India,nan
+Jamshedpur,India,552.68
+Shiraz,Iran,1423.18
+Columbus,United States,6942.72
+Tabriz,Iran,9051.49
+Leon de los Aldama,Mexico,825.1
+Charlotte,United States,3444.45
+Kobe,Japan,3722.59
+Maracaibo,Venezuela,2152.78
+Aba,Nigeria,nan
+Palembang,Indonesia,972.29
+Kawasaki,Japan,4467.11
+Nasik,India,854.89
+Daejeon,South Korea,2592.78
+Belem,Brazil,1341.15
+Munich,Germany,12962.21
+Yekaterinburg,Russia,2482
+Kyoto,Japan,4777.32
+Valencia,Venezuela,305
+Gwangju,South Korea,4865.46
+Onitsha,Nigeria,nan
+Virginia Beach,United States,2378.82
+Kharkiv,Ukraine,1244.02
+Huazhou,China,nan
+Abu Dhabi,United Arab Emirates,3234.7
+Zapopan,Mexico,2870.67
+Muscat,Oman,1894.54
+Bronx,United States,18449.34
+Faridabad,India,938.19
+Ulaanbaatar,Mongolia,1417.26
+Goiania,Brazil,1047.37
+Khulna,Bangladesh,509.15
+Aurangabad,India,550.58
+Milwaukee,United States,2152.78
+Belgrade,Serbia,3218.58
+Rajkot,India,3050.26
+Milan,Italy,9364.19
+Cordoba,Argentina,1083.33
+Auckland,New Zealand,8666.88
+Makassar,Indonesia,1296.38
+Prague,Czech Republic,7798.05
+Meerut,India,382.53
+Montevideo,Uruguay,2776.42
+Guarulhos,Brazil,1935.09
+Al Basrah,Iraq,850.99
+Saitama,Japan,4467.11
+Adelaide,Australia,3782.81
+Juarez,Mexico,1315.01
+Barranquilla,Colombia,541.98
+Jabalpur,India,809.12
+Sofia,Bulgaria,2539.67
+Sharjah,United Arab Emirates,2212.09
+Kazan,Russia,3010.35
+Huaiyin,China,nan
+Abuja,Nigeria,12157.51
+Nizhniy Novgorod,Russia,2408.36
+Soweto,South Africa,nan
+Comayaguela,Honduras,430.56
+Dhanbad,India,nan
+Calgary,Canada,3328.49
+Laiwu,China,6405.97
+Suwon,South Korea,6529.96
+Chelyabinsk,Russia,1252
+Can Tho,Vietnam,nan
+Mandalay,Myanmar,nan
+Varanasi,India,1165.57
+Providence,United States,3229.17
+Mombasa,Kenya,570.73
+Xiangshui,China,nan
+Maputo,Mozambique,3248.65
+Vila Velha,Brazil,2391.29
+Rosario,Argentina,1575
+Doha,Qatar,4995.19
+Qom,Iran,2767.42
+Medina,Saudi Arabia,1014.21
+Jacksonville,United States,2516.6
+Maiduguri,Nigeria,nan
+Hiroshima,Japan,nan
+Omsk,Russia,1616
+Srinagar,India,1109.84
+Samara,Russia,2085.92
+Ulsan,South Korea,nan
+Ahvaz,Iran,1022.64
+Campinas,Brazil,1452.27
+Dakar,Senegal,9016.38
+Kigali,Rwanda,2884.51
+Bandar Lampung,Indonesia,nan
+Dingzhou,China,nan
+Amritsar,India,695.97
+Birmingham,United Kingdom,6953.22
+Monterrey,Mexico,1856.48
+Tripoli,Libya,1319.36
+Tegucigalpa,Honduras,1165.03
+Guwahati,India,809.83
+Benin City,Nigeria,nan
+Ufa,Russia,2200
+Tbilisi,Georgia,1797.34
+Aligarh,India,2181.3
+Fes,Morocco,837.64
+Bien Hoa,Vietnam,1223.87
+Copenhagen,Denmark,7808.48
+Bhilai,India,nan
+Krasnoyarsk,Russia,2006.4
+Tamale,Ghana,461.31
+Salt Lake City,United States,3725.6
+Cologne,Germany,6019.52
+N'Djamena,Chad,160.64
+Yerevan,Armenia,2317.05
+Gongzhuling,China,nan
+Nashville,United States,4855.87
+Richmond,United States,4133.34
+Ranchi,India,396.6
+Memphis,United States,742.71
+Sao Goncalo,Brazil,920.69
+Edmonton,Canada,2200.36
+Vereeniging,South Africa,nan
+Bishkek,Kyrgyzstan,915
+Nur-Sultan,Kazakhstan,1028.41
+Nouakchott,Mauritania,362.93
+Sendai,Japan,1191.23
+Tunis,Tunisia,888.43
+San Pedro Sula,Honduras,384.07
+Kathmandu,Nepal,1847.25
+Gwalior,India,742.88
+Perm,Russia,1946.67
+Voronezh,Russia,1790.86
+Mexicali,Mexico,1624.42
+Barquisimeto,Venezuela,nan
+Raleigh,United States,5227.67
+Cartagena,Colombia,2115.44
+Chandigarh,India,1263.36
+Jodhpur,India,429.86
+Changwon,South Korea,nan
+Managua,Nicaragua,905.56
+Bogor,Indonesia,1534.05
+Matola,Mozambique,nan
+Ogbomoso,Nigeria,nan
+Odesa,Ukraine,1159.83
+Shubra al Khaymah,Egypt,142.44
+Shymkent,Kazakhstan,706.32
+Niamey,Niger,240963.67
+Mysore,India,793.42
+Maceio,Brazil,nan
+Monrovia,Liberia,5000
+Islamabad,Pakistan,586.6
+Louisville,United States,3395.26
+New Orleans,United States,4036.47
+Raipur,India,793.2
+Port-au-Prince,Haiti,nan
+Villahermosa,Mexico,928.24
+Volgograd,Russia,3080
+Quetta,Pakistan,2589.55
+Ottawa,Canada,4884.05
+Arequipa,Peru,1501.11
+Port Harcourt,Nigeria,6754.17
+Stockholm,Sweden,11124.31
+Jerusalem,Israel,11468.34
+Vientiane,Laos,2493.1
+Kota,India,734.37
+Zagreb,Croatia,3748.36
+Colombo,Sri Lanka,1734.36
+Lilongwe,Malawi,10507.21
+Dushanbe,Tajikistan,835.59
+Pretoria,South Africa,439.11
+Amsterdam,Netherlands,9815.34
+Asmara,Eritrea,1038.2
+Freetown,Sierra Leone,1076.39
+Winnipeg,Canada,3038.71
+Lome,Togo,1164.66
+Libreville,Gabon,13654.61
+Helsinki,Finland,8746.09
+Panama City,Panama,2200
+Athens,Greece,2647.22
+Oslo,Norway,9925.38
+Cotonou,Benin,nan
+Skopje,North Macedonia,1737.11
+Chisinau,Moldova,1193.72
+Quebec City,Canada,7736.1
+Bujumbura,Burundi,24307.24
+Rabat,Morocco,2142.23
+Riga,Latvia,2479.81
+Kingston,Jamaica,1817.15
+Vilnius,Lithuania,4120.85
+Dublin,Ireland,7746.63
+Tallinn,Estonia,4241.03
+Asuncion,Paraguay,1286.16
+Lisbon,Portugal,5757.09
+Beirut,Lebanon,3928.57
+Djibouti,Djibouti,1601.12
+Tirana,Albania,2213.03
+Kitchener,Canada,5966.09
+Bratislava,Slovakia,5005.29
+Halifax,Canada,3764.62
+Canberra,Australia,5188.42
+Wellington,New Zealand,6230.66
+Victoria,Canada,7659.7
+Bissau,Guinea-Bissau,1606.42
+Maseru,Lesotho,nan
+Windhoek,Namibia,857.63
+Nicosia,Cyprus,2212.86
+Juba,South Sudan,4305.56
+Dodoma,Tanzania,nan
+Nassau,Bahamas,1904.86
+Ljubljana,Slovenia,4634.13
+Bloemfontein,South Africa,2566.2
+Sarajevo,Bosnia And Herzegovina,2080.75
+Cape Town,South Africa,2053.61
+Dili,Timor-Leste,4666.67
+Sucre,Bolivia,867.74
+Male,Maldives,2417.53
+Paramaribo,Suriname,767.07
+Gaborone,Botswana,1403.74
+Gibraltar,Gibraltar,8161.05
+Port Moresby,Papua New Guinea,9246.09
+Georgetown,Guyana,3469.12
+Podgorica,Montenegro,1732.83
+Fort-de-France,Martinique,2162.29
+Manama,Bahrain,1545.05
+Willemstad,Curacao,nan
+Bern,Switzerland,12643.33
+Saint-Denis,Reunion,3371.98
+Malabo,Equatorial Guinea,nan
+Papeete,French Polynesia,8830.39
+Luxembourg,Luxembourg,13245.18
+Bridgetown,Barbados,1706.08
+Reykjavik,Iceland,6309.67
+Suva,Fiji,2505.18
+Noumea,New Caledonia,4106.13
+Ankara,Turkey,755.37
+Praia,Cape Verde,905.22
+Sri Jayewardenepura Kotte,Sri Lanka,nan
+Moroni,Comoros,nan
+Honiara,Solomon Islands,85048.56
+Monaco,Monaco,82192.13
+Thimphu,Bhutan,2013.95
+Mbabane,Swaziland,228.11
+Cayenne,French Guiana,2687.05
+Sao Tome,Sao Tome And Principe,nan
+Castries,Saint Lucia,111.01
+Port-Vila,Vanuatu,nan
+Hamilton,Bermuda,10381.96
+Bandar Seri Begawan,Brunei,1848.73
+Douglas,Isle Of Man,2070.5
+Oranjestad,Aruba,3198.84
+Apia,Samoa,nan
+Port of Spain,Trinidad And Tobago,4762.29
+Saint Helier,Jersey,8408.28
+Banjul,Gambia,4838.71
+Nuuk,Greenland,2947.59
+Ashgabat,Turkmenistan,3278.57
+Majuro,Marshall Islands,nan
+Belmopan,Belize,500
+Basseterre,Saint Kitts And Nevis,nan
+Kingstown,Saint Vincent And The Grenadines,nan
+Victoria,Seychelles,1174.49
+Valletta,Malta,8781.21
+Torshavn,Faroe Islands,4252.54
+Nuku`alofa,Tonga,nan
+Saint John's,Antigua And Barbuda,nan
+Andorra la Vella,Andorra,4425.73
+Roseau,Dominica,120.26
+Pago Pago,American Samoa,nan
+Grand Turk,Turks And Caicos Islands,nan
+Funafuti,Tuvalu,542.57
+Vaduz,Liechtenstein,6228
+Avarua,Cook Islands,5523.18
+San Marino,San Marino,2634.36
+Brades,Montserrat,nan
+Pristina,Kosovo (Disputed Territory),1795.42
+Vatican City,Vatican City,nan
+Stanley,Falkland Islands,nan
+Jamestown,Saint Helena,nan
+Marigot,Sint Maarten,nan
+Philipsburg,Sint Maarten,2516.67
+Yaren,Nauru,nan
+Road Town,British Virgin Islands,nan
+The Valley,Anguilla,nan
+Bareilly,India,396.6
+Natal,Brazil,1197.46
+Naples,Italy,4127.17
+Pekanbaru,Indonesia,nan
+Chiba,Japan,5323.31
+Dnipro,Ukraine,1042.83
+Coimbatore,India,738.83
+Kirkuk,Iraq,1000
+Zamboanga City,Philippines,nan
+Oklahoma City,United States,2637.16
+Morelia,Mexico,670.4
+Tangier,Morocco,1823.31
+Setagaya,Japan,8934.22
+Cebu City,Philippines,3565.98
+Songnam,South Korea,11523.46
+Aguascalientes,Mexico,684.15
+Kermanshah,Iran,970.63
+Marrakech,Morocco,1167.81
+Solapur,India,3070.44
+Trujillo,Peru,992.99
+Buffalo,United States,nan
+Kitakyushu,Japan,nan
+Donetsk,Ukraine,499.58
+Naucalpan de Juarez,Mexico,1633.02
+Owerri,Nigeria,nan
+Bridgeport,United States,nan
+Padang,Indonesia,nan
+Hartford,United States,3767.37
+Fort Worth,United States,2421.88
+Merida,Mexico,990.12
+Hubli,India,642.23
+Bucheon,South Korea,6145.84
+Campo Grande,Brazil,574.78
+Cancun,Mexico,1041.23
+Ad Dammam,Saudi Arabia,1160.18
+Tucson,United States,1722.23
+Krasnodar,Russia,2426.67
+Lhasa,China,3274.16
+Chihuahua,Mexico,564.54
+Turin,Italy,3463.74
+Taguig City,Philippines,4425.71
+Klang,Malaysia,1998.26
+Abeokuta,Nigeria,nan
+Jalandhar,India,3684.53
+Antipolo,Philippines,nan
+Saltillo,Mexico,670.4
+Marseille,France,5409.23
+Malang,Indonesia,648.19
+Ar Ramadi,Iraq,700
+Ipoh,Malaysia,2207.98
+Hermosillo,Mexico,674.15
+Ikeja,Nigeria,nan
+Saratov,Russia,1337.55
+Omaha,United States,1668.41
+Denpasar,Indonesia,1037.11
+Teresina,Brazil,nan
+Ilorin,Nigeria,135.08
+Akure,Nigeria,nan
+Erbil,Iraq,945.35
+El Paso,United States,1135.59
+Iguacu,Brazil,nan
+Pasig City,Philippines,2721.21
+Honolulu,United States,8401.23
+Bhubaneshwar,India,1041.96
+Cheongju,South Korea,4609.38
+Warri,Nigeria,202.63
+Pointe-Noire,Congo,nan
+Butterworth,Malaysia,nan
+Culiacan,Mexico,1375.17
+McAllen,United States,1345.49
+Sao Bernardo do Campo,Brazil,1638.12
+Queretaro,Mexico,883.12
+Leeds,United Kingdom,8815
+Valencia,Spain,3418.82
+Joao Pessoa,Brazil,1532.74
+Abaete,Brazil,nan
+Niigata,Japan,3171.65
+Hamamatsu,Japan,nan
+Frankfurt,Germany,10344.27
+Moradabad,India,757.38
+Homs,Syria,1000
+San Luis Potosi,Mexico,825.1
+Albuquerque,United States,2865.89
+Hempstead,United States,nan
+Bahawalpur,Pakistan,178.04
+Kaduna,Nigeria,nan
+Kolhapur,India,661
+Pietermaritzburg,South Africa,1140.54
+Thiruvananthapuram,India,1147.37
+Samarinda,Indonesia,nan
+Changhua,Taiwan,nan
+Cucuta,Colombia,485.53
+Ciudad Guayana,Venezuela,nan
+Valenzuela,Philippines,1076.52
+Zaporizhzhia,Ukraine,756.16
+Tyumen,Russia,2346.67
+Lviv,Ukraine,1303.25
+Kumamoto,Japan,3722.59
+Osogbo,Nigeria,nan
+Orumiyeh,Iran,800
+Sarasota,United States,6443.99
+Mississauga,Canada,7214.73
+Comodoro Rivadavia,Argentina,nan
+Cagayan de Oro,Philippines,2781.02
+Birmingham,United States,2870.38
+Torreon,Mexico,1168.9
+Dayton,United States,nan
+An Najaf,Iraq,1679.26
+Sagamihara,Japan,nan
+Okayama,Japan,nan
+Enugu,Nigeria,nan
+Soledad,Colombia,nan
+Fresno,United States,2443.41
+Rochester,United States,1345.49
+City of Paranaque,Philippines,5023.77
+Bhiwandi,India,995.54
+Santo Andre,Brazil,1436.95
+Xichang,China,2135.32
+Osasco,Brazil,1241.52
+Warangal,India,614.09
+Dasmarinas,Philippines,776.89
+Saharanpur,India,nan
+Salem,India,925.4
+Latakia,Syria,755
+Banjarmasin,Indonesia,324.1
+General Santos,Philippines,941.96
+Bacoor,Philippines,nan
+Hamilton,Canada,4295.76
+Lodz,Poland,2141.06
+Hamah,Syria,1000
+Sevilla,Spain,3387.04
+Bauchi,Nigeria,nan
+Tolyatti,Russia,2708.75
+Sao Jose dos Campos,Brazil,1259.72
+Allentown,United States,nan
+Kochi,India,1382.55
+Shizuoka,Japan,2810.56
+Karbala',Iraq,1120.11
+Palermo,Italy,1798.32
+Tasikmalaya,Indonesia,324.1
+Rasht,Iran,1775.01
+Tulsa,United States,1466.58
+As Sulaymaniyah,Iraq,996.26
+Mazatlan,Mexico,1488.74
+Acapulco de Juarez,Mexico,911.05
+Gorakhpur,India,528.8
+Cape Coral,United States,1765.28
+Durango,Mexico,1893.17
+Ribeirao Preto,Brazil,nan
+Bulawayo,Zimbabwe,900
+Al Hufuf,Saudi Arabia,665.09
+Concord,United States,1937.5
+Guntur,India,727.1
+Tlalnepantla,Mexico,358.5
+San Jose del Monte,Philippines,nan
+Sialkot City,Pakistan,361.45
+Sargodha,Pakistan,670.54
+Bouake,Ivory Coast,nan
+Hue,Vietnam,nan
+Ansan,South Korea,nan
+Dusseldorf,Germany,6996.87
+Sorocaba,Brazil,1756.27
+Contagem,Brazil,nan
+Izhevsk,Russia,1440
+Tripoli,Lebanon,1300
+Tiruppur,India,1189.8
+Wroclaw,Poland,3177.44
+Jeonju,South Korea,nan
+Petaling Jaya,Malaysia,2481.54
+Cochabamba,Bolivia,1035.41
+Rotterdam,Netherlands,4791.17
+Stuttgart,Germany,8745.16
+Gold Coast,Australia,9163.44
+Ta`izz,Yemen,nan
+Colorado Springs,United States,2235.31
+Charleston,United States,5785.6
+Aracaju,Brazil,1097.83
+Makati City,Philippines,4151.07
+Barnaul,Russia,1731.55
+Benghazi,Libya,480.11
+Mangalore,India,710.57
+Glasgow,United Kingdom,5660.57
+Kryvyi Rih,Ukraine,458.2
+Raurkela,India,nan
+Chimalhuacan,Mexico,nan
+Springfield,United States,1363.43
+Namangan,Uzbekistan,400
+Ulyanovsk,Russia,1253.33
+Jos,Nigeria,nan
+Nanded,India,491.27
+Irkutsk,Russia,2240
+Pontianak,Indonesia,nan
+Las Pinas City,Philippines,1674.59
+Vladivostok,Russia,3155.56
+Khabarovsk,Russia,2125.71
+Kuantan,Malaysia,1524.75
+Feira de Santana,Brazil,1341.15
+Sanya,China,5836.55
+Grand Rapids,United States,2368.06
+Yaroslavl,Russia,1560
+San Miguel de Tucuman,Argentina,1050
+Gothenburg,Sweden,5969.72
+Bacolod,Philippines,1435.36
+Jambi,Indonesia,nan
+Cimahi,Indonesia,nan
+Cuttack,India,396.6
+Uberlandia,Brazil,1915.93
+Leipzig,Germany,6322.47
+Durban,South Africa,665.31
+Tuxtla,Mexico,nan
+Suginami-ku,Japan,6434.77
+Kawaguchi,Japan,nan
+Balikpapan,Indonesia,nan
+Brampton,Canada,6307.5
+Tumkur,India,nan
+Pereira,Colombia,559.46
+Kagoshima,Japan,nan
+Dortmund,Germany,3582.73
+Irapuato,Mexico,412.55
+Mar del Plata,Argentina,2175
+Makhachkala,Russia,1520
+Albany,United States,3229.17
+Knoxville,United States,3767.37
+Bucaramanga,Colombia,769.26
+Mission Viejo,United States,4305.56
+Reynosa,Mexico,670.4
+Essen,Germany,nan
+Genoa,Italy,3389.55
+Bakersfield,United States,1955.44
+Shah Alam,Malaysia,1670.89
+Cuiaba,Brazil,1149.56
+Ogden,United States,1937.5
+Malaga,Spain,3723.23
+Puente Alto,Chile,nan
+Tomsk,Russia,2156
+Dehra Dun,India,2897.58
+Bristol,United Kingdom,7841.25
+Bremen,Germany,4214.98
+Hachioji,Japan,nan
+Akron,United States,861.11
+Irbid,Jordan,546.31
+Baton Rouge,United States,1453.13
+Ensenada,Mexico,670.4
+Durgapur,India,290.84
+Columbia,United States,nan
+Ciudad Bolivar,Venezuela,nan
+New Haven,United States,4305.56
+Orenburg,Russia,1360
+Asansol,India,198.3
+Benguela,Angola,nan
+Dresden,Germany,4394.12
+Nellore,India,594.9
+Surakarta,Indonesia,648.19
+Kemerovo,Russia,1223.1
+Manchester,United Kingdom,4807.99
+Amravati,India,594.9
+Bhavnagar,India,614.09
+Herat,Afghanistan,480.78
+Juiz de Fora,Brazil,1149.56
+Hamadan,Iran,3445.65
+Novokuznetsk,Russia,991.46
+Chiclayo,Peru,596.36
+Cabinda,Angola,nan
+Londrina,Brazil,862.17
+Heroica Matamoros,Mexico,773.53
+Tabuk,Saudi Arabia,798.11
+Muntinlupa City,Philippines,2332.47
+Samarkand,Uzbekistan,730.67
+Hannover,Germany,5268.73
+Valledupar,Colombia,14338.5
+Ajmer,India,1043.95
+An Nasiriyah,Iraq,840.34
+Poznan,Poland,2873.53
+City of Calamba,Philippines,nan
+Antwerp,Belgium,3273.2
+Ryazan,Russia,1685.19
+Ibague,Colombia,524.5
+Lyon,France,5701.93
+Kerman,Iran,3202.85
+Astrakhan,Russia,nan
+Naberezhnyye Chelny,Russia,1306.67
+Ardabil,Iran,2355.6
+Agartala,India,462.7
+Bikaner,India,614.09
+Ndola,Zambia,nan
+Himeji,Japan,nan
+Villavicencio,Colombia,nan
+Bac Ninh,Vietnam,815.91
+Ciudad Apodaca,Mexico,499.58
+Sheffield,United Kingdom,5939.88
+Penza,Russia,1600
+Port Said,Egypt,737.65
+Arak,Iran,1550.58
+Mesa,United States,8072.93
+Pohang,South Korea,nan
+Liverpool,United Kingdom,4840.93
+Meknes,Morocco,1228.68
+Nuremberg,Germany,6023.49
+Surrey,Canada,9041.36
+Utsunomiya,Japan,52116.29
+Suez,Egypt,474.81
+Ujjain,India,nan
+Santa Marta,Colombia,1380.13
+Joinvile,Brazil,1045.65
+Hai Duong,Vietnam,nan
+Maturin,Venezuela,nan
+Carrefour,Haiti,nan
+Ulhasnagar,India,nan
+Lipetsk,Russia,1280
+Al `Amarah,Iraq,nan
+Choloma,Honduras,570
+Kitwe,Zambia,nan
+Matsuyama,Japan,nan
+Palm Bay,United States,12916.69
+Jhansi,India,nan
+Pingtung,Taiwan,nan
+Lapu-Lapu City,Philippines,1211.09
+Jammu,India,760.36
+Ichikawa,Japan,nan
+Imus,Philippines,nan
+Niteroi,Brazil,1609.38
+Worcester,United States,2152.78
+Kirov,Russia,1520
+Sukkur,Pakistan,nan
+Oujda-Angad,Morocco,968.08
+Mykolaiv,Ukraine,606.74
+Chimbote,Peru,nan
+Johor Bahru,Malaysia,1517.71
+Celaya,Mexico,1160.3
+Duisburg,Germany,3161.24
+Matsudo,Japan,3722.59
+Kota Bharu,Malaysia,828.19
+Vinh,Vietnam,nan
+Toulouse,France,4482.63
+Belgaum,India,nan
+Larkana,Pakistan,nan
+Los Mochis,Mexico,618.83
+`Ajman,United Arab Emirates,1084.49
+Murrieta,United States,2960.08
+Edinburgh,United Kingdom,4977.64
+Tula,Russia,1866.67
+Wichita,United States,1533.86
+Toledo,United States,979.52
+Cheboksary,Russia,1493.71
+Serra,Brazil,nan
+Greenville,United States,2787.85
+Jamnagar,India,396.6
+Gulbarga,India,nan
+Az Zarqa',Jordan,659.1
+Florianopolis,Brazil,1753.08
+Kaliningrad,Russia,2359.7
+Sylhet,Bangladesh,495.06
+Dhulia,India,nan
+Brookhaven,United States,nan
+Oita,Japan,nan
+Chiniot,Pakistan,nan
+Staten Island,United States,nan
+Mazar-e Sharif,Afghanistan,282.49
+San Juan,Argentina,nan
+Shekhupura,Pakistan,nan
+Leicester,United Kingdom,3075
+Des Moines,United States,3161
+Mandaluyong City,Philippines,1914.13
+Piura,Peru,1666.09
+Angeles City,Philippines,1794.2
+Pasay City,Philippines,2571.69
+Buraydah,Saudi Arabia,nan
+Gdansk,Poland,4070.84
+Lanus,Argentina,nan
+Ba`qubah,Iraq,nan
+Iloilo,Philippines,1345.65
+Murcia,Spain,2128.57
+Manado,Indonesia,1620.48
+Marikina City,Philippines,nan
+Kanazawa,Japan,3722.59
+Long Beach,United States,10046.32
+Calabar,Nigeria,225.14
+Jalgaon,India,1101.66
+Port St. Lucie,United States,2403.94
+Fukuyama,Japan,37225.92
+Cranbourne,Australia,nan
+Melaka,Malaysia,nan
+Pyeongtaek,South Korea,nan
+Amagasaki,Japan,nan
+Tel Aviv-Yafo,Israel,15359.03
+Kurnool,India,nan
+Denton,United States,2421.88
+Udaipur,India,727.1
+General Trias,Philippines,nan
+Tanta,Egypt,335.76
+Kota Kinabalu,Malaysia,1914.37
+Madison,United States,4126.17
+Kursk,Russia,1173.33
+Balashikha,Russia,2400
+Rajshahi,Bangladesh,404.23
+Mariupol,Ukraine,nan
+San Nicolas de los Garza,Mexico,618.83
+Reno,United States,3552.09
+Hsinchu,Taiwan,4612.22
+Barcelona,Venezuela,376.74
+Ado-Ekiti,Nigeria,nan
+Constantine,Algeria,961.99
+Harrisburg,United States,nan
+Santiago de Cuba,Cuba,nan
+Fujisawa,Japan,nan
+Sao Jose do Rio Preto,Brazil,nan
+Andijon,Uzbekistan,nan
+Zurich,Switzerland,19152.85
+Little Rock,United States,1364.33
+Manizales,Colombia,783.25
+Santos,Brazil,1788.2
+Yogyakarta,Indonesia,1296.38
+Kashiwa,Japan,3536.46
+Sangli,India,nan
+Beira,Mozambique,nan
+Caxias do Sul,Brazil,1436.95
+Jeju,South Korea,7288.79
+Oakland,United States,8328.19
+Stavropol,Russia,1546.67
+Cusco,Peru,3959.45
+Zanjan,Iran,875
+Veracruz,Mexico,773.53
+Ulan-Ude,Russia,1856
+Welkom,South Africa,nan
+Kenitra,Morocco,787.05
+Aomori,Japan,nan
+Durham,United States,3465.98
+Agadir,Morocco,1446.21
+Porto Velho,Brazil,nan
+Uyo,Nigeria,nan
+Laval,Canada,4817.47
+Akola,India,nan
+Uijeongbu,South Korea,nan
+Mogi das Cruzes,Brazil,nan
+Yazd,Iran,1822.29
+Toyota,Japan,nan
+Winston-Salem,United States,nan
+Tver,Russia,1658.66
+Elazig,Turkey,402.49
+Seremban,Malaysia,1136.7
+Takamatsu,Japan,nan
+Magnitogorsk,Russia,978.67
+Chattanooga,United States,2287.33
+Indio,United States,nan
+Binan,Philippines,nan
+Arusha,Tanzania,nan
+Palm Coast,United States,1291.67
+Jhang City,Pakistan,288.71
+Mataram,Indonesia,2787.22
+Kisumu,Kenya,nan
+Rio Branco,Brazil,957.96
+Toyama,Japan,5956.15
+Jayapura,Indonesia,583.37
+Spokane,United States,2281.95
+Sanandaj,Iran,750
+Toyonaka,Japan,nan
+Bhagalpur,India,nan
+Sochi,Russia,7800
+Syracuse,United States,1758.11
+Szczecin,Poland,2752.34
+Turkmenabat,Turkmenistan,nan
+Bryansk,Russia,1440
+Ivanovo,Russia,1200
+Asyut,Egypt,549.42
+Maracay,Venezuela,375
+Campina Grande,Brazil,478.98
+Maringa,Brazil,3926.06
+Qazvin,Iran,1530
+Nagasaki,Japan,nan
+Hirakata,Japan,nan
+Jundiai,Brazil,1341.15
+Carapicuiba,Brazil,624.21
+Santa Fe,Argentina,nan
+Arlington,United States,8876.64
+Gifu,Japan,nan
+Stockton,United States,nan
+Dera Ghazi Khan,Pakistan,nan
+Lancaster,United States,2381.52
+Mwanza,Tanzania,nan
+Poughkeepsie,United States,nan
+Miyazaki,Japan,nan
+Taytay,Philippines,nan
+Yokosuka,Japan,nan
+Nha Trang,Vietnam,1633.77
+Belgorod,Russia,1733.33
+Olinda,Brazil,nan
+Augusta,United States,1148.15
+Ad Diwaniyah,Iraq,767.32
+Yola,Nigeria,nan
+Piracicaba,Brazil,nan
+Gujrat,Pakistan,216.36
+Bologna,Italy,4203.27
+Kakinada,India,nan
+Boise,United States,5707.5
+Karamay,China,nan
+Bhilwara,India,nan
+Florence,Italy,5627
+Christchurch,New Zealand,3329.93
+Tetouan,Morocco,1275.03
+Esenyurt,Turkey,327.36
+Aqtobe,Kazakhstan,419.1
+Brno,Czech Republic,5141.37
+Scranton,United States,nan
+Oxnard,United States,5220.5
+Modesto,United States,2960.08
+Tarlac City,Philippines,418.05
+Okazaki,Japan,nan
+Aurora,United States,1345.49
+Nuevo Laredo,Mexico,618.83
+London,Canada,7101.66
+Novi Sad,Serbia,2386.71
+Kissimmee,United States,nan
+Youngstown,United States,1184.03
+Huancayo,Peru,1044.25
+Iquitos,Peru,nan
+Manukau City,New Zealand,1218.66
+Vinnytsia,Ukraine,1248.95
+Latur,India,nan
+Rohtak,India,5032.11
+Butuan,Philippines,nan
+Mandaue City,Philippines,888.13
+Ambon,Indonesia,324.1
+Bello,Colombia,nan
+Baguio City,Philippines,2093.24
+Keelung,Taiwan,8182.5
+Toyohashi,Japan,nan
+Plovdiv,Bulgaria,1313.74
+Bochum,Germany,2107.49
+Az Zubayr,Iraq,nan
+Al Qatif,Saudi Arabia,1862.25
+Bauru,Brazil,957.96
+Nagano,Japan,nan
+Shinjuku,Japan,nan
+Coventry,United Kingdom,3562.08
+Pokhara,Nepal,3459.93
+Montes Claros,Brazil,nan
+Vitoria,Brazil,1268.69
+Surgut,Russia,1760
+Hrodna,Belarus,812.16
+Sungai Petani,Malaysia,nan
+Petion-Ville,Haiti,2960.08
+Vladimir,Russia,1600
+Taraz,Kazakhstan,531.38
+Kawagoe,Japan,nan
+Nam Dinh,Vietnam,1631.82
+Ibb,Yemen,nan
+Bilbao,Spain,3977.89
+Manisa,Turkey,804.98
+Wuppertal,Germany,nan
+Nizhniy Tagil,Russia,nan
+Wakayama,Japan,nan
+Rahimyar Khan,Pakistan,1188.42
+Batangas,Philippines,nan
+Pavlodar,Kazakhstan,637.66
+Van,Turkey,646.88
+Corrientes,Argentina,4250
+Neiva,Colombia,nan
+Fayetteville,United States,2960.08
+Arkhangelsk,Russia,1280
+Cabimas,Venezuela,613.99
+Koshigaya,Japan,nan
+Anaheim,United States,5898.62
+Varna,Bulgaria,1716.37
+Bydgoszcz,Poland,3981.62
+Cariacica,Brazil,512.32
+Semey,Kazakhstan,nan
+Tapachula,Mexico,nan
+Pensacola,United States,2220.95
+Utrecht,Netherlands,6026.81
+Nice,France,6937.16
+Antofagasta,Chile,1980.76
+Chita,Russia,nan
+Caruaru,Brazil,957.96
+Chitungwiza,Zimbabwe,nan
+Rajahmundry,India,nan
+Victorville,United States,nan
+Tokorozawa,Japan,nan
+Sumqayit,Azerbaijan,1176.47
+Greensboro,United States,2690.98
+Otsu,Japan,nan
+Vitoria da Conquista,Brazil,670.58
+Lublin,Poland,2832.29
+Brest,Belarus,714.09
+East London,South Africa,615.53
+Corpus Christi,United States,1614.59
+Kaluga,Russia,1824
+Randburg,South Africa,627.29
+Muzaffarpur,India,528.8
+Alicante,Spain,2072.37
+Yeosu,South Korea,nan
+Buon Ma Thuot,Vietnam,nan
+Cuernavaca,Mexico,825.1
+Belfast,United Kingdom,4078.68
+Petrolina,Brazil,1149.56
+Bielefeld,Germany,4267.67
+Cuenca,Ecuador,1210
+Bonn,Germany,6322.47
+Vina del Mar,Chile,1889.06
+Salamanca,Mexico,489.91
+Blida,Algeria,1070.49
+Ciudad Obregon,Mexico,773.53
+Fort Wayne,United States,nan
+Thessaloniki,Greece,2296.69
+Flint,United States,nan
+Maebashi,Japan,nan
+Islip,United States,1022.57
+Nazret,Ethiopia,nan
+Smolensk,Russia,1040
+Dahuk,Iraq,2500
+Asahikawa,Japan,nan
+Nakuru,Kenya,nan
+Izmir,Turkey,1047.2
+Wonju,South Korea,1920.58
+Markham,Canada,11168.74
+Koriyama,Japan,nan
+Patiala,India,nan
+Taourirt,Morocco,nan
+Cabanatuan City,Philippines,nan
+Vung Tau,Vietnam,1733.81
+Roodepoort,South Africa,570.27
+Pelotas,Brazil,nan
+Volzhskiy,Russia,nan
+Bijapur,India,nan
+Bari,Italy,4285.23
+Kuching,Malaysia,1715.27
+Jackson,United States,1237.85
+Al Fallujah,Iraq,nan
+Kochi,Japan,nan
+Cotabato,Philippines,nan
+Canoas,Brazil,nan
+Minna,Nigeria,nan
+Boa Vista,Brazil,nan
+Pucallpa,Peru,nan
+Caucaia,Brazil,nan
+Tepic,Mexico,nan
+Uberaba,Brazil,957.96
+Cluj-Napoca,Romania,3087.34
+Lansing,United States,nan
+Mekele,Ethiopia,nan
+Lexington,United States,3318.87
+Naha,Japan,4301.63
+Timisoara,Romania,2017.79
+Henderson,United States,2690.98
+Temara,Morocco,1038.91
+Ciudad del Este,Paraguay,nan
+Ann Arbor,United States,4426.66
+Cordoba,Spain,2160.18
+Cherepovets,Russia,880
+Al Kut,Iraq,nan
+Huntsville,United States,1847.8
+Katsina,Nigeria,nan
+Poltava,Ukraine,829.49
+Nantes,France,6252.22
+Munster,Germany,4510.03
+Coatzacoalcos,Mexico,nan
+Oskemen,Kazakhstan,804.51
+Mobile,United States,nan
+Cirebon,Indonesia,nan
+Vologda,Russia,1120
+Saransk,Russia,nan
+Az Zaqaziq,Egypt,396.8
+Asheville,United States,5860.95
+Playa del Carmen,Mexico,1312.44
+Mannheim,Germany,4741.85
+Purnea,India,nan
+Fort Collins,United States,3266.85
+Port Elizabeth,South Africa,1020.49
+Karlsruhe,Germany,4741.85
+Catania,Italy,2002.12
+Gorgan,Iran,923.33
+Sambalpur,India,nan
+Quy Nhon,Vietnam,nan
+Ponta Grossa,Brazil,957.96
+Yakutsk,Russia,2186.67
+Kurgan,Russia,nan
+St. Catharines,Canada,3316.8
+Vaughan,Canada,5188.05
+Hisar,India,939.55
+Puerto La Cruz,Venezuela,280
+Puerto Princesa,Philippines,2601.6
+Curepipe,Mauritius,412.37
+Vladikavkaz,Russia,1160
+Podolsk,Russia,2539.14
+Ciudad Victoria,Mexico,670.4
+Vila Nova de Gaia,Portugal,2640.26
+Kurume,Japan,nan
+Lakeland,United States,1555.39
+Armenia,Colombia,681.85
+Taubate,Brazil,nan
+San Bernardo,Chile,nan
+Antioch,United States,nan
+Mardan,Pakistan,268.22
+Bialystok,Poland,2157.97
+Mbeya,Tanzania,nan
+Praia Grande,Brazil,nan
+San Juan del Rio,Mexico,515.69
+Popayan,Colombia,563.94
+Ciudad General Escobedo,Mexico,309.41
+Quzhou,China,3914.76
+Murmansk,Russia,1600
+Merida,Venezuela,415
+Valladolid,Spain,2370.93
+Tampico,Mexico,1031.38
+Newcastle,United Kingdom,nan
+Bahia Blanca,Argentina,1600
+Iskenderun,Turkey,254.91
+Bradford,United Kingdom,2029.5
+Al Kharj,Saudi Arabia,399.05
+Petropolis,Brazil,2011.73
+Al Mubarraz,Saudi Arabia,nan
+Augsburg,Germany,6322.47
+Vigo,Spain,2160.18
+Kocaeli,Turkey,997.07
+Montpellier,France,5573.61
+Pachuca,Mexico,nan
+Comilla,Bangladesh,nan
+Chernihiv,Ukraine,938.63
+Tagum,Philippines,nan
+Oyster Bay,United States,nan
+Valparaiso,Chile,1634.41
+Limeira,Brazil,nan
+Panipat,India,nan
+Aizawl,India,368.45
+Ismailia,Egypt,244.19
+Brasov,Romania,1639.7
+Iasi,Romania,1865.77
+Nottingham,United Kingdom,4070.96
+Tambov,Russia,1296.8
+Thies,Senegal,nan
+Graz,Austria,5093.92
+Groznyy,Russia,600
+Kherson,Ukraine,674.43
+Batna,Algeria,940.29
+Pendik,Turkey,2361.29
+Bafoussam,Cameroon,nan
+Karimnagar,India,1983
+Trenton,United States,nan
+Resistencia,Argentina,nan
+Ipswich,United Kingdom,nan
+Kaunas,Lithuania,2912.17
+Lincoln,United States,nan
+Adana,Turkey,872.35
+San Lorenzo,Paraguay,nan
+Strasbourg,France,5619.97
+Anchorage,United States,2368.06
+Morioka,Japan,nan
+Setif,Algeria,2117.33
+Atyrau,Kazakhstan,694.34
+Irvine,United States,7203.56
+Plano,United States,3280.3
+Bhuj,India,nan
+Sincelejo,Colombia,nan
+Bolton,United Kingdom,1845
+Punto Fijo,Venezuela,nan
+Ostrava,Czech Republic,2377.93
+San Cristobal,Venezuela,nan
+Haifa,Israel,5333.65
+Constanta,Romania,1908.44
+Davenport,United States,nan
+San Pablo,Philippines,nan
+Bhatinda,India,982.54
+Tacna,Peru,nan
+Cascavel,Brazil,957.96
+Coro,Venezuela,nan
+Barinas,Venezuela,nan
+Rockford,United States,1614.59
+Fuquan,China,nan
+Temuco,Chile,1236.56
+Sterlitamak,Russia,nan
+Newark,United States,nan
+Shreveport,United States,nan
+Ica,Peru,1987.88
+Chuncheon,South Korea,9987
+Wiesbaden,Germany,5230.09
+Osh,Kyrgyzstan,611.01
+Lucena,Philippines,nan
+Pematangsiantar,Indonesia,nan
+Petrozavodsk,Russia,1446.92
+Sunderland,United Kingdom,3690
+Bukhara,Uzbekistan,403.74
+South Bend,United States,nan
+Cherkasy,Ukraine,573.9
+Kostroma,Russia,1039.59
+Barasat,India,nan
+Sfax,Tunisia,658.3
+Katowice,Poland,2535.47
+Governador Valadares,Brazil,nan
+Southampton,United Kingdom,4920
+Savannah,United States,3309.9
+Gatineau,Canada,3705.75
+Windsor,Canada,4651.1
+Khmelnytskyi,Ukraine,815.89
+Dire Dawa,Ethiopia,650
+Nizhnevartovsk,Russia,nan
+Malmo,Sweden,3843.38
+Eugene,United States,3659.73
+Qarshi,Uzbekistan,nan
+Myrtle Beach,United States,1941.09
+Craiova,Romania,1561.52
+Chula Vista,United States,nan
+Crato,Brazil,nan
+Tsu,Japan,nan
+Plymouth,United Kingdom,3075
+Oral,Kazakhstan,1275.32
+Espoo,Finland,6915.2
+Gijon,Spain,2915.36
+Brahmanbaria,Bangladesh,nan
+Novorossiysk,Russia,2000
+Canton,United States,nan
+Bamenda,Cameroon,nan
+Floridablanca,Colombia,nan
+Gombe,Nigeria,nan
+Nalchik,Russia,1240
+Mito,Japan,nan
+Talisay,Philippines,538.26
+Yoshkar-Ola,Russia,1600
+Sumy,Ukraine,nan
+Lubbock,United States,nan
+Zhytomyr,Ukraine,534.82
+Aswan,Egypt,545.08
+Chernivtsi,Ukraine,1189.84
+Imphal,India,368.45
+Heroica Nogales,Mexico,1038.01
+Yanbu`,Saudi Arabia,399.05
+Salem,United States,2924.2
+Anantapur,India,528.8
+Westminster,United Kingdom,10209
+Winter Haven,United States,nan
+Maraba,Brazil,478.98
+Lafayette,United States,1517.71
+Barueri,Brazil,1532.74
+Djelfa,Algeria,426.75
+Jalalabad,Afghanistan,nan
+Gent,Belgium,3315.08
+Dezful,Iran,nan
+Kyongju,South Korea,nan
+Nawabshah,Pakistan,962.35
+Damanhur,Egypt,1017.45
+Wollongong,Australia,3397.9
+Bordeaux,France,5383.94
+Volta Redonda,Brazil,nan
+Laredo,United States,1749.14
+Olongapo,Philippines,nan
+Venice,Italy,4471.83
+Chandler,United States,2152.78
+Nonthaburi,Thailand,2808.04
+Jersey City,United States,6700.53
+Gelsenkirchen,Germany,nan
+Ciudad Benito Juarez,Mexico,1548.5
+Derby,United Kingdom,4642.25
+Verona,Italy,6322.47
+Monchengladbach,Germany,2107.49
+Scottsdale,United States,4653.6
+McKinney,United States,nan
+Kingston upon Hull,United Kingdom,2726.5
+Bergen,Norway,6116.6
+Killeen,United States,nan
+Misratah,Libya,nan
+Mossoro,Brazil,nan
+Tallahassee,United States,2734.03
+Peoria,United States,nan
+Ondo,Nigeria,nan
+Antsirabe,Madagascar,nan
+Wilmington,United States,2529.52
+Foz do Iguacu,Brazil,926.06
+Wolverhampton,United Kingdom,1565.48
+Montgomery,United States,2287.33
+Kediri,Indonesia,nan
+Chiayi,Taiwan,2454.75
+Kuala Terengganu,Malaysia,980.06
+Gilbert,United States,3013.89
+Kutahya,Turkey,nan
+Vitoria-Gasteiz,Spain,3402.73
+Rishon LeZiyyon,Israel,7678.64
+Tacloban,Philippines,nan
+Glendale,United States,5381.96
+Goma,Congo,nan
+Taganrog,Russia,1360
+Aachen,Germany,7709.9
+A Coruna,Spain,2177.74
+Begusarai,India,1322
+Galati,Romania,1090.85
+Sonipat,India,2786.85
+Stoke-on-Trent,United Kingdom,1107
+Los Teques,Venezuela,nan
+Braunschweig,Germany,3327.2
+Higuey,Dominican Republic,nan
+Bata,Equatorial Guinea,nan
+Al Minya,Egypt,305.23
+Juazeiro do Norte,Brazil,nan
+Babol,Iran,2437.99
+Komsomol'sk-na-Amure,Russia,745.6
+Gdynia,Poland,3643.56
+Rivne,Ukraine,950.83
+Al Bayda',Libya,nan
+Portsmouth,United Kingdom,3854
+Kiel,Germany,3688.11
+Sibu,Malaysia,455.84
+Palangkaraya,Indonesia,nan
+Hafr al Batin,Saudi Arabia,5320.73
+Sahiwal,Pakistan,735.54
+Saskatoon,Canada,2393.3
+Parana,Argentina,1200
+Santa Clara,Cuba,nan
+Imperatriz,Brazil,nan
+Khimki,Russia,3200
+Barnsley,United Kingdom,nan
+Chemnitz,Germany,3161.24
+Jessore,Bangladesh,nan
+Biratnagar,Nepal,nan
+Syktyvkar,Russia,1200
+Chesapeake,United States,1076.39
+Mokpo,South Korea,nan
+Porto,Portugal,3616.98
+Fremont,United States,11625.02
+Petah Tiqwa,Israel,7046.29
+Norfolk,United States,4000
+Barnstable,United States,nan
+Tarapoto,Peru,nan
+Limassol,Cyprus,3102.69
+Ipatinga,Brazil,957.96
+Aarhus,Denmark,6176.31
+Kennewick,United States,nan
+Chimoio,Mozambique,nan
+Narayanganj,Bangladesh,524.98
+Monclova,Mexico,nan
+Lille,France,4741.85
+Irving,United States,2421.88
+Garland,United States,nan
+Novo Hamburgo,Brazil,nan
+Halle,Germany,nan
+Kosice,Slovakia,3262.4
+Ivano-Frankivsk,Ukraine,598.32
+Banda Aceh,Indonesia,nan
+As Sib,Oman,nan
+Magdeburg,Germany,2212.86
+Amol,Iran,1376.18
+Visalia,United States,nan
+Nizhnekamsk,Russia,nan
+Atlantic City,United States,nan
+Shakhty,Russia,nan
+Bayamo,Cuba,nan
+Centurion,South Africa,342.16
+Miri,Malaysia,nan
+Granada,Spain,3556.39
+Borujerd,Iran,990
+Puducherry,India,546.28
+Paradise,United States,2690.98
+Elche,Spain,3688.11
+Eindhoven,Netherlands,4668.9
+Nashua,United States,nan
+Burnaby,Canada,6781.02
+Messina,Italy,nan
+Okara,Pakistan,268.22
+Arapiraca,Brazil,nan
+Badalona,Spain,5619.97
+Hialeah,United States,4843.76
+Meycauayan,Philippines,nan
+Rancagua,Chile,1697.79
+Freiburg im Breisgau,Germany,7903.09
+Marilia,Brazil,957.96
+Dzerzhinsk,Russia,1600
+Bratsk,Russia,nan
+Toluca,Mexico,771.68
+Indaiatuba,Brazil,1214.52
+Envigado,Colombia,356.66
+Ormoc,Philippines,nan
+Evansville,United States,nan
+Fresnillo,Mexico,515.69
+Americana,Brazil,747.21
+Vizianagaram,India,3684.53
+Cotia,Brazil,nan
+Noginsk,Russia,1680
+Kropyvnytskyi,Ukraine,1248.95
+Rondonopolis,Brazil,nan
+Krefeld,Germany,nan
+Sidon,Lebanon,1000
+Mage,Brazil,1149.56
+Sousse,Tunisia,1285.63
+Nagercoil,India,330.5
+Avondale,United States,nan
+Dasoguz,Turkmenistan,nan
+Jacarei,Brazil,nan
+Angarsk,Russia,nan
+Araraquara,Brazil,1341.15
+Quetzaltenango,Guatemala,994.62
+Campeche,Mexico,721.97
+Tampere,Finland,4446.8
+Itapevi,Brazil,nan
+Karnal,India,1806.02
+Toamasina,Madagascar,nan
+Ashdod,Israel,8024.94
+Varamin,Iran,1400
+Sandton,South Africa,809.78
+Bursa,Turkey,965.98
+Sakarya,Turkey,469.57
+Blagoveshchensk,Russia,2400
+Velikiy Novgorod,Russia,1200
+Puri,India,nan
+Chapeco,Brazil,nan
+Czestochowa,Poland,1464.94
+Hobart,Australia,6433.35
+Swindon,United Kingdom,2542
+Rennes,France,5654.86
+Presidente Prudente,Brazil,nan
+Polokwane,South Africa,475.6
+Formosa,Argentina,nan
+Ternopil,Ukraine,516.73
+Gulfport,United States,2152.78
+Appleton,United States,2018.23
+Sabadell,Spain,3108.55
+Lutsk,Ukraine,799.33
+Damietta,Egypt,400.2
+Radom,Poland,1452.77
+Mainz,Germany,5795.6
+Al Khubar,Saudi Arabia,1197.16
+Manta,Ecuador,1864.01
+Tilburg,Netherlands,3322.99
+Kremenchuk,Ukraine,861.22
+Cordoba,Mexico,nan
+Oviedo,Spain,1773.8
+Zakhu,Iraq,nan
+Netanya,Israel,6881.4
+Shiliguri,India,542.02
+Concepcion,Chile,1782.68
+Bremerton,United States,3767.37
+Tacoma,United States,4551.34
+Luton,United Kingdom,3690
+Alor Setar,Malaysia,1226.66
+Hickory,United States,nan
+Matrah,Oman,nan
+Qostanay,Kazakhstan,585.6
+Vantaa,Finland,4513.19
+Lubeck,Germany,nan
+Cartagena,Spain,1608.72
+Petropavl,Kazakhstan,877.33
+Sao Leopoldo,Brazil,nan
+Geneva,Switzerland,15659.29
+Kalamazoo,United States,1765.28
+San Bernardino,United States,2992.37
+Regina,Canada,1994.42
+As Samawah,Iraq,nan
+College Station,United States,2072.05
+Roanoke,United States,nan
+Northampton,United Kingdom,3075
+Thousand Oaks,United States,5328.14
+Shimla,India,1965.08
+Mohammedia,Morocco,1133.36
+Padova,Italy,3661.76
+Erfurt,Germany,4162.29
+Ploiesti,Romania,1159.93
+Sete Lagoas,Brazil,nan
+Oberhausen,Germany,nan
+Mostoles,Spain,nan
+El Tigre,Venezuela,nan
+Colombo,Brazil,nan
+Jerez de la Frontera,Spain,2107.49
+Pamplona,Spain,4566.23
+Limbe,Cameroon,nan
+Sidi Bel Abbes,Algeria,nan
+Burgas,Bulgaria,1353.61
+Bila Tserkva,Ukraine,645.23
+Isesaki,Japan,nan
+Criciuma,Brazil,nan
+Pskov,Russia,1664
+Cork,Ireland,3874.81
+Rostock,Germany,3863.73
+Chungju,South Korea,nan
+Tunja,Colombia,944.1
+Legazpi City,Philippines,nan
+Bukit Mertajam,Malaysia,nan
+Puerto Vallarta,Mexico,2713.01
+Beersheba,Israel,3890.14
+Solihull,United Kingdom,nan
+Almere,Netherlands,3617.86
+Moratuwa,Sri Lanka,nan
+Milton Keynes,United Kingdom,4920
+Fargo,United States,5052.69
+Marawi City,Philippines,nan
+Cascais,Portugal,5663.88
+Linz,Austria,4362.51
+Trieste,Italy,2102.22
+Kharagpur,India,793.2
+Morogoro,Tanzania,nan
+Waitakere,New Zealand,nan
+Green Bay,United States,nan
+Talca,Chile,nan
+Spring Valley,United States,nan
+Phan Thiet,Vietnam,815.91
+Zanzibar,Tanzania,2995.34
+Loures,Portugal,4741.85
+Biskra,Algeria,nan
+Amarillo,United States,nan
+Mytishchi,Russia,nan
+Ellore,India,nan
+Cidade de Nacala,Mozambique,nan
+La Ceiba,Honduras,415
+Mandi Burewala,Pakistan,nan
+Groningen,Netherlands,3489.87
+Tekirdag,Turkey,948.09
+Torun,Poland,2366.44
+Aberdeen,United Kingdom,2987.14
+Coquimbo,Chile,nan
+Charleroi,Belgium,2634.36
+Zhubei,Taiwan,3363.01
+Gainesville,United States,1593.06
+Tanjungpinang,Indonesia,nan
+Biysk,Russia,1080
+Kassel,Germany,5795.6
+Haldia,India,793.2
+Luxor,Egypt,446.32
+Poza Rica de Hidalgo,Mexico,nan
+Gurgaon,India,1619.66
+Huntington,United States,nan
+Lyubertsy,Russia,nan
+Arica,Chile,nan
+Sosnowiec,Poland,2035.66
+Al Khums,Libya,nan
+Almeria,Spain,1491.05
+Debrecen,Hungary,2271.13
+Cajamarca,Peru,2088.5
+Las Tunas,Cuba,nan
+El Jadid,Morocco,1025.16
+Olympia,United States,3534.15
+Oulu,Finland,3708.83
+Yonkers,United States,nan
+Tokat,Turkey,563.49
+Qyzylorda,Kazakhstan,212.55
+Frisco,United States,2814.76
+Isidro Casanova,Argentina,2400
+Rio Claro,Brazil,nan
+Liege,Belgium,2365.66
+Norwich,United Kingdom,4027.64
+Az Zawiyah,Libya,nan
+Kasama,Zambia,nan
+Kouribga,Morocco,881.5
+Taranto,Italy,nan
+Bojnurd,Iran,800
+Banja Luka,Bosnia And Herzegovina,1767.91
+Oradea,Romania,1472.84
+Holon,Israel,6752.69
+Huntington Beach,United States,5561.35
+Deltona,United States,1076.39
+Richmond,Canada,9573.2
+Alcala de Henares,Spain,2370.93
+Beni Mellal,Morocco,1888.93
+Khammam,India,491.27
+Burhanpur,India,nan
+Brescia,Italy,2809.99
+Huanuco,Peru,1396.66
+Parma,Italy,2774.86
+Fuenlabrada,Spain,5268.73
+Tempe,United States,4338.93
+Prato,Italy,nan
+San Pedro de Macoris,Dominican Republic,nan
+Brikama,Gambia,nan
+Koronadal,Philippines,nan
+Peterborough,United Kingdom,2195.55
+Guanajuato,Mexico,2714.28
+Cuautla,Mexico,nan
+Overland Park,United States,nan
+La Serena,Chile,1697.79
+Yuzhno-Sakhalinsk,Russia,2840
+Bandar-e Bushehr,Iran,4037.53
+Chilpancingo,Mexico,nan
+Tebessa,Algeria,361.65
+Oakville,Canada,nan
+Al Jahra',Kuwait,nan
+Kielce,Poland,2626.82
+La Plata,Argentina,800
+Waco,United States,2045.14
+Muar,Malaysia,nan
+Sunrise Manor,United States,nan
+Aracatuba,Brazil,nan
+Bournemouth,United Kingdom,4920
+Basildon,United Kingdom,nan
+Madiun,Indonesia,nan
+Aydin,Turkey,2283.28
+Balakovo,Russia,nan
+Armavir,Russia,nan
+Malaybalay,Philippines,nan
+Odawara,Japan,nan
+Saddiqabad,Pakistan,nan
+Cachoeiro de Itapemirim,Brazil,nan
+Braga,Portugal,1914.3
+Pak Kret,Thailand,5760.09
+Hagen,Germany,2107.49
+Waterbury,United States,nan
+Nandyal,India,nan
+Ngaoundere,Cameroon,nan
+Narsingdi,Bangladesh,nan
+Mutare,Zimbabwe,nan
+Clarksville,United States,1506.95
+Turku,Finland,4531.1
+Raiganj,India,542.02
+Angra dos Reis,Brazil,nan
+San Francisco de Macoris,Dominican Republic,nan
+Sobral,Brazil,nan
+Cedar Rapids,United States,nan
+Iquique,Chile,nan
+Barakpur,India,nan
+Modena,Italy,3336.86
+Kairouan,Tunisia,464.68
+Cabo Frio,Brazil,1015.44
+Calbayog City,Philippines,563.06
+Sioux Falls,United States,2524.14
+Shibin al Kawm,Egypt,122.09
+Khujand,Tajikistan,645.01
+Breda,Netherlands,4992.12
+Reims,France,3688.11
+Basel,Switzerland,9927.68
+Getafe,Spain,nan
+Erie,United States,1566.15
+Geelong,Australia,4535.58
+Ontario,United States,3282.99
+Passo Fundo,Brazil,836.59
+Hagerstown,United States,1076.39
+Rzeszow,Poland,2779.62
+Al Qamishli,Syria,nan
+Trondheim,Norway,7045.77
+Fianarantsoa,Madagascar,nan
+Severodvinsk,Russia,1776
+Nis,Serbia,1707.19
+Itajai,Brazil,1724.34
+Potsdam,Germany,9483.71
+Spartanburg,United States,1883.68
+Abakan,Russia,nan
+Braila,Romania,804.63
+Burlington,Canada,7429.2
+Dourados,Brazil,nan
+Sorsogon,Philippines,nan
+Fort Lauderdale,United States,5328.14
+York,United Kingdom,4920
+Amadora,Portugal,2985.26
+Reggio di Calabria,Italy,1114.86
+Gastonia,United States,1776.05
+Nova Friburgo,Brazil,nan
+Tangail,Bangladesh,390.18
+Sirsa,India,nan
+Petropavlovsk-Kamchatskiy,Russia,nan
+Phan Rang-Thap Cham,Vietnam,nan
+Jima,Ethiopia,nan
+Roxas City,Philippines,nan
+Nijmegen,Netherlands,4803.32
+Saarbrucken,Germany,1896.74
+Toulon,France,3161.24
+Split,Croatia,3817.73
+La Rioja,Argentina,nan
+Ayacucho,Peru,nan
+Tiaret,Algeria,1000.57
+San Luis Rio Colorado,Mexico,670.4
+Murfreesboro,United States,nan
+Ilheus,Brazil,nan
+Gliwice,Poland,2002.16
+Klerksdorp,South Africa,nan
+Lorain,United States,nan
+Townsville,Australia,2718.32
+Tarija,Bolivia,759.27
+High Point,United States,nan
+Al `Arish,Egypt,nan
+Hamm,Germany,nan
+Newport News,United States,2107.04
+Dagupan City,Philippines,nan
+Salalah,Oman,2077.92
+Matosinhos,Portugal,3177.04
+Santander,Spain,3161.24
+Bejaia,Algeria,895.09
+Titagarh,India,nan
+Rancho Cucamonga,United States,nan
+Baranavichy,Belarus,nan
+Hemet,United States,2583.34
+Plzen,Czech Republic,3967.43
+Kamakurayama,Japan,nan
+Linhares,Brazil,nan
+Zabrze,Poland,1846.38
+Les Cayes,Haiti,nan
+Ciudad del Carmen,Mexico,1031.38
+Ait Melloul,Morocco,nan
+Almada,Portugal,2684.94
+Oceanside,United States,10763.91
+Rio Verde,Brazil,766.37
+Saint-Louis,Senegal,nan
+Olsztyn,Poland,2760.84
+Orekhovo-Borisovo Yuzhnoye,Russia,nan
+Shibirghan,Afghanistan,nan
+Oeiras,Portugal,3780.31
+Burgos,Spain,2107.49
+Saint-Etienne,France,2809.99
+Chetumal,Mexico,626.31
+Ludwigshafen,Germany,nan
+Eskisehir,Turkey,1305.42
+Leon,Nicaragua,nan
+Castellon de la Plana,Spain,3161.24
+Banha,Egypt,284.89
+Bielsko-Biala,Poland,1645.24
+Piedras Negras,Mexico,605.94
+Osmaniye,Turkey,257.6
+Bytom,Poland,1295.91
+Albacete,Spain,3688.11
+Vallejo,United States,3659.73
+Tlemcen,Algeria,1808.25
+Pembroke Pines,United States,nan
+Barrie,Canada,11966.5
+Le Havre,France,2265.55
+Mulheim,Germany,nan
+Reggio Emilia,Italy,2915.36
+Krasnogorsk,Russia,nan
+Surigao,Philippines,nan
+Medford,United States,2152.78
+Loja,Ecuador,nan
+Francisco Morato,Brazil,nan
+Garden Grove,United States,4983.69
+Enterprise,United States,1076.39
+Makurdi,Nigeria,nan
+Portmore,Jamaica,nan
+Machilipatnam,India,nan
+Bordj Bou Arreridj,Algeria,325.49
+Cary,United States,3363.72
+Kluang,Malaysia,nan
+Malayer,Iran,1000
+Novocherkassk,Russia,nan
+Oldenburg,Germany,3161.24
+Ocala,United States,1883.68
+Uppsala,Sweden,3964.43
+Marysville,United States,nan
+Corona,United States,3229.17
+Warrington,United Kingdom,2349.47
+Fredericksburg,United States,3498.27
+Fenglu,China,nan
+Jamalpur,Bangladesh,nan
+Haarlem,Netherlands,6691.28
+Ambato,Ecuador,800
+Rustenburg,South Africa,nan
+Sao Caetano do Sul,Brazil,1676.44
+Patra,Greece,1642.09
+Zlatoust,Russia,nan
+Tuguegarao,Philippines,nan
+Mahabad,Iran,1250
+Guarapuava,Brazil,nan
+Itu,Brazil,nan
+Kandy,Sri Lanka,1313.57
+Al Kufah,Iraq,3673.67
+Grenoble,France,3451.02
+Fatehpur,India,nan
+Kimberley,South Africa,nan
+Tenali,India,nan
+Perugia,Italy,nan
+Edirne,Turkey,751.32
+Nador,Morocco,472.23
+Klaipeda,Lithuania,1949.43
+Skikda,Algeria,916.18
+Oshawa,Canada,nan
+Osnabruck,Germany,2809.99
+Obihiro,Japan,nan
+Leverkusen,Germany,5268.73
+Tanjungbalai,Indonesia,nan
+Odense,Denmark,3173.44
+Cienfuegos,Cuba,nan
+Ramat Gan,Israel,9223.78
+Huddersfield,United Kingdom,nan
+Chillan,Chile,1810.98
+Ipswich,Australia,nan
+Itapetininga,Brazil,959.88
+Teresopolis,Brazil,862.17
+Mostar,Bosnia And Herzegovina,1339.4
+Navsari,India,nan
+Pocheon,South Korea,5761.73
+Jizzax,Uzbekistan,546
+Reading,United Kingdom,7431.12
+Benoni,South Africa,777.22
+Manchester,United States,nan
+Chittoor,India,nan
+Sherbrooke,Canada,nan
+Ndalatando,Angola,nan
+Apeldoorn,Netherlands,4214.98
+Krishnanagar,India,nan
+Bayamon,Puerto Rico,968.75
+Enschede,Netherlands,3006.69
+Solingen,Germany,3161.24
+Darmstadt,Germany,5532.16
+Gaziantep,Turkey,822.87
+Arad,Romania,897.31
+Villeurbanne,France,4320.36
+Heidelberg,Germany,7376.22
+Dijon,France,3688.11
+Pindamonhangaba,Brazil,nan
+Livorno,Italy,1580.62
+Szeged,Hungary,2121.15
+George,South Africa,997.97
+Champaign,United States,1614.59
+Kramatorsk,Ukraine,380.75
+Shahr-e Kord,Iran,nan
+Hat Yai,Thailand,1440.02
+Ravenna,Italy,3161.24
+Ekibastuz,Kazakhstan,nan
+Seixal,Portugal,nan
+Bharuch,India,584.36
+Puerto Plata,Dominican Republic,1148.02
+Hayward,United States,8611.13
+Konya,Turkey,500.43
+Guimaraes,Portugal,nan
+Amersfoort,Netherlands,4425.73
+Rio Cuarto,Argentina,nan
+Angers,France,5575.72
+Lakewood,United States,nan
+Gojra,Pakistan,nan
+Salzburg,Austria,7112.78
+Batumi,Georgia,1116.88
+Pitesti,Romania,1338.01
+Frederick,United States,2325
+Chlef,Algeria,nan
+Odessa,United States,nan
+Cagliari,Italy,3319.3
+Cam Pha,Vietnam,nan
+Tuscaloosa,United States,1033.34
+Esmeraldas,Ecuador,nan
+Ordu,Turkey,430.34
+Lake Charles,United States,nan
+Oxford,United Kingdom,9929.71
+Souk Ahras,Algeria,nan
+Palmdale,United States,nan
+Horad Barysaw,Belarus,894.77
+Neuss,Germany,4002.12
+Colima,Mexico,nan
+Warner Robins,United States,nan
+Midland,United States,753.47
+Hoofddorp,Netherlands,nan
+Regensburg,Germany,7376.22
+Melitopol,Ukraine,nan
+Kafr ash Shaykh,Egypt,498.55
+Hollywood,United States,2870.38
+Dibrugarh,India,nan
+Port Arthur,United States,nan
+Newcastle,Australia,3152.23
+Seogwipo,South Korea,nan
+Mahajanga,Madagascar,nan
+Leesburg,United States,2238.89
+Tete,Mozambique,nan
+Barreiras,Brazil,2586.5
+Sievierodonetsk,Ukraine,368
+Muskegon,United States,nan
+Macon,United States,1022.57
+Siem Reap,Cambodia,nan
+Silchar,India,nan
+Sunnyvale,United States,15697.37
+Peristeri,Greece,2528.99
+Erode,India,921.13
+Taza,Morocco,671.77
+Logrono,Spain,1464.71
+Gonbad-e Kavus,Iran,630
+Foggia,Italy,1053.75
+Tororo,Uganda,nan
+Al Manaqil,Sudan,nan
+Nakhodka,Russia,1920
+Quevedo,Ecuador,nan
+Miskolc,Hungary,1478.38
+Pomona,United States,nan
+Escondido,United States,nan
+Cao Lanh,Vietnam,nan
+Pasadena,United States,6996.54
+Paderborn,Germany,4741.85
+Kragujevac,Serbia,1372.25
+Talcahuano,Chile,nan
+Vryheid,South Africa,nan
+Rimini,Italy,3898.86
+Kerch,Ukraine,nan
+Nimes,France,4149.28
+Badajoz,Spain,1896.74
+Clermont-Ferrand,France,2528.99
+Copiapo,Chile,nan
+Valdivia,Chile,nan
+Toda,Japan,nan
+Gloucester,United Kingdom,5842.5
+Pointe-a-Pitre,Guadeloupe,nan
+Arnhem,Netherlands,4126.99
+Odivelas,Portugal,nan
+Marbella,Spain,4917.48
+Potchefstroom,South Africa,929.54
+Abbottabad,Pakistan,793.47
+West Bromwich,United Kingdom,nan
+Sibiu,Romania,1536.27
+Fairfield,United States,1345.49
+Naperville,United States,2690.98
+Binghamton,United States,nan
+Bellevue,United States,9176.23
+Salamanca,Spain,nan
+Dundee,United Kingdom,nan
+Mostaganem,Algeria,1084.95
+Bacau,Romania,1090.85
+Topeka,United States,968.75
+Cairns,Australia,2718.32
+Osorno,Chile,nan
+Elkhart,United States,nan
+Pyatigorsk,Russia,1600
+Bizerte,Tunisia,1239.16
+Negombo,Sri Lanka,nan
+Poole,United Kingdom,nan
+Gisenyi,Rwanda,nan
+Newport,United Kingdom,1845
+Odintsovo,Russia,3200
+Franco da Rocha,Brazil,nan
+Kolomna,Russia,1760
+Calapan,Philippines,3588.41
+Larisa,Greece,1738.68
+Beaumont,United States,nan
+David,Panama,1400
+Barrechid,Morocco,nan
+Settat,Morocco,nan
+Le Mans,France,nan
+Khairpur Mir's,Pakistan,nan
+Shillong,India,nan
+Okinawa,Japan,5211.63
+Al Mukalla,Yemen,nan
+Ruse,Bulgaria,961.77
+Paterson,United States,nan
+Saguenay,Canada,nan
+Tyler,United States,nan
+Coimbra,Portugal,2344.32
+Cuautitlan Izcalli,Mexico,nan
+Pueblo,United States,nan
+Aix-en-Provence,France,8781.21
+Ajdabiya,Libya,nan
+Birkenhead,United Kingdom,5842.5
+Preston,United Kingdom,nan
+Yuma,United States,4843.76
+Blackpool,United Kingdom,2503.05
+Tetovo,North Macedonia,997.52
+Torrance,United States,8611.13
+Huelva,Spain,1369.87
+El Progreso,Honduras,nan
+Brest,France,4899.92
+Lausanne,Switzerland,17362.32
+Jaragua do Sul,Brazil,nan
+Telford,United Kingdom,nan
+Boca Chica,Dominican Republic,nan
+Bahawalnagar,Pakistan,1202.94
+Maykop,Russia,nan
+Kelowna,Canada,3875.6
+Gweru,Zimbabwe,nan
+Middlesbrough,United Kingdom,2665
+Mandsaur,India,2644
+Rybnik,Poland,nan
+Rio das Ostras,Brazil,nan
+Abbotsford,Canada,4446.9
+Boulogne-Billancourt,France,12644.94
+Vlore,Albania,719.02
+Pecs,Hungary,1606.93
+Thornton,United States,2368.06
+Surprise,United States,2408.42
+Roseville,United States,4140.02
+Batu Pahat,Malaysia,nan
+Ruda Slaska,Poland,nan
+Ozamiz City,Philippines,nan
+Kumbakonam,India,1520.3
+Mesquite,United States,nan
+Medea,Algeria,867.96
+La Romana,Dominican Republic,nan
+Torbat-e Heydariyeh,Iran,750
+Tours,France,2792.42
+Zielona Gora,Poland,2091.55
+Coquitlam,Canada,6281.24
+Al `Aqabah,Jordan,nan
+Pabna,Bangladesh,nan
+Pakpattan,Pakistan,nan
+Botucatu,Brazil,nan
+Grand Junction,United States,5220.5
+Bat Yam,Israel,6109.07
+Tiruvannamalai,India,nan
+Fullerton,United States,nan
+Ingolstadt,Germany,7446.47
+Darwin,Australia,3086.42
+Tarragona,Spain,2513.18
+Sancti Spiritus,Cuba,nan
+Dipolog,Philippines,nan
+Mojokerto,Indonesia,nan
+Jyvaskyla,Finland,2845.11
+Dumaguete City,Philippines,448.55
+Greeley,United States,nan
+Atibaia,Brazil,nan
+Bankura,India,4626.99
+Vila Franca de Xira,Portugal,2634.36
+Livingstone,Zambia,nan
+Dos Hermanas,Spain,nan
+Carolina,Puerto Rico,nan
+Curico,Chile,1245.05
+Maia,Portugal,3398.33
+Santa Tecla,El Salvador,1068
+'s-Hertogenbosch,Netherlands,4531.1
+Amiens,France,3635.42
+Targu-Mures,Romania,1450.6
+Salerno,Italy,3055.86
+Tiraspol,Moldova,490
+Tizi Ouzou,Algeria,822.76
+Ksar El Kebir,Morocco,nan
+Harlingen,United States,nan
+Jinotega,Nicaragua,1300
+Las Cruces,United States,1345.49
+Toowoomba,Australia,4247.37
+Termiz,Uzbekistan,620.66
+Brighton,United Kingdom,7974.5
+Tauranga,New Zealand,4169.1
+Tobruk,Libya,nan
+Ashqelon,Israel,3816.74
+Urganch,Uzbekistan,nan
+Andimeshk,Iran,2000
+Mataro,Spain,2845.11
+Nakhon Ratchasima,Thailand,864.01
+Laghouat,Algeria,nan
+Trois-Rivieres,Canada,1778.76
+May Pen,Jamaica,nan
+Cartago,Colombia,nan
+Zabol,Iran,1500
+Rehovot,Israel,6165.5
+Hampton,United States,nan
+Torrejon de Ardoz,Spain,2845.11
+Bloomington,United States,2992.37
+Batticaloa,Sri Lanka,nan
+Innsbruck,Austria,8354.69
+Gyor,Hungary,2571.09
+Warren,United States,nan
+Yakima,United States,nan
+Battambang,Cambodia,nan
+Coral Springs,United States,nan
+Matagalpa,Nicaragua,nan
+Jijel,Algeria,867.96
+Round Rock,United States,2152.78
+Limoges,France,1633.31
+Sinop,Brazil,957.96
+Ferrara,Italy,2806.12
+Stavanger,Norway,5908.17
+Guelph,Canada,4516.94
+Jaramana,Syria,nan
+Rijeka,Croatia,2396.51
+Kent,United States,1722.23
+Sterling Heights,United States,nan
+Buea,Cameroon,481.93
+Burlington,United States,1393
+Spanish Town,Jamaica,nan
+Narita,Japan,nan
+Bellingham,United States,6727.44
+Kayseri,Turkey,1220.89
+Tychy,Poland,1936.65
+Leiden,Netherlands,5521.62
+Cholula de Rivadabia,Mexico,nan
+Pouso Alegre,Brazil,957.96
+Kislovodsk,Russia,nan
+Udon Thani,Thailand,1728.03
+Stamford,United States,2690.98
+Hanumangarh,India,nan
+Annecy,France,8605.59
+Cambridge,Canada,nan
+Esteli,Nicaragua,nan
+Vasteras,Sweden,3631.54
+Villa Alemana,Chile,nan
+Serpukhov,Russia,nan
+Wurzburg,Germany,4712.35
+Araras,Brazil,nan
+Jaranwala,Pakistan,210.75
+Koforidua,Ghana,nan
+Salto,Uruguay,nan
+Ban Bang Pu Mai,Thailand,4320.06
+Drohobych,Ukraine,1033.46
+Whitby,Canada,8177.11
+Sakaka,Saudi Arabia,665.09
+Pinsk,Belarus,694.78
+Zoetermeer,Netherlands,7112.78
+Domodedovo,Russia,nan
+Orebro,Sweden,3486.28
+Ulm,Germany,5532.16
+Heilbronn,Germany,5795.6
+Monza,Italy,3819.83
+Bajos de Haina,Dominican Republic,nan
+Johnson City,United States,nan
+Leiria,Portugal,2535.31
+High Wycombe,United Kingdom,nan
+Pforzheim,Germany,3161.24
+Cambridge,United Kingdom,8412.69
+Latina,Italy,2107.49
+Nefteyugansk,Russia,1600
+Balneario de Camboriu,Brazil,1579.17
+Lynchburg,United States,nan
+Exeter,United Kingdom,8001.23
+Colchester,United Kingdom,3075
+Barbacena,Brazil,nan
+Simi Valley,United States,5371.19
+Aalborg,Denmark,4388.73
+Novomoskovsk,Russia,nan
+Zwolle,Netherlands,6235.01
+Kampong Cham,Cambodia,nan
+Kenosha,United States,nan
+Bonao,Dominican Republic,nan
+Fort Smith,United States,1076.39
+Setubal,Portugal,1580.62
+Leon,Spain,2353.36
+Norman,United States,1517.71
+Savannakhet,Laos,nan
+Zahle,Lebanon,nan
+Gorzow Wielkopolski,Poland,1803
+Boulder,United States,6727.44
+Wolfsburg,Germany,4741.85
+Pervouralsk,Russia,928
+Gyumri,Armenia,454.81
+New Mirpur,Pakistan,nan
+San Pedro Garza Garcia,Mexico,2228.07
+Bergamo,Italy,2335.8
+Algeciras,Spain,1580.62
+Baia Mare,Romania,1174.42
+Rudnyy,Kazakhstan,nan
+Maastricht,Netherlands,4794.54
+Abilene,United States,nan
+Maicao,Colombia,nan
+Alberton,South Africa,nan
+Punta Arenas,Chile,nan
+Dabrowa Gornicza,Poland,nan
+Zacatecas,Mexico,nan
+Montreuil,France,nan
+Slough,United Kingdom,4501.8
+Barretos,Brazil,nan
+Pescara,Italy,2107.49
+Bayawan,Philippines,nan
+Blackburn,United Kingdom,1599
+Ciudad Hidalgo,Mexico,nan
+Guelma,Algeria,nan
+Fier,Albania,570.7
+Berkeley,United States,7534.74
+Redding,United States,2152.78
+Upington,South Africa,nan
+Plock,Poland,3380.62
+Siracusa,Italy,7821.5
+Apucarana,Brazil,1341.15
+Chilapa de Alvarez,Mexico,nan
+Billings,United States,2260.42
+Valinhos,Brazil,nan
+Guelmim,Morocco,nan
+Perpignan,France,2528.99
+Gottingen,Germany,4214.98
+Barcelos,Portugal,nan
+Kuopio,Finland,3311.39
+Yuba City,United States,nan
+Orleans,France,2634.36
+Chelmsford,United Kingdom,5904
+Ajax,Canada,4786.6
+Ciudad Choluteca,Honduras,nan
+Dordrecht,Netherlands,3161.24
+Duluth,United States,nan
+Ghardaia,Algeria,238.69
+Leominster,United States,nan
+Kingsport,United States,2152.78
+Besancon,France,nan
+Lomas de Zamora,Argentina,3289.39
+Toledo,Brazil,nan
+Metz,France,3688.11
+Elblag,Poland,1329.71
+Paulo Afonso,Brazil,nan
+Huaraz,Peru,1987.88
+Rock Hill,United States,9590.54
+Cheltenham,United Kingdom,3872.59
+Gilroy,United States,4553.13
+Gabes,Tunisia,1571.66
+Bruges,Belgium,2871.46
+Lahti,Finland,2931.71
+Butwal,Nepal,768.87
+Linkoping,Sweden,6439.93
+Trento,Italy,5619.97
+Sugar Land,United States,1650.47
+Bottrop,Germany,nan
+Iowa City,United States,2045.14
+Codo,Brazil,nan
+Texas City,United States,nan
+Chico,United States,nan
+Saginaw,United States,nan
+Kabwe,Zambia,nan
+Uzhhorod,Ukraine,1034.05
+Langley,Canada,7678.51
+Machakos,Kenya,nan
+Rochdale,United Kingdom,nan
+Walbrzych,Poland,1566.36
+Xai-Xai,Mozambique,nan
+Obninsk,Russia,2080
+Los Banos,Philippines,nan
+Reutlingen,Germany,nan
+Kyzyl,Russia,nan
+Clearwater,United States,5381.96
+Facatativa,Colombia,681.85
+Nyiregyhaza,Hungary,1583.97
+Sassari,Italy,3969.11
+Beppu,Japan,nan
+Mendoza,Argentina,1350
+Tandil,Argentina,nan
+Buzau,Romania,1103.92
+Helsingborg,Sweden,4035.04
+Smithtown,United States,nan
+Chittaurgarh,India,12281.76
+Coeur d'Alene,United States,2619.22
+Seaside,United States,nan
+Coronel,Chile,nan
+Rouen,France,4393.41
+Dharan,Nepal,nan
+West Jordan,United States,nan
+Swabi,Pakistan,192.47
+Khon Kaen,Thailand,1008.01
+Phatthaya,Thailand,5760.09
+Toliara,Madagascar,nan
+Durres,Albania,1232.48
+Nasushiobara,Japan,nan
+Ariana,Tunisia,779.64
+North Charleston,United States,nan
+Carlsbad,United States,1819.1
+Koblenz,Germany,5268.73
+Temecula,United States,nan
+Bijeljina,Bosnia And Herzegovina,1021.33
+Bremerhaven,Germany,nan
+Clovis,United States,1215.88
+Mulhouse,France,4214.98
+Meridian,United States,nan
+Bintulu,Malaysia,1103.99
+Rotherham,United Kingdom,nan
+Saanich,Canada,nan
+Recklinghausen,Germany,3688.11
+The Woodlands,United States,2825.53
+Hualien,Taiwan,nan
+Erlangen,Germany,5971.22
+Ponce,Puerto Rico,1722.23
+Jendouba,Tunisia,309.79
+Bergisch Gladbach,Germany,nan
+Vicenza,Italy,2774.86
+Novyy Urengoy,Russia,2752
+Kristiansand,Norway,4675.16
+Costa Mesa,United States,nan
+San Carlos de Bariloche,Argentina,4100
+Monroe,United States,nan
+Shkoder,Albania,715.95
+Utica,United States,968.75
+Laoag,Philippines,nan
+Remscheid,Germany,nan
+Jena,Germany,5093.1
+Funchal,Portugal,2177.74
+Nancy,France,3972.62
+Araruama,Brazil,nan
+Jaen,Spain,1685.99
+Maidstone,United Kingdom,3105.75
+Terni,Italy,1580.62
+Zhukovskiy,Russia,nan
+West Palm Beach,United States,3767.37
+Everett,United States,4305.56
+Namur,Belgium,2897.8
+Trier,Germany,4004.23
+Tuzla,Bosnia And Herzegovina,1574.23
+Manzini,Swaziland,nan
+Winterthur,Switzerland,17015.07
+Murom,Russia,nan
+Alkmaar,Netherlands,3082.2
+El Centro,United States,nan
+Jawhar,Somalia,nan
+Basingstoke,United Kingdom,nan
+Tarnow,Poland,2253.75
+Gafsa,Tunisia,139.41
+Downey,United States,4682.3
+Spring Hill,United States,nan
+Sonsonate,El Salvador,nan
+Lowell,United States,3229.17
+Nikopol,Ukraine,249.44
+Mascara,Algeria,578.64
+Drammen,Norway,5805.42
+Taitung,Taiwan,nan
+Pisco,Peru,nan
+Kecskemet,Hungary,1542.65
+Chorzow,Poland,nan
+Bend,United States,5730.71
+Cavite City,Philippines,nan
+Caen,France,3793.48
+Uitenhage,South Africa,nan
+Kasserine,Tunisia,123.92
+Crawley,United Kingdom,nan
+Botosani,Romania,513.8
+Lewisville,United States,nan
+Gresham,United States,nan
+Samsun,Turkey,670.82
+Hillsboro,United States,nan
+Worthing,United Kingdom,nan
+Moncton,Canada,2001.1
+Matruh,Egypt,406.98
+Salford,United Kingdom,nan
+Yasuj,Iran,2134.15
+Siauliai,Lithuania,1492.81
+Sivas,Turkey,536.66
+Koszalin,Poland,1126.87
+Tagbilaran City,Philippines,2063.34
+Emmen,Netherlands,3308.76
+Courbevoic,France,7949.45
+Yevpatoriia,Ukraine,nan
+Launceston,Australia,3061.28
+Kefar Sava,Israel,6850.56
+League City,United States,nan
+Eau Claire,United States,nan
+Temple,United States,5112.86
+Turlock,United States,nan
+Chichicastenango,Guatemala,nan
+Monastir,Tunisia,2426.68
+Nakhon Si Thammarat,Thailand,nan
+Sioux City,United States,nan
+Passos,Brazil,nan
+Trincomalee,Sri Lanka,nan
+Tikrit,Iraq,nan
+Brovary,Ukraine,870.28
+Bulan,Philippines,897.1
+Highlands Ranch,United States,4768.41
+Liberec,Czech Republic,2541.44
+Novara,Italy,2950.49
+Moers,Germany,nan
+Erzurum,Turkey,268.33
+Waterloo,Canada,7977.67
+Texcoco,Mexico,nan
+Balanga,Philippines,nan
+Salzgitter,Germany,nan
+Girona,Spain,3481.57
+Malatya,Turkey,265.48
+Konotop,Ukraine,271.96
+Wichita Falls,United States,1291.67
+Sergiyev Posad,Russia,2000
+Worcester,United Kingdom,nan
+Delft,Netherlands,4566.23
+Norwalk,United States,nan
+Lower Hutt,New Zealand,nan
+Eastbourne,United Kingdom,1014.75
+Tourcoing,France,2107.49
+Wigan,United Kingdom,nan
+Balti,Moldova,nan
+Siegen,Germany,2950.49
+Diyarbakir,Turkey,491.93
+Nyeri,Kenya,nan
+Manteca,United States,nan
+Araxa,Brazil,nan
+Piacenza,Italy,3582.73
+Almirante Tamandare,Brazil,nan
+Hildesheim,Germany,2386.73
+Satu Mare,Romania,991.91
+Sangju,South Korea,nan
+El Cajon,United States,nan
+Nikaia,Greece,2107.49
+Vitry-sur-Seine,France,11971.6
+Leuven,Belgium,5833.88
+Longmont,United States,nan
+Delta,Canada,7295.7
+Klagenfurt,Austria,3575.71
+Dhangadhi,Nepal,nan
+Burbank,United States,nan
+Renton,United States,5381.96
+Sabratah,Libya,nan
+Boryeong,South Korea,nan
+Logan,United States,nan
+Oued Zem,Morocco,nan
+Erdenet,Mongolia,nan
+Olomouc,Czech Republic,3244.39
+`Ibri,Oman,nan
+Lae,Papua New Guinea,nan
+Pleven,Bulgaria,1254.06
+Vacaville,United States,nan
+Ancona,Italy,3161.24
+Kaiserslautern,Germany,nan
+Mestre,Italy,1685.99
+Carmel,United States,1829.86
+Edison,United States,3013.89
+San Angelo,United States,nan
+Salihorsk,Belarus,800
+Karabuk,Turkey,429.33
+La Crosse,United States,nan
+Gangtok,India,nan
+Charlottesville,United States,3552.09
+Longview,United States,nan
+Mairipora,Brazil,nan
+Masjed Soleyman,Iran,1025.81
+Idaho Falls,United States,1847.8
+Talipao,Philippines,nan
+Shahrisabz,Uzbekistan,nan
+Red Deer,Canada,1412.05
+Woodbridge,United States,nan
+Kamloops,Canada,5976.37
+Dunedin,New Zealand,3207
+Navapolatsk,Belarus,nan
+Viseu,Portugal,1475.24
+Tracy,United States,nan
+Maribor,Slovenia,1962.6
+Rayleigh,United Kingdom,nan
+Galle,Sri Lanka,nan
+Ramnicu Valcea,Romania,1166.14
+Bismarck,United States,nan
+Bath,United Kingdom,9649.24
+Orem,United States,3196.88
+Herzliyya,Israel,10055.64
+Santiago de Compostela,Spain,2796.11
+Janakpur,Nepal,nan
+Half Way Tree,Jamaica,nan
+Sidi Slimane,Morocco,708.35
+Sibolga,Indonesia,745.42
+Szekesfehervar,Hungary,1671.21
+Schwerin,Germany,10021.65
+Petapa,Guatemala,908.34
+Rio Gallegos,Argentina,nan
+Tataouine,Tunisia,nan
+Ceske Budejovice,Czech Republic,3035.5
+Watford,United Kingdom,5535
+Ben Arous,Tunisia,671.21
+Tartu,Estonia,2778.37
+Mtwara,Tanzania,nan
+Drobeta-Turnu Severin,Romania,1055.66
+Quincy,United States,1614.59
+Vanadzor,Armenia,nan
+Suceava,Romania,1215.84
+Amstelveen,Netherlands,5953.66
+Al Fujayrah,United Arab Emirates,1522.75
+Pardubice,Czech Republic,3019.21
+Hradec Kralove,Czech Republic,3857.22
+Stevenage,United Kingdom,2562.09
+Nuneaton,United Kingdom,nan
+Usti nad Labem,Czech Republic,2811.81
+Miaoli,Taiwan,nan
+Chester,United Kingdom,2767.5
+Magadan,Russia,nan
+Panevezys,Lithuania,1107.49
+Jonkoping,Sweden,4302.39
+Umea,Sweden,3980.17
+Queluz,Portugal,nan
+Jaffna,Sri Lanka,nan
+Lobnya,Russia,2880
+Hartlepool,United Kingdom,nan
+Glyfada,Greece,10537.45
+Germantown,United States,1732.99
+Poitiers,France,2002.12
+Babahoyo,Ecuador,nan
+Presov,Slovakia,1758.44
+Dobrich,Bulgaria,796.37
+Mechelen,Belgium,4004.23
+Fuengirola,Spain,nan
+Valjevo,Serbia,1403.47
+Catanzaro,Italy,2086.42
+Santa Monica,United States,15069.47
+Volos,Greece,1650.87
+As Salt,Jordan,nan
+Mukacheve,Ukraine,489.54
+Sliven,Bulgaria,510.27
+Al Wakrah,Qatar,nan
+Mersin,Turkey,872.07
+Viana do Castelo,Portugal,1838.79
+Sesto San Giovanni,Italy,nan
+San Leandro,United States,6458.35
+Aylesbury,United Kingdom,nan
+Coronel Oviedo,Paraguay,nan
+Ciudad de Ceuta,Spain,nan
+Citrus Heights,United States,nan
+State College,United States,1646.88
+Maldonado,Uruguay,2117.83
+Clichy,France,nan
+San Baudilio de Llobregat,Spain,nan
+Nakhon Sawan,Thailand,nan
+Burnley,United Kingdom,nan
+Loznica,Serbia,1052.97
+Como,Italy,5093.1
+Piatra Neamt,Romania,1161.23
+Kouvola,Finland,2107.49
+El Bayadh,Algeria,nan
+Hawthorne,United States,nan
+Toledo,Spain,1896.74
+Cozumel,Mexico,1852.67
+Busto Arsizio,Italy,6322.47
+Pori,Finland,2687.05
+Clifton,United States,nan
+Al Muharraq,Bahrain,nan
+Nazareth,Israel,3229.55
+Chaguanas,Trinidad And Tobago,2381.15
+Osijek,Croatia,1618.38
+Mbarara,Uganda,nan
+Lucerne,Switzerland,11485.84
+Chervonohrad,Ukraine,407.95
+Zilina,Slovakia,2266.61
+Newmarket,Canada,3705.75
+Phuket,Thailand,2928.04
+Le Bardo,Tunisia,929.37
+Ho,Ghana,nan
+Barahona,Dominican Republic,nan
+Alhambra,United States,nan
+Champigny-sur-Marne,France,nan
+Resita,Romania,897.31
+Rueil-Malmaison,France,nan
+Scunthorpe,United Kingdom,nan
+Kirtipur,Nepal,nan
+Targu Jiu,Romania,nan
+Dudley,United Kingdom,2460
+Mountain View,United States,nan
+White Rock,Canada,nan
+Shumen,Bulgaria,878.65
+Schiedam,Netherlands,3688.11
+Elbasan,Albania,526.3
+Saint-Maur-des-Fosses,France,6519.52
+Weston-super-Mare,United Kingdom,6150
+Silver Spring,United States,nan
+Daugavpils,Latvia,667.37
+Galway,Ireland,4015.3
+Somerville,United States,nan
+Bury,United Kingdom,nan
+Lawrence,United States,5672.58
+Deerfield Beach,United States,3013.89
+Focsani,Romania,nan
+Paysandu,Uruguay,nan
+Barreiro,Portugal,1851.43
+Chiquimula,Guatemala,nan
+Ragusa,Italy,nan
+Cheyenne,United States,2152.78
+Bracknell,United Kingdom,8433.63
+Aviles,Spain,1615.39
+Sidi Qacem,Morocco,nan
+Nakhon Pathom,Thailand,nan
+Garissa,Kenya,nan
+Ubon Ratchathani,Thailand,1584.02
+Tustin,United States,4036.47
+Carlisle,United Kingdom,2337
+Aveiro,Portugal,2353.36
+Banska Bystrica,Slovakia,2449.96
+Szombathely,Hungary,1742.34
+Pau,France,2465.76
+Ra`ananna,Israel,7437.75
+La Rochelle,France,6322.47
+Nitra,Slovakia,1984.55
+Burton upon Trent,United Kingdom,nan
+Lebanon,United States,nan
+Harrogate,United Kingdom,3444
+Lelystad,Netherlands,nan
+Esbjerg,Denmark,2693.28
+Crewe,United Kingdom,nan
+San Miguel de Allende,Mexico,2424.35
+Gavle,Sweden,3034.35
+Cannes,France,6673.72
+Watsonville,United States,nan
+Las Piedras,Uruguay,nan
+Zrenjanin,Serbia,1618.67
+Pancevo,Serbia,1642.63
+Zadar,Croatia,3029.55
+Palmerston North,New Zealand,2993.2
+Antibes,France,5101.88
+Palaio Faliro,Greece,4741.85
+Tamworth,United Kingdom,nan
+Ramla,Israel,5678.13
+Karlstad,Sweden,2523.38
+Tamanrasset,Algeria,nan
+Zlin,Czech Republic,nan
+Bistrita,Romania,855.01
+Joensuu,Finland,2002.12
+Gouda,Netherlands,3740.8
+Bitola,North Macedonia,907.64
+Spijkenisse,Netherlands,nan
+Inowroclaw,Poland,nan
+Pernik,Bulgaria,555.69
+Pazardzhik,Bulgaria,nan
+Naxcivan,Azerbaijan,647.06
+Hekinan,Japan,nan
+Lowestoft,United Kingdom,nan
+Tulcea,Romania,1055.66
+Centreville,United States,5135.68
+Masvingo,Zimbabwe,nan
+Nabeul,Tunisia,551.43
+Antalya,Turkey,1174.68
+El Kef,Tunisia,nan
+Grays,United Kingdom,nan
+Sanliurfa,Turkey,650.48
+Sa`dah,Yemen,nan
+Camden,United States,nan
+Evanston,United States,2260.42
+Caguas,Puerto Rico,2559.28
+Blagoevgrad,Bulgaria,961.77
+Walton upon Thames,United Kingdom,13596.92
+Gravesend,United Kingdom,nan
+Neuilly-sur-Seine,France,11791.41
+Lappeenranta,Finland,2634.36
+Benalmadena,Spain,2462.6
+Cergy,France,nan
+Nizwa,Oman,nan
+Havirov,Czech Republic,nan
+Pawtucket,United States,nan
+Cacak,Serbia,1535.05
+Haskovo,Bulgaria,480.89
+Najran,Saudi Arabia,nan
+Ajaccio,France,4320.36
+Walsall,United Kingdom,4305
+La Chorrera,Panama,nan
+Zaandam,Netherlands,5716.57
+Givatayim,Israel,8807.86
+Kumanovo,North Macedonia,934.28
+Yambol,Bulgaria,679.28
+Phitsanulok,Thailand,nan
+Novi Pazar,Serbia,1256.76
+Abnub,Egypt,813.96
+Szolnok,Hungary,1052.51
+Aksaray,Turkey,nan
+Ashford,United Kingdom,4674
+Gardez,Afghanistan,nan
+L'Aquila,Italy,2002.12
+Lynwood,United States,4036.47
+Moquegua,Peru,nan
+Passaic,United States,nan
+Rivera,Uruguay,nan
+Castellammare di Stabia,Italy,1996.56
+Antony,France,5057.98
+Putrajaya,Malaysia,1035.3
+Liepaja,Latvia,737.62
+Balikesir,Turkey,1034.51
+Bouira,Algeria,nan
+Veenendaal,Netherlands,2845.11
+Ponta Delgada,Portugal,nan
+Merthyr Tudful,United Kingdom,nan
+Guaynabo,Puerto Rico,nan
+Kasese,Uganda,nan
+Zamosc,Poland,nan
+Adrar,Algeria,nan
+Hameenlinna,Finland,2845.11
+Vaasa,Finland,2669.49
+Gaithersburg,United States,nan
+Farnborough,United Kingdom,4428
+Union City,United States,nan
+Potenza,Italy,nan
+Mount Vernon,United States,nan
+Fryazino,Russia,1880
+Stourbridge,United Kingdom,nan
+Prilep,North Macedonia,766.18
+Kraljevo,Serbia,1167.24
+Redondo Beach,United States,7175.94
+Agia Paraskevi,Greece,3688.11
+Troyes,France,1707.07
+Hereford,United Kingdom,5227.5
+Veliko Tarnovo,Bulgaria,868.65
+Trnava,Slovakia,2370.93
+Maisons-Alfort,France,7586.97
+Ioannina,Greece,1909.04
+Denizli,Turkey,638.62
+La Seyne-sur-Mer,France,1475.24
+La Linea de la Concepcion,Spain,nan
+Tatabanya,Hungary,1465.52
+Trabzon,Turkey,939.15
+Kettering,United Kingdom,nan
+Faro,Portugal,2555.33
+Schenectady,United States,nan
+Bayonne,United States,nan
+Yoro,Honduras,nan
+East Orange,United States,nan
+Manouba,Tunisia,nan
+Inhambane,Mozambique,nan
+Taunton,United Kingdom,3830.94
+Alba Iulia,Romania,1065.49
+Brentwood,United States,2637.16
+Kahramanmaras,Turkey,380.11
+Sopron,Hungary,2442.54
+Cherbourg,France,2743.95
+Ban Rangsit,Thailand,1641.62
+Napier,New Zealand,2854.23
+Saraburi,Thailand,nan
+Leskovac,Serbia,875.21
+Bobigny,France,nan
+Giurgiu,Romania,nan
+Lytkarino,Russia,2068.16
+Macclesfield,United Kingdom,nan
+Ruhengeri,Rwanda,nan
+Rovaniemi,Finland,2370.93
+Chambery,France,nan
+Seinajoki,Finland,3385.68
+Limerick,Ireland,2891.21
+Larnaca,Cyprus,2081.15
+Vaxjo,Sweden,5447.31
+Hunedoara,Romania,nan
+Royal Tunbridge Wells,United Kingdom,8428.55
+Swidnica,Poland,1498.74
+Malden,United States,10763.91
+Puteaux,France,9272.96
+Kaposvar,Hungary,1028.44
+Lorient,France,5268.73
+Evry,France,nan
+Samut Prakan,Thailand,nan
+Uzice,Serbia,1114.02
+Monterey Park,United States,nan
+Hod HaSharon,Israel,11352.35
+Folkestone,United Kingdom,2706
+Tacuarembo,Uruguay,2814.03
+Merida,Spain,nan
+Cupertino,United States,13993.08
+Royal Leamington Spa,United Kingdom,5637.5
+La Mesa,United States,nan
+Brookline,United States,nan
+Yevlax,Azerbaijan,294.12
+Meaux,France,3055.86
+Aversa,Italy,3424.67
+Clamart,France,7034.28
+Krusevac,Serbia,921.35
+Carson City,United States,2152.78
+Veszprem,Hungary,1842.61
+Barlad,Romania,nan
+Chania,Greece,1826.49
+Middletown,United States,3444.45
+Bekescsaba,Hungary,1221.27
+White Plains,United States,4972.93
+Slavonski Brod,Croatia,1562.85
+Jefferson City,United States,nan
+Maun,Botswana,247.83
+Al Mafraq,Jordan,422.95
+Weymouth,United Kingdom,nan
+Huntington Park,United States,nan
+Pithapuram,India,2644
+Zalau,Romania,963.37
+Bac Giang,Vietnam,nan
+Belize City,Belize,500.61
+Duzce,Turkey,268.33
+Mugla,Turkey,1431.08
+Sfantu-Gheorghe,Romania,453.93
+Evora,Portugal,2107.49
+Trencin,Slovakia,2142.62
+Jelgava,Latvia,1159.12
+Vaslui,Romania,nan
+Ohrid,North Macedonia,1326.06
+Dunfermline,United Kingdom,1557.18
+Kendale Lakes,United States,nan
+San Giorgio a Cremano,Italy,nan
+Castelo Branco,Portugal,1264.49
+Zalaegerszeg,Hungary,771.33
+Vigan,Philippines,448.55
+Massy,France,5479.48
+Sankt Polten,Austria,nan
+Halmstad,Sweden,nan
+Gallarate,Italy,nan
+Madinat Hamad,Bahrain,nan
+Lancaster,United Kingdom,nan
+Lautoka,Fiji,nan
+Lampang,Thailand,nan
+Ithaca,United States,nan
+Amalapuram,India,nan
+Rijswijk,Netherlands,nan
+Skien,Norway,3322.27
+Ibiza,Spain,7165.47
+Mikkeli,Finland,2107.49
+Malisheve,Kosovo (Disputed Territory),nan
+Cumbernauld,United Kingdom,nan
+Muban Saeng Bua Thong,Thailand,3456.05
+Berwyn,United States,2368.06
+Cagnes-sur-Mer,France,5268.73
+Louangphabang,Laos,nan
+Alajuela,Costa Rica,1219.89
+Tulcan,Ecuador,nan
+Korce,Albania,675.83
+Sakon Nakhon,Thailand,950.41
+Prachuap Khiri Khan,Thailand,1440.02
+Pursat,Cambodia,nan
+Iganga,Uganda,nan
+Gabrovo,Bulgaria,nan
+Rho,Italy,nan
+Valladolid,Mexico,515.69
+Maha Sarakham,Thailand,nan
+Hoboken,United States,8966.34
+Vejle,Denmark,3071.28
+West New York,United States,nan
+Bodo,Norway,5240.29
+Helena,United States,2091.79
+Oak Park,United States,nan
+Lamia,Greece,1053.75
+La Garenne-Colombes,France,7980.01
+Whangarei,New Zealand,2008.22
+Lankaran,Azerbaijan,nan
+Ratnapura,Sri Lanka,nan
+Teplice,Czech Republic,nan
+Eger,Hungary,1285.55
+Vryburg,South Africa,nan
+Jihlava,Czech Republic,2249.45
+Sombor,Serbia,934.96
+Levittown,United States,nan
+Kardzhali,Bulgaria,nan
+Komotini,Greece,4531.1
+Puttalam,Sri Lanka,854.24
+Stretford,United Kingdom,1968
+Gori,Georgia,nan
+Alytus,Lithuania,1001.06
+Aliso Viejo,United States,nan
+Jurmala,Latvia,2704.61
+Kirkcaldy,United Kingdom,nan
+Abovyan,Armenia,nan
+Bastia,France,nan
+Selibe Phikwe,Botswana,nan
+Campobasso,Italy,nan
+Wheaton,United States,nan
+Lulea,Sweden,2421.03
+Nausori,Fiji,nan
+North Bethesda,United States,5381.96
+Cerritos,United States,6458.35
+Inverness,United Kingdom,4229.33
+Salisbury,United Kingdom,4463.67
+Waterford,Ireland,3336.86
+Nelson,New Zealand,4013.24
+Couva,Trinidad And Tobago,nan
+Ramat HaSharon,Israel,8514.26
+Figueras,Spain,nan
+Bloomfield,United States,nan
+Corroios,Portugal,2634.36
+Karlovy Vary,Czech Republic,3316.49
+Wokingham,United Kingdom,nan
+Mandeville,Jamaica,1817.15
+Nong Khai,Thailand,nan
+Invercargill,New Zealand,1603.5
+Talence,France,2212.86
+Chalon-sur-Saone,France,nan
+Karmiel,Israel,5284.71
+Covina,United States,1345.49
+Kokkola,Finland,3688.11
+Badulla,Sri Lanka,nan
+Nagykanizsa,Hungary,874.17
+Santiago,Panama,1200
+Qiryat Ono,Israel,9003.54
+Trollhattan,Sweden,2421.03
+Sibenik,Croatia,nan
+Cobija,Bolivia,nan
+Vilvoorde,Belgium,nan
+Vidin,Bulgaria,561.03
+Alexandria,Romania,nan
+Tindouf,Algeria,nan
+Bluefields,Nicaragua,nan
+Bellinzona,Switzerland,nan
+Newbury,United Kingdom,4360.35
+Dunaujvaros,Hungary,nan
+Zugdidi,Georgia,965.43
+Kyustendil,Bulgaria,427.45
+Melun,France,2950.49
+Qiryat Bialik,Israel,3552.5
+Boumerdes,Algeria,1084.95
+Fort Portal,Uganda,nan
+Afyonkarahisar,Turkey,464.15
+Stip,North Macedonia,1018.74
+Hackensack,United States,nan
+Matale,Sri Lanka,nan
+Cleveland Heights,United States,nan
+Veles,North Macedonia,781.04
+Or Yehuda,Israel,5578.31
+Ermezinde,Portugal,nan
+Hodmezovasarhely,Hungary,nan
+Drogheda,Ireland,2634.36
+Murzuq,Libya,nan
+Kalmar,Sweden,2421.03
+Annemasse,France,5374.1
+Ramsgate,United Kingdom,984
+Kampong Chhnang,Cambodia,nan
+Dubrovnik,Croatia,4006.88
+Beverwijk,Netherlands,nan
+Bishops Stortford,United Kingdom,3075
+Saronno,Italy,1580.62
+Fribourg,Switzerland,10684.5
+Berat,Albania,720.88
+Guarda,Portugal,nan
+Si Sa Ket,Thailand,nan
+Kampot,Cambodia,1000
+Miercurea-Ciuc,Romania,1211.49
+Bell Gardens,United States,nan
+Woonsocket,United States,nan
+Mambajao,Philippines,nan
+Zacatelco,Mexico,nan
+Douai,France,nan
+Kars,Turkey,nan
+Villarrica,Paraguay,nan
+Kisii,Kenya,nan
+Poissy,France,5268.73
+Panaji,India,859.72
+Famagusta,Cyprus,820.24
+Wilkes-Barre,United States,nan
+Chartres,France,2571.7
+Samkir,Azerbaijan,nan
+Parnu,Estonia,1527.93
+Bjelovar,Croatia,1221.49
+Teaneck,United States,nan
+Swords,Ireland,4230.79
+Chachoengsao,Thailand,nan
+Villefranche-sur-Saone,France,nan
+Montclair,United States,4348.62
+Brcko,Bosnia And Herzegovina,nan
+Celje,Slovenia,2247.99
+Vernier,Switzerland,nan
+Annapolis,United States,4305.56
+Waipahu,United States,nan
+Tromso,Norway,6572.05
+Culver City,United States,nan
+Durazno,Uruguay,nan
+Falkirk,United Kingdom,nan
+Esch-sur-Alzette,Luxembourg,7024.97
+Frankfort,United States,1614.59
+Barda,Azerbaijan,411.76
+Vrilissia,Greece,3688.11
+Fort Lee,United States,3552.09
+Lake Worth,United States,2651.51
+Kranj,Slovenia,2774.51
+Paphos,Cyprus,1601.69
+Ali Sabieh,Djibouti,nan
+East Meadow,United States,nan
+Mission Bend,United States,nan
+Kajaani,Finland,nan
+Schaffhausen,Switzerland,6944.93
+Tozeur,Tunisia,nan
+Thonon-les-Bains,France,4847.23
+`Ataq,Yemen,nan
+Ewell,United Kingdom,nan
+South Miami Heights,United States,nan
+Aventura,United States,6440.41
+Karlskrona,Sweden,nan
+Trowbridge,United Kingdom,1599
+Czeladz,Poland,nan
+Rutherglen,United Kingdom,nan
+West Hollywood,United States,nan
+Kearns,United States,16145.87
+Chatou,France,7060.09
+Bartin,Turkey,nan
+Watertown Town,United States,nan
+Gostivar,North Macedonia,933.85
+Aosta,Italy,2634.36
+Vrsac,Serbia,737.08
+Elmont,United States,nan
+Temple City,United States,nan
+Neuchatel,Switzerland,9081.83
+Gisborne,New Zealand,nan
+Frattamaggiore,Italy,nan
+Westmont,United States,nan
+Manhattan Beach,United States,nan
+Bussum,Netherlands,nan
+Marijampole,Lithuania,nan
+Ocotal,Nicaragua,nan
+Santa Maria Capua Vetere,Italy,nan
+Kampong Thom,Cambodia,nan
+Jacmel,Haiti,nan
+Kalasin,Thailand,nan
+Homa Bay,Kenya,nan
+Swakopmund,Namibia,571.76
+Silistra,Bulgaria,nan
+Chichester,United Kingdom,nan
+Norristown,United States,2018.23
+Nykoping,Sweden,38736.42
+Dandenong,Australia,nan
+Ventspils,Latvia,900.95
+Beverly Hills,United States,nan
+Foster City,United States,nan
+Birkirkara,Malta,3371.98
+Chester,United States,1991.32
+Glendale Heights,United States,nan
+Kericho,Kenya,nan
+Sisak,Croatia,1015.02
+Lovech,Bulgaria,nan
+Razgrad,Bulgaria,nan
+Arfoud,Morocco,472.23
+Salgotarjan,Hungary,nan
+Mazeikiai,Lithuania,1053.75
+Leticia,Colombia,356.66
+Yverdon-les-Bains,Switzerland,nan
+Mount Lebanon,United States,nan
+Juneau,United States,2152.78
+College Park,United States,nan
+Eastpointe,United States,nan
+Chon Buri,Thailand,1852.83
+Uniondale,United States,nan
+Zug,Switzerland,19499.22
+Lambersart,France,nan
+Molde,Norway,2840.75
+Guyancourt,France,nan
+Szekszard,Hungary,1349.82
+Zaqatala,Azerbaijan,nan
+Ain Taoujdat,Morocco,nan
+Cakovec,Croatia,2005.85
+Burlingame,United States,4843.76
+Bregenz,Austria,6849.34
+Avellaneda,Argentina,2700
+Longbridge,United Kingdom,4858.5
+Puerto Escondido,Mexico,nan
+Boscoreale,Italy,nan
+Mount Hagen,Papua New Guinea,nan
+Sterling,United States,nan
+Krabi,Thailand,nan
+Long Branch,United States,nan
+Subotica,Serbia,1070.37
+Cahul,Moldova,nan
+Dubendorf,Switzerland,6944.93
+Tralee,Ireland,2318.24
+Dietikon,Switzerland,nan
+Mortsel,Belgium,2528.99
+Nuwara Eliya,Sri Lanka,nan
+Hillerod,Denmark,nan
+East Palo Alto,United States,17760.45
+Tixtla de Guerrero,Mexico,1245.18
+Smolyan,Bulgaria,nan
+Oegstgeest,Netherlands,nan
+Kocani,North Macedonia,690.37
+Rezekne,Latvia,737.62
+Vevey,Switzerland,nan
+Mytilini,Greece,nan
+Koper,Slovenia,4083.26
+Bethune,France,nan
+Alboraya,Spain,nan
+Biarritz,France,10800.89
+Velenje,Slovenia,1685.99
+Sliema,Malta,4399.39
+Bergenfield,United States,nan
+Easton,United States,nan
+Weingarten,Germany,nan
+Blenheim,New Zealand,3848.4
+Utena,Lithuania,nan
+Suphan Buri,Thailand,nan
+Rodez,France,nan
+Cliffside Park,United States,nan
+Rivas,Nicaragua,nan
+Ennis,Ireland,nan
+Decatur,United States,nan
+Svay Rieng,Cambodia,nan
+Heredia,Costa Rica,1452.51
+Tipasa,Algeria,nan
+Laurel,United States,1753.12
+Visby,Sweden,nan
+El Cerrito,United States,nan
+Palm Springs,United States,5328.14
+South Bradenton,United States,1923.19
+Truro,United Kingdom,3971.88
+Vukovar,Croatia,nan
+Novo Mesto,Slovenia,2177.74
+Herndon,United States,3229.17
+Baalbek,Lebanon,1000
+Baldwin,United States,nan
+Lop Buri,Thailand,nan
+Suitland,United States,nan
+Carlow,Ireland,2002.12
+Sao Joao da Madeira,Portugal,nan
+Woodlawn,United States,nan
+Ashland,United States,1076.39
+Baabda,Lebanon,nan
+Agri,Turkey,nan
+Gjirokaster,Albania,1053.75
+Vrbas,Serbia,807.92
+Kirklareli,Turkey,831.82
+Oak Ridge,United States,nan
+Le Bourget,France,2107.49
+Leigh-on-Sea,United Kingdom,nan
+Phetchaburi,Thailand,nan
+Allschwil,Switzerland,4808.03
+Nyon,Switzerland,14246
+Mosta,Malta,3126.11
+Opfikon,Switzerland,nan
+Naas,Ireland,3161.24
+At Tafilah,Jordan,422.95
+Acheres,France,nan
+Aarau,Switzerland,8868.14
+Ogre,Latvia,1053.75
+Canakkale,Turkey,581.38
+Blue Island,United States,4176.4
+Kedainiai,Lithuania,nan
+Jekabpils,Latvia,316.12
+Modling,Austria,5268.73
+Loei,Thailand,nan
+Antrim,United Kingdom,1918.8
+Adiyaman,Turkey,375.66
+Arese,Italy,2739.74
+Fgura,Malta,nan
+Kilkenny,Ireland,nan
+Great Linford,United Kingdom,nan
+Wexford,Ireland,2421.07
+Kegalle,Sri Lanka,nan
+Hayesville,United States,nan
+Goroka,Papua New Guinea,nan
+Yalova,Turkey,482.99
+Ijevan,Armenia,nan
+Massapequa,United States,nan
+Sunny Isles Beach,United States,nan
+Nigde,Turkey,563.49
+Giresun,Turkey,nan
+Nevsehir,Turkey,268.33
+Virovitica,Croatia,1527.81
+Ukmerge,Lithuania,526.87
+Orhei,Moldova,nan
+Dispur,India,nan
+Canelones,Uruguay,nan
+Cuprija,Serbia,646.34
+Beinasco,Italy,nan
+Columbia Heights,United States,nan
+Senta,Serbia,852.8
+Qormi,Malta,2634.36
+Agstafa,Azerbaijan,411.76
+Harrison,United States,nan
+Cattolica,Italy,nan
+Tlaxcala,Mexico,515.69
+Ulcinj,Montenegro,1211.81
+Sligo,Ireland,nan
+Lezhe,Albania,nan
+Central Falls,United States,nan
+Budva,Montenegro,3292.95
+Morristown,United States,nan
+Solothurn,Switzerland,nan
+Hermosa Beach,United States,nan
+Evergreen Park,United States,nan
+Visaginas,Lithuania,569.02
+Harnosand,Sweden,nan
+Point Pleasant,United States,nan
+Ptuj,Slovenia,1896.74
+Casandrino,Italy,nan
+North Amityville,United States,nan
+Rutherford,United States,2825.53
+Zabbar,Malta,2107.49
+Zonguldak,Turkey,445.42
+Hyattsville,United States,nan
+Tunapuna,Trinidad And Tobago,nan
+Viljandi,Estonia,895.68
+Orange Walk,Belize,804.69
+Puerto Ayora,Ecuador,850
+Valparaiso,Mexico,nan
+Dedza,Malawi,nan
+Canet de Mar,Spain,nan
+San Gwann,Malta,4214.98
+Leeuwarden,Netherlands,3055.86
+Lansdale,United States,nan
+Neubiberg,Germany,nan
+San Ignacio,Belize,nan
+Arbon,Switzerland,nan
+Cachoeira Alta,Brazil,nan
+Clayton,United States,nan
+Struga,North Macedonia,1158.82
+Plunge,Lithuania,nan
+Kretinga,Lithuania,1053.75
+Artesia,United States,nan
+South Orange Village,United States,2583.34
+Herceg Novi,Montenegro,2634.36
+Bull Run,United States,nan
+Broadwater,United Kingdom,nan
+East Riverdale,United States,nan
+Rakvere,Estonia,1222.34
+Stanford,United States,nan
+Sutton on Hull,United Kingdom,nan
+Southwick,United Kingdom,13530
+Walnut Park,United States,2690.98
+Isla Mujeres,Mexico,nan
+Whakatane,New Zealand,nan
+East Rancho Dominguez,United States,nan
+Peshkopi,Albania,nan
+Erzincan,Turkey,nan
+Palanga,Lithuania,3424.67
+Tarxien,Malta,nan
+Schwyz,Switzerland,6944.93
+Kamnik,Slovenia,2528.99
+Yozgat,Turkey,480.47
+Radviliskis,Lithuania,nan
+Paro,Bhutan,nan
+Montevrain,France,4214.98
+North New Hyde Park,United States,nan
+Escaldes-Engordany,Andorra,4741.85
+Canegrate,Italy,nan
+Cesis,Latvia,632.25
+Debar,North Macedonia,nan
+Pierre,United States,nan
+Kisoro,Uganda,nan
+Naxxar,Malta,2704.61
+Birsfelden,Switzerland,17095.2
+Cetinje,Montenegro,1264.49
+Kuressaare,Estonia,1264.49
+Collingswood,United States,nan
+Saint Ann's Bay,Jamaica,1457.52
+Bar,Montenegro,1527.93
+Highland Park,United States,nan
+Imsida,Malta,3161.24
+Grover Beach,United States,nan
+Chanteloup-les-Vignes,France,8429.96
+Swieqi,Malta,4478.42
+Domzale,Slovenia,3547.61
+Gzira,Malta,4610.14
+Zebbug,Malta,nan
+Nieuw Nickerie,Suriname,nan
+Coatesville,United States,nan
+Zejtun,Malta,nan
+Nova Gorica,Slovenia,1949.43
+Steinkjer,Norway,1541.26
+Valga,Estonia,nan
+Ridgefield Park,United States,nan
+Clarkston,United States,nan
+Attard,Malta,4004.23
+Taraclia,Moldova,nan
+Ermoupoli,Greece,nan
+Las Tablas,Panama,1374.53
+Druskininkai,Lithuania,2318.24
+Portico di Caserta,Italy,nan
+Izola,Slovenia,3661.76
+Ferney-Voltaire,France,4214.98
+Red Bank,United States,nan
+Rabat,Malta,3161.24
+Murska Sobota,Slovenia,1685.99
+Zurrieq,Malta,nan
+Krishnapur,India,nan
+Skofja Loka,Slovenia,2809.99
+Alotau,Papua New Guinea,nan
+Alum Rock,United States,nan
+Mpigi,Uganda,nan
+Piedmont,United States,nan
+Summit,United States,nan
+Strumica,North Macedonia,765.25
+Johvi,Estonia,nan
+Birzebbuga,Malta,nan
+Roatan,Honduras,1883.68
+Al Mahwit,Yemen,nan
+Greenville,Liberia,nan
+Haapsalu,Estonia,1264.49
+Siparia,Trinidad And Tobago,nan
+Vrnjacka Banja,Serbia,1526.8
+Fontaines-sur-Saone,France,nan
+Hamrun,Malta,2107.49
+White City,United States,nan
+Inwood,United States,nan
+Brookdale,United States,2690.98
+Westgate,United States,nan
+Jurbarkas,Lithuania,nan
+Saldus,Latvia,nan
+Postojna,Slovenia,1896.74
+Kirkwall,United Kingdom,nan
+Vrhnika,Slovenia,1896.74
+Wood-Ridge,United States,nan
+Sant Julia de Loria,Andorra,4004.23
+Sabana Grande,Puerto Rico,500
+Grosuplje,Slovenia,3161.24
+Plainedge,United States,4305.56
+Sremski Karlovci,Serbia,718.15
+Talsi,Latvia,nan
+Siggiewi,Malta,4114.88
+Kocevje,Slovenia,nan
+Glodeni,Moldova,nan
+Artvin,Turkey,nan
+Paide,Estonia,843
+Wotton-under-Edge,United Kingdom,2460
+Krsko,Slovenia,1159.12
+Brokopondo,Suriname,300
+Slovenska Bistrica,Slovenia,nan
+Greymouth,New Zealand,nan
+Yeghegnadzor,Armenia,1783.11
+Caldwell,United States,nan
+Boyes Hot Springs,United States,nan
+Yardimli,Azerbaijan,nan
+Fanwood,United States,678.13
+Calumet Park,United States,5435.77
+Diekirch,Luxembourg,nan
+Gurabo,Puerto Rico,nan
+Kicevo,North Macedonia,638.51
+Kirikkale,Turkey,268.33
+Ta' Xbiex,Malta,nan
+Ravne na Koroskem,Slovenia,nan
+Williston Park,United States,nan
+Aizkraukle,Latvia,526.87
+Nyack,United States,nan
+Monaghan,Ireland,nan
+Ridley Park,United States,nan
+Gulbene,Latvia,nan
+Madona,Latvia,421.5
+Criuleni,Moldova,nan
+Castroville,United States,2045.14
+Kavadarci,North Macedonia,933.85
+Polva,Estonia,nan
+Schaan,Liechtenstein,nan
+Glarus,Switzerland,nan
+Zagorje,Slovenia,1159.12
+Crnomelj,Slovenia,nan
+Echternach,Luxembourg,nan
+Lewisburg,United States,14197.6
+Sisimiut,Greenland,nan
+Media,United States,2960.08
+Wiltz,Luxembourg,nan
+Triesen,Liechtenstein,4371.03
+Xaghra,Malta,nan
+Kiambu,Kenya,nan
+Santa Isabel,Puerto Rico,990.28
+Cutler,United States,5438
+Twin Lakes,United States,nan
+Grevenmacher,Luxembourg,nan
+Turtle Creek,United States,nan
+Nadur,Malta,nan
+Ilulissat,Greenland,nan
+Punta Gorda,Belize,nan
+Mechanicville,United States,1926.74
+Punakha,Bhutan,3690.66
+Gevgelija,North Macedonia,662.18
+Klaksvik,Faroe Islands,nan
+Balzers,Liechtenstein,nan
+Floriana,Malta,nan
+Kuala Belait,Brunei,nan
+Radovis,North Macedonia,679.16
+Black River,Jamaica,nan
+Marsaxlokk,Malta,8611.13
+Gudja,Malta,nan
+Xewkija,Malta,nan
+Imgarr,Malta,nan
+Sveti Nikole,North Macedonia,nan
+Xghajra,Malta,nan
+Qrendi,Malta,nan
+Kulhudhuffushi,Maldives,nan
+Groningen,Suriname,nan
+Qaqortoq,Greenland,nan
+Arima,Trinidad And Tobago,1474.77
+Delcevo,North Macedonia,nan
+Mandalgovi,Mongolia,616.38
+Vojnik,Slovenia,1053.75
+Arandelovac,Serbia,3397.9
+Negotino,North Macedonia,523.23
+Kapchorwa,Uganda,nan
+Sihanoukville,Cambodia,2300
+Ruggell,Liechtenstein,4424.45
+Cidade Velha,Cape Verde,nan
+Migori,Kenya,nan
+Jagodina,Serbia,1077.23
+Kriva Palanka,North Macedonia,nan
+Zabljak,Montenegro,nan
+Munxar,Malta,nan
+Gharb,Malta,nan
+Vinh Yen,Vietnam,nan
+Carrick on Shannon,Ireland,nan
+Smederevo,Serbia,1301.65
+Tullamore,Ireland,nan
+Castlebar,Ireland,nan
+Kurunegala,Sri Lanka,nan
+Vreed-en-Hoop,Guyana,nan
+Radovljica,Slovenia,nan
+Mullingar,Ireland,nan
+Pirot,Serbia,727.61
+Prokuplje,Serbia,nan
+Trbovlje,Slovenia,nan
+Longford,Ireland,nan
+Labuan,Malaysia,2279.2
+Dien Bien Phu,Vietnam,nan
+Port Laoise,Ireland,nan
+Ain Defla,Algeria,nan
+Diego Martin,Trinidad And Tobago,2804.95
+Imdina,Malta,nan
+Madaba,Jordan,nan
+Varazdin,Croatia,2194.73
+Sremska Mitrovica,Serbia,1175.25
+Umm Salal `Ali,Qatar,nan
+Pozarevac,Serbia,1000.32
+Zajecar,Serbia,nan
+Aleksinac,Serbia,563.42
+Indija,Serbia,807.92
+Domagnano,San Marino,2985.61
+Acquaviva,San Marino,nan
+Brvenica,North Macedonia,nan
+Abakaliki,Nigeria,nan
+Prizren,Kosovo (Disputed Territory),1844.05
+Nelspruit,South Africa,835.44
+Koprivnica,Croatia,nan
+Rogatec,Slovenia,nan
+Tivat,Montenegro,2660.71
+Stara Pazova,Serbia,1045.43
+Mitrovice,Kosovo (Disputed Territory),843
+Al `Aziziyah,Libya,nan
+Kamwenge,Uganda,nan
+Viti,Kosovo (Disputed Territory),nan
+Mersch,Luxembourg,nan
+Lelydorp,Suriname,nan
+Podujeve,Kosovo (Disputed Territory),737.62
+Lipkovo,North Macedonia,nan
+Istog,Kosovo (Disputed Territory),nan
+Sangre Grande,Trinidad And Tobago,nan
+Titel,Serbia,nan
+Hargeysa,Somalia,68333.33
+Soldanesti,Moldova,384.49
+Nordhragota,Faroe Islands,nan
+Danilovgrad,Montenegro,nan
+Ar Rustaq,Oman,363.64
+Niksic,Montenegro,1001.06
+Leposaviq,Kosovo (Disputed Territory),nan
+Vestmanna,Faroe Islands,1984.52
+Raseiniai,Lithuania,nan
+Fish Town,Liberia,nan
+Kolasin,Montenegro,1580.62
+Udine,Italy,1376.89
+Kalisz,Poland,nan
+Legnica,Poland,2311.6
+Debre Zeyit,Ethiopia,nan
+Tinsukia,India,nan
+Ballarat,Australia,nan
+Arezzo,Italy,2845.11
+Boca Raton,United States,4359.38
+Beaverton,United States,2152.78
+Wloclawek,Poland,nan
+Rio Rancho,United States,1560.77
+Cottbus,Germany,2790
+Khamis Mushayt,Saudi Arabia,nan
+Oldham,United Kingdom,nan
+Hammamet,Tunisia,464.68
+Brantford,Canada,nan
+Paulinia,Brazil,1341.15
+Attock Khurd,Pakistan,nan
+Witten,Germany,nan
+Cesena,Italy,nan
+Lysychansk,Ukraine,nan
+Leninsk-Kuznetskiy,Russia,nan
+Mezhdurechensk,Russia,nan
+Muzaffarabad,Pakistan,481.18
+Lecce,Italy,2160.18
+Brockton,United States,nan
+Pesaro,Italy,3161.24
+Barletta,Italy,2107.49
+Solikamsk,Russia,nan
+Bowling Green,United States,1576.91
+Plantation,United States,nan
+Grudziadz,Poland,nan
+Alessandria,Italy,1264.49
+Gatchina,Russia,nan
+Menifee,United States,nan
+Glazov,Russia,nan
+Hanford,United States,nan
+Hadera,Israel,8771.16
+Edmond,United States,1614.59
+Bedford,United Kingdom,3690
+La Spezia,Italy,2569.38
+Livonia,United States,nan
+Lawton,United States,nan
+Avignon,France,3161.24
+Missoula,United States,nan
+Auburn,United States,1486.39
+Slidell,United States,nan
+Velikiye Luki,Russia,nan
+Lethbridge,Canada,2153.97
+Grahamstown,South Africa,nan
+Rapid City,United States,1614.59
+Lavras,Brazil,nan
+San Sebastian de los Reyes,Spain,6322.47
+Terre Haute,United States,nan
+Toms River,United States,3229.17
+Suffolk,United States,1076.39
+Blacksburg,United States,nan
+Pickering,Canada,nan
+Azua,Dominican Republic,nan
+Tubingen,Germany,7376.22
+Flensburg,Germany,2950.49
+Carson,United States,nan
+Maladzyechna,Belarus,nan
+Conroe,United States,10710.09
+Pisa,Italy,3688.11
+Itajuba,Brazil,nan
+Nanaimo,Canada,3547.18
+Pistoia,Italy,2107.49
+Livermore,United States,4520.84
+Zwickau,Germany,1460.49
+Lucca,Italy,4214.98
+Hilversum,Netherlands,4741.85
+Norrkoping,Sweden,2905.23
+Giessen,Germany,4467.88
+New Braunfels,United States,2600
+Prijedor,Bosnia And Herzegovina,698.8
+Fall River,United States,2507.99
+Dunkerque,France,nan
+Heerlen,Netherlands,nan
+Sakiet ez Zit,Tunisia,356.26
+Sudbury,Canada,3869.17
+Brindisi,Italy,1580.62
+Muncie,United States,1076.39
+Guadalajara,Spain,nan
+Fort Myers,United States,2798.62
+Aalst,Belgium,2581.68
+Treviso,Italy,3393.06
+Chiclana de la Frontera,Spain,nan
+Dalton,United States,807.29
+Anderson,United States,1334.72
+Redwood City,United States,8611.13
+North Vancouver,Canada,9972.09
+Villingen-Schwenningen,Germany,4741.85
+Largo,United States,nan
+Jacobina,Brazil,nan
+Newport Beach,United States,10763.91
+Joplin,United States,nan
+El Ejido,Spain,nan
+Torrevieja,Spain,1690.21
+Chilliwack,Canada,2792.18
+Worms,Germany,nan
+Pontevedra,Spain,nan
+Fredrikstad,Norway,6336.3
+Pozzuoli,Italy,nan
+Stockton-on-Tees,United Kingdom,nan
+Cruzeiro do Sul,Brazil,nan
+Minden,Germany,2405.7
+Zephyrhills,United States,nan
+Maple Ridge,Canada,nan
+Campo Mourao,Brazil,nan
+Flagstaff,United States,2421.88
+St. Augustine,United States,nan
+Harlow,United Kingdom,nan
+Grosseto,Italy,nan
+Peterborough,Canada,nan
+Pleasanton,United States,10760.32
+Dessau-Rosslau,Germany,nan
+Taroudannt,Morocco,435.12
+Williamsburg,United States,nan
+Kilifi,Kenya,nan
+Farmington Hills,United States,1862.16
+Hattiesburg,United States,nan
+Manresa,Spain,nan
+Valdosta,United States,990.28
+Torres Vedras,Portugal,1844.05
+Buckeye,United States,nan
+Alfenas,Brazil,nan
+Kokomo,United States,nan
+Jelenia Gora,Poland,nan
+Bamberg,Germany,7903.09
+Essaouira,Morocco,nan
+Aligudarz,Iran,2012.55
+Loveland,United States,nan
+Boynton Beach,United States,nan
+Hasselt,Belgium,3161.24
+Jonesboro,United States,1184.03
+Beziers,France,nan
+Guildford,United Kingdom,6838.8
+Texarkana,United States,nan
+Elizabethtown,United States,nan
+Aquiraz,Brazil,nan
+Sint-Niklaas,Belgium,nan
+Marburg,Germany,nan
+Kortrijk,Belgium,3951.54
+Gelendzhik,Russia,4000
+Upland,United States,nan
+Baytown,United States,nan
+Siedlce,Poland,2386.5
+Asti,Italy,2897.8
+Lod,Israel,5871.9
+Toba Tek Singh,Pakistan,nan
+Piotrkow Trybunalski,Poland,2673.4
+San Ramon,United States,5866.33
+Wilhelmshaven,Germany,nan
+Goiana,Brazil,1341.15
+Alcala de Guadaira,Spain,nan
+Tiznit,Morocco,944.47
+Bayreuth,Germany,nan
+Dubna,Russia,4000
+Oshkosh,United States,1305.12
+Hammond,United States,1711.46
+Pasco,United States,nan
+Gela,Italy,nan
+Conway,United States,nan
+Altoona,United States,1237.85
+Gary,United States,nan
+Piracununga,Brazil,nan
+Arlington Heights,United States,3121.53
+Sundsvall,Sweden,1936.82
+Owensboro,United States,1076.39
+Hilton Head Island,United States,3180.74
+Framingham,United States,nan
+Konin,Poland,1239.56
+Shrewsbury,United Kingdom,3895
+Prince George,Canada,nan
+Kostiantynivka,Ukraine,nan
+Wausau,United States,807.29
+Apple Valley,United States,968.75
+Landshut,Germany,nan
+Sault Ste. Marie,Canada,1930.6
+Schaumburg,United States,nan
+Pavia,Italy,3055.86
+Pocatello,United States,nan
+Ede,Netherlands,nan
+Morgantown,United States,nan
+Bakixanov,Azerbaijan,nan
+Woodbury,United States,nan
+Dothan,United States,nan
+Penafiel,Portugal,1791.37
+Estepona,Spain,2370.93
+Harrisonburg,United States,nan
+Cremona,Italy,nan
+Wenatchee,United States,1797.57
+Merignac,France,2107.49
+Waukesha,United States,2690.98
+Redmond,United States,7032.42
+Sarnia,Canada,2316.09
+Aschaffenburg,Germany,4214.98
+Bunbury,Australia,nan
+Sumter,United States,1937.5
+Lisburn,United Kingdom,nan
+Bundaberg,Australia,nan
+Djemmal,Tunisia,619.58
+Cherry Hill,United States,2152.78
+Benidorm,Spain,2509.28
+Chateauguay,Canada,nan
+Sherman,United States,nan
+Broomfield,United States,nan
+El Paso de Robles,United States,nan
+Imola,Italy,nan
+Walnut Creek,United States,9813.1
+Celle,Germany,3291.9
+Kempten,Germany,5268.73
+Tournai,Belgium,nan
+Lehi,United States,2626.39
+Gniezno,Poland,nan
+Sheboygan,United States,1740.17
+Colmar,France,2774.86
+Delray Beach,United States,nan
+Homestead,United States,nan
+Cosenza,Italy,1422.56
+Ko Samui,Thailand,1008.01
+Lake Elsinore,United States,nan
+Fulda,Germany,nan
+Daytona Beach,United States,1953.65
+Oliveira de Azemeis,Portugal,nan
+Wagga Wagga,Australia,5096.85
+Rocklin,United States,3498.27
+Aalen,Germany,nan
+Rogers,United States,nan
+Castle Rock,United States,nan
+Rockville,United States,6458.35
+Turkmenbasy,Turkmenistan,nan
+Ames,United States,nan
+Dubuque,United States,1863.25
+Viterbo,Italy,nan
+Saratoga Springs,United States,4036.47
+Trapani,Italy,nan
+Casper,United States,nan
+Yorba Linda,United States,nan
+Bergen op Zoom,Netherlands,3724.01
+Sagunto,Spain,1264.49
+Palatine,United States,nan
+Corvallis,United States,2690.98
+Zihuatanejo,Mexico,nan
+Ankeny,United States,nan
+Alpharetta,United States,4305.56
+El Seibo,Dominican Republic,nan
+Pabianice,Poland,nan
+Godalming,United Kingdom,nan
+Genk,Belgium,2660.71
+Russelsheim,Germany,4214.98
+Gwacheon,South Korea,nan
+Eagan,United States,nan
+Menzel Temime,Tunisia,nan
+Shawnee,United States,807.29
+Boras,Sweden,3209.59
+Jupiter,United States,3148.44
+Carbondale,United States,nan
+Ferrol,Spain,948.37
+St. Albert,Canada,nan
+Leszno,Poland,nan
+Tulare,United States,nan
+Pflugerville,United States,nan
+Zeist,Netherlands,nan
+Eden Prairie,United States,nan
+Great Falls,United States,2583.34
+Rosenheim,Germany,nan
+Grand Forks,United States,1076.39
+Crotone,Italy,nan
+Lugano,Switzerland,14023.41
+Eastvale,United States,nan
+Chapel Hill,United States,3229.17
+Rocky Mount,United States,1097.92
+Quimper,France,nan
+Woking,United Kingdom,8161.05
+Beloit,United States,nan
+Vigevano,Italy,nan
+Fairbanks,United States,nan
+Granby,Canada,nan
+Carrara,Italy,2107.49
+Roeselare,Belgium,3161.24
+Johnstown,United States,nan
+Lomza,Poland,1972.03
+West Hartford,United States,3229.17
+Coon Rapids,United States,nan
+Mankato,United States,nan
+Deva,Romania,nan
+Kolomyia,Ukraine,nan
+Encinitas,United States,10763.91
+Parkersburg,United States,nan
+Waltham,United States,nan
+Tanjungpandan,Indonesia,nan
+Tarnowskie Gory,Poland,1690.31
+Palm Harbor,United States,nan
+Tuapse,Russia,nan
+Asker,Norway,9247.57
+Sebring,United States,nan
+Figueira da Foz,Portugal,1791.37
+San Luis Obispo,United States,6458.35
+Viareggio,Italy,2107.49
+Mielec,Poland,nan
+Ar Rastan,Syria,nan
+Trikala,Greece,1159.12
+Friedrichshafen,Germany,nan
+St. Thomas,Canada,nan
+Fano,Italy,3161.24
+Nahariyya,Israel,4844.32
+Reston,United States,5381.96
+Mayaguez,Puerto Rico,nan
+Burnsville,United States,nan
+Marietta,United States,2152.78
+Gadsden,United States,nan
+Chalkida,Greece,2107.49
+Taylor,United States,1668.41
+Wesel,Germany,nan
+Laoang,Philippines,825.33
+Savona,Italy,2812.45
+Olbia,Italy,2388.49
+Greifswald,Germany,nan
+Matera,Italy,nan
+Ponnuru,India,nan
+Mossel Bay,South Africa,809.78
+Offenburg,Germany,nan
+Benevento,Italy,2107.49
+Niort,France,nan
+Mouscron,Belgium,nan
+Agrigento,Italy,1317.18
+Hua Hin,Thailand,2088.03
+Neu-Ulm,Germany,nan
+Staunton,United States,nan
+Carazinho,Brazil,nan
+Pontiac,United States,nan
+Royal Oak,United States,nan
+Bilhorod-Dnistrovskyi,Ukraine,nan
+Des Plaines,United States,1900
+Cerignola,Italy,nan
+Bowie,United States,nan
+Aldershot,United Kingdom,nan
+Fredericton,Canada,nan
+Pula,Croatia,2402.24
+Wesley Chapel,United States,nan
+Roermond,Netherlands,nan
+Huntersville,United States,nan
+Beckley,United States,nan
+Bedzin,Poland,nan
+Titusville,United States,nan
+Alexandroupoli,Greece,2634.36
+Walla Walla,United States,nan
+Bozeman,United States,3946.77
+Diriamba,Nicaragua,nan
+East Stroudsburg,United States,1345.49
+Frankfurt (Oder),Germany,3161.24
+Goldsboro,United States,nan
+Manfredonia,Italy,2845.11
+Shoreline,United States,nan
+Cuneo,Italy,3055.86
+Piscataway,United States,nan
+Lake Havasu City,United States,2604.87
+Viseu,Brazil,nan
+Waiblingen,Germany,nan
+Smyrna,United States,nan
+Cape Girardeau,United States,nan
+Trani,Italy,1580.62
+Amarante,Portugal,nan
+Xanthi,Greece,1211.81
+Registro,Brazil,nan
+Katerini,Greece,1334.74
+Frydek-Mistek,Czech Republic,2379.22
+Den Helder,Netherlands,nan
+Portimao,Portugal,1956.28
+Martin,Slovakia,nan
+Grants Pass,United States,nan
+Southaven,United States,1184.03
+Canterbury,United Kingdom,4305
+Pittsfield,United States,nan
+Corby,United Kingdom,2626.41
+Twin Falls,United States,2088.2
+Porirua,New Zealand,6414
+Schweinfurt,Germany,3688.11
+San Remo,Italy,2107.49
+Grapevine,United States,nan
+Bentonville,United States,2063.08
+Teramo,Italy,4214.98
+Sarpsborg,Norway,4231.28
+Cholet,France,nan
+Kotka,Finland,nan
+Kavala,Greece,2502.64
+Bad Salzuflen,Germany,nan
+Cava de' Tirreni,Italy,3310.19
+Siena,Italy,5795.6
+Normal,United States,1700
+Rotorua,New Zealand,nan
+Arroyo Grande,United States,5112.86
+Avellino,Italy,nan
+Brunswick,United States,nan
+Cuenca,Spain,2212.86
+Wayne,United States,nan
+Yucaipa,United States,nan
+Salo,Finland,4741.85
+Williamsport,United States,nan
+Huesca,Spain,2107.49
+Wetzlar,Germany,2318.24
+Pinellas Park,United States,nan
+Apopka,United States,nan
+Karlovac,Croatia,1186.59
+Kalamata,Greece,2002.12
+Grand Island,United States,nan
+Watertown,United States,nan
+Passau,Germany,3688.11
+Pasaje,Ecuador,nan
+Wylie,United States,nan
+Arsenyev,Russia,nan
+Kobryn,Belarus,nan
+Poprad,Slovakia,2458.74
+Alesund,Norway,4841.44
+Wolfenbuttel,Germany,nan
+Canoinhas,Brazil,nan
+Pordenone,Italy,1536.71
+Lacey,United States,nan
+Summerville,United States,nan
+Welland,Canada,nan
+Parsippany-Troy Hills,United States,3067.71
+Civitavecchia,Italy,nan
+Kleve,Germany,nan
+Lompoc,United States,2690.98
+Trinidad,Cuba,nan
+Caldas da Rainha,Portugal,1559.54
+Eilat,Israel,6217.15
+Bad Kreuznach,Germany,nan
+Pola de Siero,Spain,nan
+Covilha,Portugal,884.09
+Solnechnogorsk,Russia,nan
+Karvina,Czech Republic,nan
+Tsukubamirai,Japan,nan
+Chieti,Italy,1053.75
+Sierra Vista,United States,nan
+Tulsipur,Nepal,nan
+Rincon de la Victoria,Spain,nan
+Knysna,South Africa,855.4
+Glendora,United States,nan
+Ravensburg,Germany,6322.47
+New Bern,United States,nan
+Farmington,United States,nan
+Gummersbach,Germany,nan
+Segovia,Spain,1264.49
+Hinesville,United States,nan
+Asenovgrad,Bulgaria,427.45
+Campos do Jordao,Brazil,2873.89
+West Lafayette,United States,nan
+Belleville,Canada,nan
+Queen Creek,United States,nan
+Pulawy,Poland,nan
+Sittard,Netherlands,nan
+El Nido,Philippines,2834.84
+Traverse City,United States,nan
+Stillwater,United States,1614.59
+Cookeville,United States,nan
+Mantova,Italy,2107.49
+Bullhead City,United States,nan
+Porvoo,Finland,5057.98
+Chomutov,Czech Republic,1730.34
+Ashburn,United States,3229.17
+Slonim,Belarus,nan
+Sosua,Dominican Republic,688.6
+Morehead City,United States,nan
+Leonberg,Germany,nan
+Sesimbra,Portugal,8429.96
+IJmuiden,Netherlands,nan
+Welwyn Garden City,United Kingdom,4655.55
+Minot,United States,1076.39
+Lecco,Italy,3161.24
+Kazanlak,Bulgaria,650.09
+Ascoli Piceno,Italy,1896.74
+Brandon,Canada,nan
+Rimouski,Canada,nan
+Harderwijk,Netherlands,nan
+Zutphen,Netherlands,nan
+Kolobrzeg,Poland,nan
+Paducah,United States,nan
+Dornbirn,Austria,6322.47
+Turda,Romania,nan
+Kyle,United States,nan
+Jeffersonville,United States,7534.74
+Winder,United States,nan
+Cumberland,United States,nan
+Soest,Germany,7376.22
+Rancho Santa Margarita,United States,6996.54
+Lousada,Portugal,nan
+Herzogenrath,Germany,nan
+Rieti,Italy,1206.54
+Beavercreek,United States,nan
+McLean,United States,3767.37
+East Providence,United States,nan
+Kafue,Zambia,nan
+Sanski Most,Bosnia And Herzegovina,877.98
+Fellbach,Germany,nan
+Mentor,United States,nan
+Danville,United States,5381.96
+Nysa,Poland,nan
+Prievidza,Slovakia,1949.43
+Keller,United States,nan
+Al Qusayr,Syria,nan
+Fastiv,Ukraine,2175.71
+Agrinio,Greece,nan
+Vercelli,Italy,1264.49
+Lohja,Finland,2052.7
+Jablonec nad Nisou,Czech Republic,2422.48
+Veldhoven,Netherlands,nan
+Cornwall,Canada,2335.02
+Sandusky,United States,nan
+Hyvinkaa,Finland,nan
+Terracina,Italy,nan
+Kingman,United States,nan
+Dendermonde,Belgium,nan
+Lodi,Italy,nan
+Biloxi,United States,nan
+Capannori,Italy,nan
+Weatherford,United States,2077.43
+Roseburg,United States,1883.68
+Roskilde,Denmark,4725.05
+Leavenworth,United States,1786.81
+Fort Pierce,United States,1614.59
+Mlada Boleslav,Czech Republic,3028.1
+Pinehurst,United States,1560.77
+Bruchsal,Germany,nan
+Oranienburg,Germany,nan
+Pearl City,United States,nan
+Port Macquarie,Australia,nan
+Tupelo,United States,nan
+Biella,Italy,2107.49
+Dunakeszi,Hungary,2313.98
+Victoriaville,Canada,nan
+Alcira,Spain,nan
+Pine Bluff,United States,nan
+Chateauroux,France,nan
+Hilo,United States,2906.26
+Hassi Messaoud,Algeria,nan
+Kaufbeuren,Germany,nan
+Nadym,Russia,nan
+Turnhout,Belgium,4478.42
+Lufkin,United States,nan
+Etten-Leur,Netherlands,nan
+Vernon,Canada,2792.18
+Wallingford,United States,nan
+Webster,United States,1076.39
+Prostejov,Czech Republic,nan
+Eureka,United States,2152.78
+Lombard,United States,nan
+Prescott,United States,1846.38
+Alghero,Italy,2107.49
+Catacamas,Honduras,nan
+Sayreville,United States,3229.17
+Pardes Hanna Karkur,Israel,5431.51
+Desert Hot Springs,United States,nan
+Baniyas,Syria,nan
+Peachtree Corners,United States,nan
+Adrian,United States,nan
+Goose Creek,United States,nan
+Pontes e Lacerda,Brazil,nan
+Westfield,United States,nan
+Dilbeek,Belgium,nan
+Civitanova Marche,Italy,nan
+Klamath Falls,United States,nan
+Brea,United States,nan
+Tiel,Netherlands,nan
+Ciechanow,Poland,nan
+Bihac,Bosnia And Herzegovina,1057.17
+Prerov,Czech Republic,nan
+Stevens Point,United States,807.29
+Heist-op-den-Berg,Belgium,nan
+Zvolen,Slovakia,2212.86
+Avezzano,Italy,nan
+Charlottetown,Canada,2393.3
+Hwange,Zimbabwe,nan
+Egg Harbor,United States,1076.39
+Hutchinson,United States,nan
+Mascouche,Canada,2223.45
+Salaberry-de-Valleyfield,Canada,nan
+Puyallup,United States,nan
+Macerata,Italy,nan
+Ansbach,Germany,nan
+San Dona di Piave,Italy,nan
+Rouyn-Noranda,Canada,nan
+Bacong,Philippines,nan
+Urbana,United States,nan
+Qapshaghay,Kazakhstan,637.66
+Greenock,United Kingdom,nan
+Beverly,United States,nan
+Puerto Galera,Philippines,nan
+Qiryat Mozqin,Israel,5994.48
+Hobbs,United States,nan
+McMinnville,United States,3196.88
+Sassuolo,Italy,nan
+Medianeira,Brazil,nan
+Grove City,United States,nan
+Timmins,Canada,2393.3
+Schwabach,Germany,nan
+Wentzville,United States,nan
+North Brunswick,United States,nan
+Cantu,Italy,2318.24
+Weslaco,United States,5973.97
+Ladispoli,Italy,nan
+Zanesville,United States,nan
+Catonsville,United States,nan
+Coppell,United States,1560.77
+Antequera,Spain,1352.31
+Moline,United States,nan
+Chaves,Portugal,1053.75
+Compiegne,France,3688.11
+Delaware,United States,nan
+Jarvenpaa,Finland,3266.61
+Manassas,United States,nan
+Boleslawiec,Poland,nan
+Westerville,United States,nan
+Geel,Belgium,nan
+Sint-Truiden,Belgium,4214.98
+Lugoj,Romania,nan
+Spanish Fork,United States,nan
+Pottsville,United States,nan
+Braine-l'Alleud,Belgium,2817.71
+Pyu,Myanmar,nan
+Buffalo Grove,United States,nan
+Whanganui,New Zealand,1924.2
+Povazska Bystrica,Slovakia,1317.18
+Skovde,Sweden,nan
+Wageningen,Netherlands,5268.73
+Torrington,United States,nan
+Voghera,Italy,nan
+Cedar City,United States,1722.23
+Crystal Lake,United States,nan
+Lake Oswego,United States,nan
+Muskogee,United States,nan
+Steyr,Austria,3688.11
+Citta di Castello,Italy,nan
+Plasencia,Spain,1159.12
+Schio,Italy,2107.49
+La Chaux-de-Fonds,Switzerland,nan
+Rosario,Brazil,nan
+Stirling,United Kingdom,4216.44
+Onesti,Romania,663.66
+Borlange,Sweden,nan
+Issaquah,United States,nan
+Dubbo,Australia,nan
+Streamwood,United States,nan
+Arecibo,Puerto Rico,1076.39
+Kalispell,United States,2690.98
+Mooresville,United States,1829.86
+Siguatepeque,Honduras,nan
+Crestview,United States,nan
+Clinton,United States,nan
+Moses Lake,United States,nan
+Marinha Grande,Portugal,1053.75
+Furstenfeldbruck,Germany,8429.96
+Brasschaat,Belgium,nan
+Groton,United States,nan
+Tuusula,Finland,2645.95
+Nove Zamky,Slovakia,1401.48
+Great Yarmouth,United Kingdom,nan
+Karditsa,Greece,1027.4
+Kaka,Turkmenistan,nan
+Villagarcia de Arosa,Spain,nan
+Pleasant Grove,United States,nan
+Taounate,Morocco,543.07
+Goes,Netherlands,nan
+Menomonee Falls,United States,nan
+Sighetu Marmatiei,Romania,nan
+Haugesund,Norway,2527.67
+Sao Goncalo dos Campos,Brazil,nan
+Kailua,United States,5381.96
+Goryachiy Klyuch,Russia,nan
+Molndal,Sweden,nan
+Pahrump,United States,1345.49
+Frankston,Australia,nan
+Cisterna di Latina,Italy,nan
+Rock Island,United States,nan
+Evans,United States,nan
+Timbo,Brazil,1915.93
+Commack,United States,nan
+Mangalia,Romania,1284.49
+`Afrin,Syria,nan
+Porsgrunn,Norway,3253.77
+Pinerolo,Italy,2107.49
+Nuoro,Italy,nan
+Innisfil,Canada,7977.67
+Yorktown,United States,nan
+Cassino,Italy,1580.62
+Udhampur,India,793.2
+At Turrah,Jordan,nan
+Conegliano,Italy,nan
+Gillette,United States,nan
+Belluno,Italy,1106.43
+Tooele,United States,nan
+Prattville,United States,nan
+Prince Albert,Canada,nan
+Trebic,Czech Republic,nan
+Uster,Switzerland,nan
+Cha-am,Thailand,nan
+Angra do Heroismo,Portugal,5671.21
+Auxerre,France,nan
+Crema,Italy,nan
+Gorizia,Italy,1369.87
+Trinec,Czech Republic,nan
+Tienen,Belgium,2634.36
+Campbell River,Canada,3442.36
+Azazga,Algeria,nan
+New City,United States,nan
+Owings Mills,United States,nan
+La Porte,United States,nan
+Armacao dos Buzios,Brazil,nan
+Odorheiu Secuiesc,Romania,nan
+Victoria,Chile,nan
+Sint-Pieters-Leeuw,Belgium,6322.47
+DeLand,United States,nan
+Merrillville,United States,nan
+Dupnitsa,Bulgaria,365.77
+Crailsheim,Germany,nan
+Zweibrucken,Germany,nan
+Bugojno,Bosnia And Herzegovina,nan
+Kopavogur,Iceland,4606.66
+Pullman,United States,nan
+Nacogdoches,United States,nan
+North Ridgeville,United States,nan
+Gladstone,Australia,nan
+Znojmo,Czech Republic,nan
+Russellville,United States,nan
+Grass Valley,United States,nan
+Victoria Falls,Zimbabwe,nan
+Spruce Grove,Canada,nan
+Kennesaw,United States,nan
+Laramie,United States,2690.98
+Moose Jaw,Canada,nan
+Fairborn,United States,nan
+Cottonwood Heights,United States,nan
+Mason,United States,1829.86
+Geraardsbergen,Belgium,3161.24
+Galesburg,United States,nan
+Penticton,Canada,5421.72
+San Dimas,United States,nan
+Mildura,Australia,nan
+Midlothian,United States,nan
+Bad Nauheim,Germany,nan
+Alamogordo,United States,1184.03
+Kolin,Czech Republic,2814.94
+Pikesville,United States,nan
+Kohtla-Jarve,Estonia,nan
+Greer,United States,nan
+Zgorzelec,Poland,nan
+Springville,United States,nan
+Mazarron,Spain,nan
+Liptovsky Mikulas,Slovakia,5321.41
+Bardejov,Slovakia,1580.62
+Fairmont,United States,nan
+Ridgecrest,United States,nan
+Concon,Chile,1358.23
+Redcliff,Zimbabwe,nan
+Geraldton,Australia,3879.04
+Grodzisk Mazowiecki,Poland,2186.14
+Spanaway,United States,nan
+Rethymno,Greece,2283.11
+Starkville,United States,3884.37
+Louvain-la-Neuve,Belgium,nan
+Levice,Slovakia,1475.24
+Dumfries,United Kingdom,1845
+Princeton,United States,4291.21
+Godollo,Hungary,1508.37
+Bethel Park,United States,nan
+Smithfield,United States,nan
+East Lake,United States,nan
+Coos Bay,United States,nan
+Clearfield,United States,nan
+Martinsville,United States,nan
+San Giuliano Terme,Italy,nan
+Zepce,Bosnia And Herzegovina,1236.35
+Waterloo,Belgium,nan
+Tongeren,Belgium,3688.11
+South Riding,United States,nan
+Shepparton,Australia,1698.95
+Skelleftea,Sweden,3357.16
+Lloydminster,Canada,nan
+Key West,United States,7742.84
+Kahului,United States,4305.56
+Ostuni,Italy,nan
+Lushnje,Albania,nan
+Lagos,Portugal,3517.33
+Orillia,Canada,nan
+Eldersburg,United States,nan
+Balatan,Philippines,nan
+Warrnambool,Australia,nan
+Nicholasville,United States,nan
+Lawrenceville,United States,1076.39
+Orangeville,Canada,nan
+Treviglio,Italy,2002.12
+Fort Erie,Canada,nan
+Kerrville,United States,nan
+Victoria,Argentina,nan
+Mont-de-Marsan,France,2845.11
+Crown Point,United States,nan
+Lakeside,United States,nan
+Aarschot,Belgium,nan
+Fuquay-Varina,United States,nan
+Holladay,United States,nan
+Upper Merion,United States,nan
+Budaors,Hungary,2378.26
+Los Gatos,United States,nan
+Bra,Italy,nan
+Saratoga,United States,6919.66
+Canosa di Puglia,Italy,nan
+Arlon,Belgium,2985.61
+Svendborg,Denmark,2858.65
+Fortuna Foothills,United States,nan
+Tequisquiapan,Mexico,1804.91
+Rota,Spain,2642.79
+Bourgoin-Jallieu,France,5268.73
+Baglung,Nepal,nan
+Winona,United States,nan
+Landsberg,Germany,7903.09
+Orlova,Czech Republic,nan
+Kiskunfelegyhaza,Hungary,nan
+East Fishkill,United States,nan
+Ornskoldsvik,Sweden,nan
+SeaTac,United States,nan
+Krotoszyn,Poland,nan
+Niles,United States,nan
+Big Spring,United States,nan
+Hafnarfjordhur,Iceland,4429.48
+Morrisville,United States,2906.26
+Herentals,Belgium,3043.22
+Plattsburgh,United States,nan
+Vittorio Veneto,Italy,nan
+Silvassa,India,nan
+Gyongyos,Hungary,nan
+Dubasari,Moldova,nan
+Lucenec,Slovakia,804.75
+Lillehammer,Norway,8220.06
+Sept-Iles,Canada,nan
+West Springfield,United States,nan
+Jeffrey's Bay,South Africa,nan
+Bermejo,Bolivia,nan
+Ajka,Hungary,1285.55
+Esztergom,Hungary,nan
+Monterey,United States,nan
+Capljina,Bosnia And Herzegovina,nan
+Peniche,Portugal,nan
+Stratford-upon-Avon,United Kingdom,9225
+Sonora,United States,nan
+Yukon,United States,nan
+Chios,Greece,1054.8
+Kriens,Switzerland,nan
+Kholmsk,Russia,3200
+Wisconsin Rapids,United States,nan
+San Martin de los Andes,Argentina,2500
+New Smyrna Beach,United States,nan
+Veendam,Netherlands,nan
+Maloyaroslavets,Russia,1200
+East Chicago,United States,nan
+Zakopane,Poland,nan
+Mirano,Italy,nan
+Pitogo,Philippines,nan
+Kongsberg,Norway,nan
+Morgan City,United States,nan
+Ramsey,United States,6458.35
+Rambouillet,France,3998.96
+Canon City,United States,nan
+Tortona,Italy,nan
+Queensbury,United States,nan
+Porto Calvo,Brazil,1264.51
+Sandanski,Bulgaria,641.18
+Fidenza,Italy,nan
+Caboolture,Australia,nan
+Prior Lake,United States,nan
+Maple Valley,United States,1345.49
+Wangen im Allgau,Germany,6322.47
+Dodge City,United States,nan
+McHenry,United States,nan
+Falconara Marittima,Italy,nan
+Coffs Harbour,Australia,nan
+Ruzomberok,Slovakia,1390.94
+Waterville,United States,4553.13
+Shelby,United States,1399.31
+Iglesias,Italy,nan
+Hermanus,South Africa,nan
+Ocean,United States,nan
+Waynesboro,United States,nan
+Segezha,Russia,nan
+Az Zabadani,Syria,nan
+Thomasville,United States,nan
+Cesenatico,Italy,nan
+Samokov,Bulgaria,nan
+Marquette,United States,nan
+Karoi,Zimbabwe,nan
+Sedalia,United States,nan
+Batavia,United States,nan
+Frauenfeld,Switzerland,8013.38
+Bad Honnef am Rhein,Germany,5268.73
+Cabot,United States,1614.59
+Neenah,United States,nan
+Lake City,United States,3229.17
+Almunecar,Spain,1814.79
+Uherske Hradiste,Czech Republic,3374.17
+Pfaffenhofen,Germany,6849.34
+Boone,United States,6189.25
+Mizdah,Libya,nan
+Northport,United States,nan
+Friedrichsdorf,Germany,nan
+Caluquembe,Angola,nan
+Marmara Ereglisi,Turkey,nan
+Novelda,Spain,nan
+Rock Springs,United States,nan
+Busselton,Australia,nan
+Marshfield,United States,nan
+Luleburgaz,Turkey,nan
+Saintes,France,nan
+Pooler,United States,nan
+Siofok,Hungary,1799.76
+Courtenay,Canada,3589.95
+Edgewood,United States,nan
+Sevierville,United States,3767.37
+Samtredia,Georgia,nan
+Hudson,United States,nan
+Salamanca,Chile,nan
+Bainbridge Island,United States,5920.15
+Koscierzyna,Poland,nan
+Edwardsville,United States,nan
+Frederikshavn,Denmark,nan
+Whitehorse,Canada,nan
+Wolfsberg,Austria,nan
+Yucca Valley,United States,nan
+Branson,United States,nan
+Trebisov,Slovakia,1369.87
+Wyandotte,United States,nan
+Zarautz,Spain,nan
+Lincoln,Argentina,nan
+Cadca,Slovakia,1844.05
+Arad,Israel,nan
+Kernersville,United States,nan
+Larvik,Norway,nan
+Emporia,United States,nan
+Dubnica nad Vahom,Slovakia,937.83
+Pyrgos,Greece,nan
+Ellensburg,United States,nan
+Chantilly,United States,nan
+Ottumwa,United States,nan
+Ponca City,United States,nan
+Sun City Center,United States,nan
+Simpsonville,United States,nan
+Bad Mergentheim,Germany,nan
+Taupo,New Zealand,nan
+Fort Saskatchewan,Canada,nan
+Ventimiglia,Italy,2318.24
+North Platte,United States,nan
+Husum,Germany,nan
+Litvinov,Czech Republic,nan
+Fairfax,United States,6754.35
+Wadsworth,United States,nan
+Cranford,United States,nan
+Kalach-na-Donu,Russia,1960
+Alice Springs,Australia,1432.55
+Fort Dodge,United States,nan
+Svishtov,Bulgaria,522.52
+Loon op Zand,Netherlands,4214.98
+Novy Jicin,Czech Republic,2500.35
+Luninyets,Belarus,nan
+Palatka,United States,nan
+Lupeni,Romania,1380.83
+Waycross,United States,1076.39
+Herzogenaurach,Germany,nan
+Acton,United States,3767.37
+San Ignacio de Velasco,Bolivia,nan
+Frascati,Italy,6322.47
+San Rafael del Sur,Nicaragua,nan
+Zion,United States,nan
+Montrose,United States,nan
+Dunajska Streda,Slovakia,1209.7
+Qiryat Shemona,Israel,nan
+Vranov nad Topl'ou,Slovakia,1369.87
+Devonport,Australia,nan
+Kilkis,Greece,843
+Dickinson,United States,nan
+Komlo,Hungary,nan
+Plainsboro,United States,753.47
+Willoughby,United States,613.54
+Albufeira,Portugal,2423.61
+Goulburn,Australia,nan
+Saint-Louis,France,nan
+Gallup,United States,1291.67
+Acworth,United States,1367.02
+Barnegat,United States,nan
+Sondrio,Italy,2107.49
+Braidwood,United States,nan
+Meadville,United States,1420.84
+Ariano Irpino,Italy,nan
+East Peoria,United States,2152.78
+Fort Walton Beach,United States,nan
+Christiansburg,United States,nan
+South Ockendon,United Kingdom,3690
+Warrensburg,United States,nan
+Pakala,India,594.9
+Sequim,United States,nan
+Vega Baja,Puerto Rico,nan
+Hlohovec,Slovakia,1475.24
+Yoqne`am `Illit,Israel,nan
+Trinidad,Uruguay,nan
+Katy,United States,1345.49
+Montecatini Terme,Italy,1580.62
+Perrysburg,United States,nan
+Lewistown,United States,nan
+Baie-Comeau,Canada,nan
+Livadeia,Greece,nan
+Somers,United States,nan
+Puerto Natales,Chile,1584.61
+Schramberg,Germany,3673.36
+Jindrichuv Hradec,Czech Republic,nan
+Prudnik,Poland,743.74
+Cugir,Romania,nan
+Colleferro,Italy,nan
+Masterton,New Zealand,1603.5
+Hays,United States,nan
+Gross-Umstadt,Germany,nan
+Varadero,Cuba,nan
+Carei,Romania,1055.66
+Palmer,United States,nan
+Owosso,United States,nan
+East Ridge,United States,nan
+Bonney Lake,United States,nan
+Bahia de Caraquez,Ecuador,nan
+Kill Devil Hills,United States,nan
+Sao Vicente Ferrer,Brazil,957.96
+Kremenets,Ukraine,nan
+Suwanee,United States,nan
+Green Valley,United States,nan
+Feltre,Italy,2107.49
+Dixon,United States,nan
+Elvas,Portugal,nan
+Cittadella,Italy,nan
+Botevgrad,Bulgaria,nan
+Nove Mesto nad Vahom,Slovakia,nan
+Havelock,United States,nan
+Lake Ronkonkoma,United States,nan
+Yorkville,United States,nan
+Baden,Switzerland,13462.47
+Gjovik,Norway,nan
+Annaberg-Buchholz,Germany,nan
+The Dalles,United States,nan
+Albertville,France,1896.74
+Orvieto,Italy,nan
+Agoura Hills,United States,4144.11
+Rocky Hill,United States,nan
+Ypsilanti,United States,nan
+Fort St. John,Canada,nan
+Pleasantville,United States,nan
+Kuysinjaq,Iraq,342.58
+Ceglie Messapico,Italy,nan
+Corner Brook,Canada,nan
+Ziar nad Hronom,Slovakia,nan
+Dharmsala,India,nan
+Keszthely,Hungary,nan
+Malacky,Slovakia,1685.99
+Sint-Gillis-Waas,Belgium,4017.93
+Yellowknife,Canada,nan
+Tullahoma,United States,nan
+Aradippou,Cyprus,nan
+Buckeburg,Germany,nan
+Squamish,Canada,nan
+Vila Real de Santo Antonio,Portugal,2634.36
+Riviere-du-Loup,Canada,nan
+Cobourg,Canada,nan
+Bourbonnais,United States,nan
+Kralupy nad Vltavou,Czech Republic,nan
+Sheridan,United States,4305.56
+Durant,United States,nan
+Torrox,Spain,nan
+Corning,United States,1399.31
+Zatec,Czech Republic,nan
+Pinole,United States,nan
+Cranbrook,Canada,nan
+Dadeldhura,Nepal,nan
+Tiffin,United States,1506.95
+Akureyri,Iceland,3307.35
+Preveza,Greece,nan
+Rawa Mazowiecka,Poland,2028.37
+Banovce nad Bebravou,Slovakia,1053.75
+Westborough,United States,nan
+Wodonga,Australia,nan
+Montceau-les-Mines,France,nan
+McAlester,United States,nan
+Arroio do Meio,Brazil,nan
+Fushe-Kruje,Albania,nan
+Domodossola,Italy,nan
+Capua,Italy,1264.49
+West Whiteland,United States,nan
+Moultrie,United States,nan
+Lynden,United States,2787.85
+Al Hawiyah,Saudi Arabia,nan
+Otrokovice,Czech Republic,nan
+Hopkins,United States,nan
+Crawfordsville,United States,nan
+Muhradah,Syria,nan
+Sorrento,Italy,nan
+Beaver Dam,United States,nan
+Macomb,United States,nan
+Ocean Springs,United States,936.46
+Wailuku,United States,7534.74
+Salmon Arm,Canada,nan
+Albert Lea,United States,1076.39
+Kirksville,United States,nan
+Neerpelt,Belgium,nan
+Clemson,United States,nan
+Vero Beach,United States,nan
+Martinsburg,United States,nan
+Doylestown,United States,nan
+Pendleton,United States,nan
+Willimantic,United States,nan
+Mohacs,Hungary,nan
+Albemarle,United States,nan
+Yelm,United States,nan
+Giaveno,Italy,nan
+Mountain Home,United States,nan
+Southbridge,United States,nan
+Midland,Canada,nan
+Bemidji,United States,nan
+Truckee,United States,13812.47
+Uhersky Brod,Czech Republic,12977.57
+New Port Richey,United States,nan
+Roznov pod Radhostem,Czech Republic,nan
+Auburndale,United States,nan
+Centre de Flacq,Mauritius,nan
+Norcross,United States,nan
+Swift Current,Canada,nan
+Keflavik,Iceland,2764
+Langenthal,Switzerland,nan
+Feilding,New Zealand,nan
+Kisvarda,Hungary,nan
+Differdange,Luxembourg,8956.83
+Kings Park,United States,nan
+Chai Prakan,Thailand,1468.82
+Yorkton,Canada,nan
+Fallon,United States,nan
+Conyers,United States,nan
+Udayagiri,India,nan
+Stuart,United States,nan
+Csongrad,Hungary,nan
+San Martino Buon Albergo,Italy,737.62
+Ivdel,Russia,nan
+Nymburk,Czech Republic,nan
+Wilmington Island,United States,nan
+Kalocsa,Hungary,nan
+Finale Emilia,Italy,nan
+Baia-Sprie,Romania,nan
+Kuala Lipis,Malaysia,539.73
+Elkton,United States,nan
+South Fayette,United States,1643.11
+Buford,United States,1399.31
+Lake Geneva,United States,nan
+Forfar,United Kingdom,nan
+Budakeszi,Hungary,nan
+Mendrisio,Switzerland,9616.05
+Grosse Pointe Woods,United States,nan
+Bradley,United States,nan
+Paralimni,Cyprus,nan
+Meilen,Switzerland,20300.56
+Great Bend,United States,nan
+Horta,Portugal,nan
+Susanville,United States,nan
+Tehachapi,United States,1076.39
+Astoria,United States,nan
+Podebrady,Czech Republic,nan
+Alpine,United States,nan
+Yankton,United States,nan
+Comox,Canada,nan
+Summerside,Canada,nan
+California,United States,nan
+Hartsville,United States,nan
+Port Lincoln,Australia,nan
+Cuevas del Almanzora,Spain,nan
+Nafplio,Greece,2107.49
+Vatra Dornei,Romania,nan
+Rovinj,Croatia,3624.16
+Taglio,Italy,1053.75
+Rincon,United States,nan
+New Paltz,United States,nan
+Nafpaktos,Greece,nan
+Narvik,Norway,nan
+Villacidro,Italy,nan
+Greensburg,United States,nan
+Wixom,United States,nan
+Effingham,United States,nan
+Canmore,Canada,4987.32
+Big Rapids,United States,1345.49
+Fulshear,United States,nan
+Baraboo,United States,nan
+Fergus Falls,United States,nan
+Uzwil,Switzerland,nan
+Middlesex,United States,nan
+Brevard,United States,nan
+Saint-Martin-de-Crau,France,nan
+Drobak,Norway,7877.49
+Alpena,United States,nan
+Roudnice nad Labem,Czech Republic,1785.07
+Elizabethton,United States,nan
+Jensen Beach,United States,nan
+Bollnas,Sweden,nan
+Varazze,Italy,5795.6
+South Park Township,United States,nan
+Cesky Krumlov,Czech Republic,nan
+Moss Point,United States,nan
+Berkeley Heights,United States,nan
+Richton Park,United States,nan
+Woodinville,United States,4843.76
+Bolintin Vale,Romania,1284.49
+Affoltern am Albis,Switzerland,nan
+Baker,United States,nan
+Banos,Ecuador,nan
+Powell River,Canada,3988.83
+Aberystwyth,United Kingdom,2460
+Lipari,Italy,nan
+Vocklabruck,Austria,nan
+Voerendaal,Netherlands,nan
+Spearfish,United States,2271.19
+Truro,Canada,nan
+Muswellbrook,Australia,nan
+Gorazde,Bosnia And Herzegovina,779.44
+Lienz,Austria,nan
+Te Awamutu,New Zealand,1579.77
+Stradella,Italy,nan
+Zupanja,Croatia,nan
+Prince Rupert,Canada,nan
+Nova Gradiska,Croatia,nan
+Webb City,United States,nan
+Nova Dubnica,Slovakia,nan
+Union Park,United States,nan
+Koszeg,Hungary,nan
+Moncks Corner,United States,nan
+Killarney,Ireland,5906.89
+Myjava,Slovakia,nan
+Whistler,Canada,nan
+Cadillac,United States,nan
+Tomball,United States,nan
+Kruje,Albania,450.55
+Svidnik,Slovakia,nan
+Hexham,United Kingdom,1230
+Putnam Valley,United States,nan
+Siniscola,Italy,nan
+Ciechocinek,Poland,nan
+Melito di Porto Salvo,Italy,nan
+Cholpon-Ata,Kyrgyzstan,nan
+Nembro,Italy,nan
+Brattleboro,United States,nan
+Crikvenica,Croatia,nan
+Egersund,Norway,nan
+Gympie,Australia,nan
+Alatyr,Russia,nan
+Tega Cay,United States,nan
+Fil'akovo,Slovakia,737.62
+Ganga Sagar,India,nan
+Corleone,Italy,nan
+Hormigueros,Puerto Rico,nan
+Bertinoro,Italy,nan
+Satellite Beach,United States,nan
+Lexington Park,United States,nan
+Bowral,Australia,5436.64
+Nowra,Australia,nan
+Munagapaka,India,5948.99
+Los Corrales de Buelna,Spain,2528.99
+Villiersdorp,South Africa,nan
+Serris,France,nan
+Erlenbach am Main,Germany,7144.39
+Caernarfon,United Kingdom,nan
+Winnemucca,United States,nan
+Williams Lake,Canada,nan
+Aigle,Switzerland,27107.76
+Gig Harbor,United States,3821.19
+Mudgee,Australia,nan
+Castrolibero,Italy,nan
+Ketchikan,United States,2185.07
+Spa,Belgium,nan
+Borjomi,Georgia,nan
+Cape Canaveral,United States,nan
+Alcaudete,Spain,nan
+Bedford Heights,United States,nan
+Lachen,Switzerland,nan
+Hamilton,Australia,nan
+Ballina,Australia,nan
+Lanskroun,Czech Republic,nan
+Ainring,Germany,nan
+Sechelt,Canada,nan
+Bucine,Italy,nan
+Waynesville,United States,nan
+Lysa nad Labem,Czech Republic,3028.1
+Tipp City,United States,nan
+Rudesheim am Rhein,Germany,nan
+Divonne-les-Bains,France,6111.72
+Portland,Australia,nan
+Santa Margherita Ligure,Italy,nan
+Warrenton,United States,2556.43
+Porto Rafti,Greece,1264.49
+Csorna,Hungary,1684.06
+River Grove,United States,nan
+Cody,United States,968.75
+Tweed Heads,Australia,nan
+North Bend,United States,nan
+Moe,Australia,nan
+Gebze,Turkey,438.27
+Palomares del Rio,Spain,3688.11
+East Rutherford,United States,nan
+Farsund,Norway,3082.52
+Chevy Chase,United States,nan
+Capriate San Gervasio,Italy,nan
+Wakefield-Peacedale,United States,nan
+Airway Heights,United States,6070.85
+Farsala,Greece,nan
+Manistee,United States,nan
+Bay Minette,United States,nan
+Gramsh,Albania,nan
+Birch Bay,United States,nan
+Paszto,Hungary,nan
+Beckett Ridge,United States,nan
+Katoomba,Australia,nan
+Bernolakovo,Slovakia,3161.24
+Khoni,Georgia,nan
+Presque Isle,United States,nan
+Mechanicsburg,United States,1851.39
+Sellersburg,United States,1399.31
+Gilgit,Pakistan,2235.14
+Kodiak,United States,nan
+Deniliquin,Australia,nan
+Rhinelander,United States,nan
+Dunafoldvar,Hungary,nan
+Visp,Switzerland,nan
+Sitka,United States,1098
+Nallacheruvu,India,nan
+Gaylord,United States,nan
+Petoskey,United States,2421.88
+Collie,Australia,nan
+Ellsworth,United States,nan
+Port Jefferson,United States,nan
+Vandenberg Village,United States,nan
+Monument,United States,nan
+Margaret River,Australia,nan
+Gurjaani,Georgia,nan
+Castlegar,Canada,nan
+Menominee,United States,nan
+Seasalter,United Kingdom,nan
+Nasice,Croatia,1814.78
+Downingtown,United States,2690.98
+Banff,Canada,5301.28
+DeFuniak Springs,United States,nan
+Forsyth,United States,nan
+Fort Scott,United States,nan
+Treherbert,United Kingdom,nan
+Pukalani,United States,7900.71
+Bilovec,Czech Republic,1189.61
+Yreka,United States,nan
+Atlantida,Uruguay,nan
+Ojai,United States,nan
+Nyergesujfalu,Hungary,nan
+Llandudno Junction,United Kingdom,nan
+Cherukuru,India,307.04
+Le Roy,United States,nan
+North Springfield,United States,nan
+Baywood,United States,nan
+Moab,United States,nan
+Lihue,United States,7168.76
+Gorebridge,United Kingdom,nan
+Nuriootpa,Australia,nan
+Buzias,Romania,nan
+Peace River,Canada,nan
+Haag in Oberbayern,Germany,nan
+Fowler,United States,nan
+Elakkurichchi,India,nan
+Lehliu-Gara,Romania,nan
+Karavadi,India,nan
+Livigno,Italy,nan
+Parry Sound,Canada,nan
+Manavgat,Turkey,nan
+Mnisek pod Brdy,Czech Republic,nan
+Stone Mountain,United States,nan
+North East,United States,nan
+Huntington Woods,United States,nan
+Biasca,Switzerland,nan
+Chelan,United States,2906.15
+Thoiry,France,nan
+Pontotoc,United States,nan
+Richmond,Australia,nan
+Brownville,United States,5651.05
+Munchwilen,Switzerland,5876.48
+Amalfi,Italy,6322.47
+Fayence,France,nan
+Ouro Verde de Minas,Brazil,nan
+Pagosa Springs,United States,nan
+Murovani Kurylivtsi,Ukraine,237.97
+Cortina d'Ampezzo,Italy,nan
+Buochs,Switzerland,nan
+Hilton,United States,1345.49
+Flanders,United States,nan
+Wrightsville,United States,nan
+La Ronge,Canada,nan
+Waihi,New Zealand,nan
+Levanto,Italy,nan
+Jaszladany,Hungary,nan
+Seferhisar,Turkey,1287.98
+Bulverde,United States,nan
+Iola,United States,nan
+Mackay,Australia,11213.06
+Flin Flon,Canada,nan
+Broome,Australia,nan
+Port Hedland,Australia,nan
+Tirupati,India,661
+Port Douglas,Australia,nan
+Rockhampton,Australia,5097.49
+Scottsdale,Australia,nan
+Queenstown,Australia,nan
+Egilsstadhir,Iceland,2019.84
+Peterborough,Australia,nan
+Georgetown,Australia,nan
+Ixtapa Zihuatanejo,Mexico,nan
+Iqaluit,Canada,nan
+Neiafu,Tonga,nan

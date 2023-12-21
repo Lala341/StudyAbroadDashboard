@@ -1,0 +1,55 @@
+/* Style for the chart container and selectors */
+#container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the bar chart */
+.bar {
+  fill: steelblue;
+}
+
+/* Hide the path for the axis */
+.axis--x path {
+  display: none;
+}
+
+.axis--y .domain {
+  display: none;
+}
+
+/* Style for the chart title */
+#chartTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Style for the chart description */
+#chartDescription {
+  font-size: 16px;
+  margin: 10px 0 20px 0;
+}
+
+/* Style for selectors */
+#selectors {
+  margin-bottom: 20px;
+}
+
+/* Ensure the selectors and labels are aligned nicely */
+#selectors label, #selectors select {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Style for the labels on top of the bars */
+.label {
+  fill: black; /* Default color, but this will be dynamically changed in script.js */
+  font-size: 12px;
+}
+
+/* Style for the axis labels */
+.axis-label {
+  font-size: 16px;
+  font-weight: bold;
+}
