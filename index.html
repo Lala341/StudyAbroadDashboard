@@ -9,8 +9,8 @@
   <!-- Add Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="font-sans">
- <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+<body class="font-montserrat">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
     <div  class="ml-10 mt-10">
       <label for="topNSelector" class="mr-2">Top N:</label>
       <select id="topNSelector" class="border p-1">
@@ -170,13 +170,13 @@
       data.sort((a, b) => a.world_rank - b.world_rank);
 
       // Take the top N rows based on the sorted order
-      var filteredData = data.slice(0, topN);
+      const filteredData = data.slice(0, topN);
 
       drawChart(filteredData); // Call drawChart after loading the data
 
 
-      filteredData = data.slice(0, 10);
-      drawParallelCoordinates(filteredData);
+      const filteredData2 = data.slice(0, 10);
+      drawParallelCoordinates(filteredData2);
 
 
 
@@ -537,8 +537,8 @@ function removeSelectedUniversity(rowId) {
       drawChart(filteredData);
 
       //parallelCoordinatesSvg.selectAll("*").remove();
-      filteredData = data.slice(0, 10);
-      drawParallelCoordinates(filteredData);
+      const filteredData2 = data.slice(0, 10);
+      drawParallelCoordinates(filteredData2);
 
 
 
@@ -550,7 +550,7 @@ function removeSelectedUniversity(rowId) {
       const topN = +document.getElementById("topNSelector").value;
       data.sort((a, b) => a.world_rank - b.world_rank);
 
-      var filteredData = data.slice(0, topN);
+      const filteredData = data.slice(0, topN);
 
       // svg.selectAll("*").remove();
       // parallelCoordinatesSvg.selectAll("*").remove();
@@ -563,8 +563,8 @@ function removeSelectedUniversity(rowId) {
         const selectedData = selectedUniversities.map(item => item.universityData);
         drawParallelCoordinates(selectedData);
       } else {
-        filteredData = data.slice(0, 10);
-        drawParallelCoordinates(filteredData);
+        const filteredData2 = data.slice(0, 10);
+      drawParallelCoordinates(filteredData2);
       }
     }
 
