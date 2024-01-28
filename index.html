@@ -36,6 +36,11 @@
       <div class="graph-title mt-10">
         <h2>Europe's University Rankings</h2>
         <p>Take a look at university rankings across Europe. Our visualization lets you examine universities in different countries. Hover over points to see the university's name, ranking, and even its location on Google Maps. Click on points to select universities for a side-by-side comparison.</p>
+     
+        <p style="font-size: 11px;">The data used in this visualization is sourced from the World University Rankings 2023 dataset [1] and the map data is sourced from OpenStreetMap and OpenCage Geocoding API [2].</p>
+        <p style="font-size: 11px;">[1]: "World University Rankings 2023", Times Higher Education. <a href="https://www.timeshighereducation.com/world-university-rankings/2023/world-ranking" target="_blank">Access here</a>.</p></p>
+        <p style="font-size: 11px;">[2]: "OpenCage Geocoding API", OpenCage Data. <a href="https://opencagedata.com/api" target="_blank">Access here</a>.</p></p>
+     
       </div>
     </div>
 
@@ -50,7 +55,12 @@
 
     <div class="graph-title mb-10">
       <h2>Compare Universities</h2>
-      <p>Choose and compare universities easily with our Parallel Coordinates. Using data from World University Rankings 2016, you can compare scores like Citation, Research, and Teaching. The parallel coordinates feature lets you compare multiple universities at once. Adjust your view to understand what each university does best.</p>
+      <p>Choose and compare universities easily with our Parallel Coordinates. Using data from World University Rankings 2016 [1], you can compare scores like Citation, Research, and Teaching. The parallel coordinates feature lets you compare multiple universities at once. Adjust your view to understand what each university does best.</p>
+      <p style="font-size: 11px;">[1]: "World University Rankings 2023", Times Higher Education. <a href="https://www.timeshighereducation.com/world-university-rankings/2023/world-ranking" target="_blank">Access here</a>.</p></p>
+       
+      
+      
+    
     </div>
 
 
@@ -276,7 +286,8 @@ function removeSelectedUniversity(rowId) {
 function showMapInTooltip(latitude, longitude, tooltip) {
   const mapContainer = document.createElement("div");
   mapContainer.id = "mapContainer";
-  mapContainer.style.width = "200px";
+  mapContainer.style.margin = "20px";
+  mapContainer.style.width = "400px";
   mapContainer.style.height = "200px";
 
   tooltip.node().appendChild(mapContainer);
