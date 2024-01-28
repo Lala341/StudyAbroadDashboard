@@ -1,340 +1,575 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>Inequality in Education</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
-<link
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
-  rel="stylesheet" />
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
-<script src="https://cdn.tailwindcss.com/3.3.0"></script>
-<script>
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      fontFamily: {
-        sans: ["Roboto", "sans-serif"],
-        body: ["Roboto", "sans-serif"],
-        mono: ["ui-monospace", "monospace"],
-      },
-    },
-    corePlugins: {
-      preflight: false,
-    },
-  };
-</script>
-	<link rel="stylesheet" type="text/css" href="./style.css">
-	<link rel="stylesheet" type="text/css" href="./indexmap/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Rankings Scatter Plot with Country Grid</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <!-- Add Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-
-	<div class="flex items-center justify-center max-w-full p-10">
-
-		<div class="max-w-full p-10 bg-white rounded shadow-lg w-[80%] relative">
-			<!-- Section 1 -->
-			<div id="graph1" class="section-content">
-				<h1 class="text-4xl font-bold mb-2">Unlock Your Potential: Study Abroad.</h1>
-				<!-- Content for Section 1 -->
-
-	
-				<div >
-					<div class="flex items-center justify-center h-full">
-						<h1 class="text-2xl font-bold mt-2 mb-2 ">Which Countries Offer the Best University Education?</h1>
-
-					</div>
-
-						<div class="text-[0.8rem]">
-							<p>This interactive world map visualizes the global education quality index. The higher the quality, the larger the index. Each country 
-								is colored based on its education index value, providing a clear comparison of educational standards around the world. 
-								Countries not included in the dataset are displayed in gray. Hover over a country to see its name and specific education 
-								index value.</p>
-					</div>
-				
-
-	
-   
-	
-	
-				</div>
-				<svg id="world-map"></svg>
-			</div>
-	
-			<!-- Section 2 -->
-			<div id="graph2" class="section-content hidden">
-				<div class="flex items-center justify-center h-full">
-					<h1 class="text-2xl font-bold mt-2 mb-2 "> Where Do Universities Stand Globally? </h1>
+<body class="font-sans">
+ <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+    <div  class="ml-10 mt-10">
+      <label for="topNSelector" class="mr-2">Top N:</label>
+      <select id="topNSelector" class="border p-1">
+        <option value="10" selected>10</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="200">200</option>
+        <option value="300">300</option>
+        <option value="400">400</option>
+        <option value="500">500</option>
+        <option value="600">600</option>
+        <option value="700">700</option>
+        <option value="800">800</option>
+      </select>
+      <button onclick="updateChart()" class="bg-blue-500 text-white p-2 ml-2">Filter</button>
 
 
-				</div><div class="flex items-center justify-center h-full">
-					
-					<h1 class="text-lg font-bold mb-2 "> Find Your Ideal Study Destination!</h1>
+      <div class="graph-title mt-10">
+        <h2>Europe's University Rankings</h2>
+        <p>Take a look at university rankings across Europe. Our visualization lets you examine universities in different countries. Hover over points to see the university's name, ranking, and even its location on Google Maps. Click on points to select universities for a side-by-side comparison.</p>
+      </div>
+    </div>
 
-				</div><!-- Content for Section 2 -->
-				<div id="map-title" class="map-title text-xs">University Ranking [Times Higher Education World University Ranking] </div>
-	<p></p>
-        <div class="grid grid-cols-4 gap-4 p-2 mb-4">
-            <div class="col-span-1">
-                <label for="startNumber" class="block text-sm font-medium text-gray-700">Start Number</label>
-                <input type="range" id="startNumber" name="startNumber" min="1" max="200" step="1" value="1"
-                       class="mt-1 range-input">
-                <span class="ml-2" id="startNumberValue">1</span>
-            </div>
-            <div class="col-span-1">
-                <label for="nomUniv" class="block text-sm font-medium text-gray-700">Number of Universities</label>
-            <input type="range" id="nomUniv" name="nomUniv" min="5" max="20" step="1" value="10"
-                   class="mt-1 range-input">
-            <span class="ml-2" id="nomUnivValue">10</span>
-            </div>
+    <!-- Empty div as a placeholder for the second row on smaller screens -->
+    <div class="md:hidden"></div>
+
+    <div id="chart" class="mt-4"></div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+  <div class="p-4">
+
+    <div class="graph-title mb-10">
+      <h2>Compare Universities</h2>
+      <p>Choose and compare universities easily with our Parallel Coordinates. Using data from World University Rankings 2016, you can compare scores like Citation, Research, and Teaching. The parallel coordinates feature lets you compare multiple universities at once. Adjust your view to understand what each university does best.</p>
+    </div>
 
 
-            
-        </div>
-    
-        <!-- Number of Universities Range Slider -->
-        <div class="pl-5 mb-4">
-            
-        </div>
-    <svg id="world-map2"></svg>
-				
-			</div>
-	
-			<!-- Section 3 -->
-			<div id="graph3" class="section-content hidden">
-				<div class="flex items-center justify-center h-full">
-					<h1 class="text-2xl font-bold mt-2 mb-2 "> Unlocking Educational Excellence: Which Countries Shine in PISA Results for Your Study Abroad Journey?</h1>
+    <label class="block mb-2">Select columns to compare:</label>
+    <div class="mb-2">
+      <input type="checkbox" id="teachingCheckbox" checked class="mr-2">
+      <label for="teachingCheckbox">Teaching</label>
+    </div>
+    <div class="mb-2">
+      <input type="checkbox" id="internationalCheckbox" checked class="mr-2">
+      <label for="internationalCheckbox">International</label>
+    </div>
+    <div class="mb-2">
+      <input type="checkbox" id="researchCheckbox" checked class="mr-2">
+      <label for="researchCheckbox">Research</label>
+    </div>
+    <div class="mb-2">
+      <input type="checkbox" id="citationsCheckbox" checked class="mr-2">
+      <label for="citationsCheckbox">Citations</label>
+    </div>
+    <div class="mb-2">
+      <input type="checkbox" id="incomeCheckbox" checked class="mr-2">
+      <label for="incomeCheckbox">Income</label>
+    </div>
+    <div class="mb-2">
+      <input type="checkbox" id="total_scoreCheckbox" checked class="mr-2">
+      <label for="total_scoreCheckbox">Total Score</label>
+    </div>
+    <!-- Repeat the structure for other checkboxes -->
+    <button onclick="updateChartAndParallelCoordinates()" class="bg-blue-500 text-white p-2">FilterParallel</button>
+  
 
-				</div>
-				
-				<!-- Content for Section 3 -->
-				<div>
-					<div class="container mt-2">
-						<div class="row">
-							
-							<div class="col-md-12 col-ms-12">
-								<p class="responsive-svg-container" style="text-align:center">
-									PISA Results
-								</p>
-								<div>
-									
-									
-									<div class="flex">
-									<label for="dataYear" class="form-label flex-1">Field: </label>
-	
-									<select class="form-select flex-1" id="dataField" onchange="updateRadarChart()">
-										<option value="m">Mathematics</option>
-										<option value="r">Reading</option>
-										<option value="s">Science</option>
-	
-									</select>
-	
-	
-									<label for="dataYear" class="form-label flex-1">Type: </label>
-	
-									<select class="form-select flex-1" id="dataType" onchange="updateRadarChart()">
-										<option value="m">Percentage</option>
-										<option value="no">No Students</option>
-	
-									</select>
-	
-									<label class="form-check-label flex-1">Select Level:</label>
-									<div class="form-check flex-1">
-										<input class="form-check-input" type="checkbox" id="Level1Checkbox" checked
-											onchange="updateRadarChart()">
-										<label class="form-check-label" for="Level1Checkbox">Level 1 (Lowest) </label>
-									</div>
-									<div class="form-check flex-1">
-										<input class="form-check-input" type="checkbox" id="Level2Checkbox" checked
-											onchange="updateRadarChart()">
-										<label class="form-check-label" for="Level2Checkbox">Level 2</label>
-									</div>
-									<div class="form-check flex-1">
-										<input class="form-check-input" type="checkbox" id="Level3Checkbox" checked
-											onchange="updateRadarChart()">
-										<label class="form-check-label" for="Level3Checkbox">Level 3</label>
-									</div>
-									<div class="form-check flex-1">
-										<input class="form-check-input" type="checkbox" id="Level4Checkbox" checked
-											onchange="updateRadarChart()">
-										<label class="form-check-label" for="Level4Checkbox">Level 4 (Highest)</label>
-									</div>
-								</div>
-								</div>
-							</div>
-							<div class="col-md-12 col-ms-12">
-								<div id="radar" class="responsive-svg-container"></div>
-							</div>
-	
-	
-							<div>
-								<div class="controlpaneltwo" id="information">
-									<div class="definitions mt-2">
-										<div>
-											<h2>Information</h2>
-											<h6>PISA </h6>
-											<br/>
-											<p>
-												PISA assesses global educational systems, measuring performance
-												in math, science, and reading.
-												[<a href="https://www.datocms-assets.com/41369/1611507907-about-wide.pdf"
-													target="_blank">source</a>]
-	
-											</p>
-											<br/>
-											<h6>Definition </h6>
-											<br/>
-											<p> Percentage or number of children taking part in a reading / mathematics / science assessment
-												passing four proficiency levels of increasing difficulty. </p>
-	
-											<div id="tabledefinition" class="responsive-svg-container"></div>
-											<br/>
-											<h6>Educational Level </h6>
-											<p> End of lower secondary </p>
-	
-										</div>
-	
-										<div>
-											<br/>
-											<h6>Data source: WIDE (2023) </h6>
-											<p>
-												The World Inequality Database on Education (WIDE) is a platform consolidating data from
-												global surveys. Operating in over 170 countries, WIDE enables users to compare educational
-												outcomes globally and within nations, considering factors like wealth, gender, ethnicity,
-												and location that contribute to inequality.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-	
-						</div>
-	
-					</div>
-	
-	
-				</div>
-			</div>
-	
-			<!-- Section 4 -->
-			<div id="graph4" class="section-content hidden">
-				<div class="flex items-center justify-center h-full">
-					<h1 class="text-2xl font-bold mt-2 mb-2 ">  Which Places Offer the Most Affordable and Comfortable Living Abroad?</h1>
 
-				</div>
-				<div >
-					
-					<p id="chartDescription" class="text-xs mb-2"> Select a country to display the corresponding data. Use the other selectors to adjust the number of cities shown and the sorting order. <br/> Cost of Living: Price per Square Meter to Buy Apartment in City Centre (USD).</p>
-					
-					<div id="selectors mt-4">
-						<label for="countrySelector">Select Country:</label>
-						<select id="countrySelector"></select>
-			
-						<label for="topKSelector">Select Number of Cities:</label>
-						<select id="topKSelector">
-							<option value="5">Top 5</option>
-							<option value="10">Top 10</option>
-							<option value="15">Top 15</option>
-							<option value="20">Top 20</option>
-							<!-- Add more options as needed -->
-						</select>
-			
-						<label for="sortOrderSelector">Sort Order:</label>
-						<select id="sortOrderSelector">
-							<option value="lowest">Lowest Prices</option>
-							<option value="highest">Highest Prices</option>
-						</select>
-					</div>
-					<svg width="960" height="600" id="cost"></svg> <!-- SVG container for the D3 visualization -->
 
-				</div>
-			</div>
-	
-			<!-- Section 5 -->
-			<div id="graph5" class="section-content hidden">
-				<div class="flex items-center justify-center h-full">
-					<div class="flex-1">
-						<div id="visualization-container"></div>
+    <div class="mt-4">
+      <table class="border-collapse border border-blue-500 w-full">
+        <thead>
+          <tr class="bg-blue-500 text-white">
+            <th class="p-2">University Name</th>
+            <th class="p-2">Actions</th>
+          </tr>
+        </thead>
+        <tbody id="selectedUniversities"></tbody>
+      </table>
+    </div>
+  
+  
+  </div>
 
-					</div>
-					<div class="flex-1">
-						<h1 class="text-4xl font-bold mb-4">Still not sure about choosing a program abroad?</h1>
-						
-						<h6 class="text-2xl">Benefits of studying abroad. <br/> According Europa EU</h6>
+ 
+  <div id="parallel-coordinates" class="parallel-coordinates mt-4"></div>
 
-					</div>
-				</div>
-				<!-- Content for Section 5 -->
-
-			</div>
-	
-			
-		</div>
-	<!-- Navigation Buttons -->
-	<div class="absolute bottom-2 right-2 flex">
-		<button onclick="changeSection('next')" class="nav-button bg-dark text-white p-2 rounded-full mr-2">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-				 class="h-6 w-6 transform rotate-270">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-					  d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-			</svg>
-		</button>
-		<button onclick="changeSection('prev')" class="nav-button bg-dark text-white p-2 rounded-full mr-2">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-				 class="h-6 w-6 transform rotate-0">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-					  d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-			</svg>
-		</button>
-		<button onclick="scrollToInformation()"  class="nav-button bg-dark text-white p-2 rounded-full">
-			Information
-		</button>
-	</div>
-	</div>
-
-	  <script>
-		let currentSection = 1;
-	
-		function scrollToInformation() {
-        const informationElement = document.getElementById('information');
-        if (informationElement) {
-            informationElement.scrollIntoView({ behavior: 'smooth' });
-        }
+</div>
+  <style>
+    .tooltip {
+      position: absolute;
+      padding: 10px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
     }
-		function changeSection(direction) {
-			// Hide all sections
-			document.querySelectorAll('.section-content').forEach(function (el) {
-				el.classList.add('hidden');
-			});
-	
-			// Update current section based on the direction
-			if (direction === 'next') {
-				currentSection = Math.min(currentSection + 1, 5);
-			} else if (direction === 'prev') {
-				currentSection = Math.max(currentSection - 1, 1);
-			}
-	
-			// Show the selected section
-			document.getElementById('graph' + currentSection).classList.remove('hidden');
-		}
-	</script>
 
 
-	<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-	<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
-<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-	<script src="script.js"></script>
-	<script src="learningmap/script.js"></script>
-	<script src="indexmap/script.js"></script>
-	<script src="ranking/script.js"></script>
-	<script src="costLiving/script.js"></script>
-	<script src="stats/script.js"></script>
+    .parallel-coordinates {
+      margin-top: 20px;
+    }
 
+    
+
+    .remove-button {
+      cursor: pointer;
+      color: red;
+      margin-left: 10px;
+    }
+    .graph-title h2 {
+      font-weight: bold;
+    }
+
+    .graph-title p {
+      margin-top: 10px;
+      font-size: 16px; /* Adjust font size as needed */
+    }
+  </style>
+
+  <script>
+    // Define dimensions
+    const width = 1000;
+    const height = 1000;
+    const gridPadding = 50;  // Padding between grid cells
+    var selectedUniversities = [];
+
+
+
+    // Append SVG
+    const svg = d3.select("#chart")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
+
+    const parallelCoordinatesWidth = 900;
+
+    const parallelCoordinatesHeight = 500;
+
+    var parallelCoordinatesSvg = d3.select("#parallel-coordinates");
+
+
+    var data = [];
+
+    // Load CSV data
+    d3.csv("your_data.csv").then(function (csvData) {
+      data = csvData;
+      const groupedData = d3.group(csvData, d => d.university_name);
+
+      const uniqueUniversities = Array.from(groupedData, ([, universities]) => universities[0]);
+
+      data = uniqueUniversities;
+
+      const topN = +document.getElementById("topNSelector").value; // Get the selected top N value
+      data.sort((a, b) => a.world_rank - b.world_rank);
+
+      // Take the top N rows based on the sorted order
+      var filteredData = data.slice(0, topN);
+
+      drawChart(filteredData); // Call drawChart after loading the data
+
+
+      filteredData = data.slice(0, 10);
+      drawParallelCoordinates(filteredData);
+
+
+
+      // const selectedUniversitieshtml = document.getElementById("selectedUniversities");
+      //   const listItem = document.createElement("li");
+      //  listItem.id = `descriptions`;
+
+      // Create a span to hold the university name
+      //  const universityNameSpan = document.createElement("span");
+      //  universityNameSpan.textContent = 'Selected Universities:';
+      //  listItem.appendChild(universityNameSpan);
+
+      //  selectedUniversitieshtml.appendChild(listItem);
+
+
+    });
+
+// Function to add selected university to the list
+function addSelectedUniversity(universityData, i) {
+  const selectedUniversitiesTable = document.getElementById("selectedUniversities");
+  const rowId = `selected_${universityData.university_name}`;
+  
+  const row = selectedUniversitiesTable.insertRow();
+  row.id = rowId; // Set a unique identifier for the row
+
+  const cellName = row.insertCell(0);
+  cellName.textContent = universityData.university_name;
+
+  const cellActions = row.insertCell(1);
+  const deleteButton = document.createElement("button");
+  deleteButton.textContent = "Remove";
+  deleteButton.classList.add("bg-red-500", "text-white", "p-1", "ml-2");
+  deleteButton.addEventListener("click", function () {
+    const dot = d3.select(`circle[data-id="${universityData.university_name}"]`);
+    dot.classed("selected", false)
+      .attr("fill", d => d3.rgb(10, 255 - i * 30, 255 - i * 20))
+      .attr("data-id", null);
+
+    removeSelectedUniversity(rowId); // Pass the row identifier
+
+    // UpdateChartAndParallelCoordinates is now called outside the if block
+    updateChartAndParallelCoordinates();
+  });
+
+  cellActions.appendChild(deleteButton);
+
+  selectedUniversities.push({ universityData, i, rowId });
+
+  updateChartAndParallelCoordinates();
+}
+
+// Function to remove selected university from the list
+function removeSelectedUniversity(rowId) {
+  // Remove the universityData from the selectedUniversities array
+  selectedUniversities = selectedUniversities.filter(item => item.rowId !== rowId);
+
+  // Find the row corresponding to the rowId and remove it
+  const row = document.getElementById(rowId);
+  if (row) {
+    row.remove(); // Remove the row
+  }
+}
+
+    // Function to check if a university is already selected
+    function isUniversitySelected(universityData) {
+
+      return selectedUniversities.some(item => item.universityData.university_name === universityData.university_name);
+    }
+
+    function handleDotClick(universityData, i) {
+      const dot = d3.select(this);
+
+      if (!isUniversitySelected(universityData)) {
+        // Dot is not selected, mark it as selected
+        dot.classed("selected", true)
+          .attr("fill", "green")
+          .attr("data-id", universityData.university_name); // Set a data-id attribute with the index i
+        addSelectedUniversity(universityData, i);
+      } else {
+        // Dot is already selected, unselect it
+        dot.classed("selected", false)
+          .attr("fill", d => d3.rgb(10, 255 - i * 30, 255 - i * 20))
+          .attr("data-id", null); // Remove the data-id attribute
+          const selectedUniversity = selectedUniversities.find(item => item.universityData.university_name === universityData.university_name);
+    if (selectedUniversity) {
+      removeSelectedUniversity(selectedUniversity.rowId);
+    }
+      }
+    }
+
+
+
+    function drawChart(data) {
+      // Define scales
+
+      // Group data by country
+      const groupedData = d3.group(data, d => d.country);
+
+      // Create a grid layout for countries
+      const countries = Array.from(groupedData.keys());
+      const gridCols = 5;  // Number of columns in the grid
+      const gridRows = Math.ceil(countries.length / gridCols);  // Calculate the number of rows
+
+      // Calculate cell dimensions
+      const cellWidth = (width - (gridCols - 1) * gridPadding) / gridCols;
+      const cellHeight = 120;//(((height - (gridRows - 1) * gridPadding) )/ gridRows)+50;
+
+      const group = svg.append("g")
+        .attr("transform", "translate(" + (100) + "," + (-100) + ")")
+
+      const numpitch = 40;
+      const tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .attr("id", "tooltip");
+      // Create array of objects with normalizedQuery and avgCount
+      const datosa = Array.from(groupedData).map(([normalizedQuery, universities]) => ({
+        normalizedQuery,
+        universities: universities,
+        avgCount: universities.length
+      }));
+      const datos = datosa.sort((a, b) => b.avgCount - a.avgCount);
+
+      for (let i = 0; i < datos.length; i++) {
+        const row = Math.floor(i / gridCols);
+        const col = i % gridCols;
+
+        const dots = group.append("g")
+          .attr("transform", function () {
+            return "translate(" + (numpitch + 120 * col) + "," + (cellHeight * row) + ")rotate(0)";
+          });
+
+        const balls = datos[i].avgCount;
+        const brack = 10;
+        const filas = balls / brack;
+        const enteros = Math.ceil(balls / brack) - 1;
+        const resto = (filas - enteros) * 10;
+
+        if (resto >= 0) {
+          for (let lev = 0; lev < enteros; lev++) {
+            for (let k = 1; k <= brack; k++) {
+              const universityData = datos[i].universities[brack * lev + k - 1];
+              const isSelected = selectedUniversities.some(selected => selected.i === i);
+
+              dots.append("circle")
+                .attr("cx", k * 10)
+                .attr("cy", 300 - lev * 10)
+                .attr("r", 4)
+                .attr("opacity", 1)
+                .attr("fill", isSelected ? "green" : d3.rgb(10, 255 - i * 30, 255 - i * 20))
+                .on("mousedown", function () {
+                  handleDotClick.call(this, universityData, i);
+                })
+                .on("mouseover", function () {
+                  const tooltipContent = `
+                  University: ${universityData.university_name}<br>
+                  Rank: ${universityData.world_rank}<br>
+                  Country: ${universityData.country}<br>
+                  Teaching: ${universityData.teaching}<br>
+                  International: ${universityData.international}<br>
+                `;
+                  tooltip.html(tooltipContent)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px")
+                    .style("opacity", 1);
+                })
+                .on("mouseout", function () {
+                  tooltip.style("opacity", 0);
+                });
+            }
+          }
+
+          for (let r = 1; r <= resto; r++) {
+            const universityData = datos[i].universities[brack * enteros + r - 1];
+            const isSelected = selectedUniversities.some(selected => selected.i === i);
+
+            dots.append("circle")
+              .attr("cx", r * 10)
+              .attr("cy", 300 - (enteros) * 10)
+              .attr("r", 4)
+              .attr("opacity", 1)
+              .attr("fill", isSelected ? "green" : d3.rgb(10, 255 - i * 30, 255 - i * 20))
+              .on("mouseover", function () {
+
+                const tooltipContent = `
+                  University: ${universityData.university_name}<br>
+                  Rank: ${universityData.world_rank}<br>
+                  Country: ${universityData.country}<br>
+                  Teaching: ${universityData.teaching}<br>
+                  International: ${universityData.international}<br>
+                `;
+                tooltip.html(tooltipContent)
+                  .style("left", (event.pageX + 10) + "px")
+                  .style("top", (event.pageY - 10) + "px")
+                  .style("opacity", 1);
+              })
+              .on("mousedown", function () {
+                handleDotClick.call(this, universityData, i);
+              })
+              .on("mouseout", function () {
+                tooltip.style("opacity", 0);
+              });
+          }
+        }
+
+        dots.append("text")
+          .attr("x", 5)
+          .attr("y", 320)
+          .text(function (d) { return datos[i].avgCount; })
+          .attr("font-family", "Gill Sans, sans-serif")
+          .attr("font-size", 12)
+          .attr("text-anchor", "start")
+          .style("fill", "black");
+
+        const text = dots.append("text")
+          .attr("x", 5)
+          .attr("y", 335)
+          .attr("font-family", "Gill Sans, Century Gothic, sans-serif")
+          .attr("font-size", 12)
+          .attr("opacity", 1)
+          .style("fill", "black");
+
+        const nameWords = datos[i].normalizedQuery.toUpperCase().split(/\s+/);
+        const lineHeight = 1.1;
+        const dy = 12;
+
+        text.selectAll("tspan")
+          .data(nameWords)
+          .enter().append("tspan")
+          .attr("x", 5)
+          .attr("dy", (d, i) => i ? lineHeight + dy : 0)
+          .text(d => d);
+      }
+
+
+    }
+
+
+    function drawParallelCoordinates(data) {
+      function getUniversityDetailsHTML(d) {
+        return `
+      <strong>University:</strong> ${d.university_name}<br>
+      <strong>Teaching:</strong> ${d.teaching}<br>
+      <strong>International:</strong> ${d.international}<br>
+      <strong>Research:</strong> ${d.research}<br>
+      <strong>Citations:</strong> ${d.citations}<br>
+      <strong>Income:</strong> ${d.income}<br>
+      <strong>Total Score:</strong> ${d.total_score}<br>
+    `;
+      }
+      // Extract the list of columns from the data
+      // Extract the list of columns from the data
+      let columns = ['teaching', 'international', 'research', 'citations', 'income', 'total_score'];
+
+      // Get selected columns from checkboxes
+      columns = columns.filter(column => {
+        const checkbox = document.getElementById(`${column.toLowerCase()}Checkbox`);
+
+        return checkbox && checkbox.checked;
+      });
+
+
+      data = data.filter(d => columns.every(column => !isNaN(+d[column])));
+
+
+      parallelCoordinatesSvg = parallelCoordinatesSvg
+        .append("svg")
+        .attr("width", parallelCoordinatesWidth)
+        .attr("height", parallelCoordinatesHeight);
+
+      // Define margins
+      const margin = { top: 30, right: 40, bottom: 40, left: 40 };
+      const width = parallelCoordinatesWidth - margin.left - margin.right;
+      const height = parallelCoordinatesHeight - margin.top - margin.bottom;
+
+      const tooltip1 = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .attr("id", "tooltip1");
+      // Define scales for parallel coordinates with margins
+      const xScale = d3.scalePoint()
+        .domain(columns)
+        .range([0, width]);
+
+      const yScale = {};
+
+      columns.forEach(column => {
+        yScale[column] = d3.scaleLinear()
+          .domain(d3.extent(data, d => +d[column]))
+          .range([height, 0]);
+      });
+      parallelCoordinatesSvg.append("g")
+        .attr("class", "axis-labels")
+        .attr("transform", `translate(${margin.left}, ${margin.top - 10})`)
+        .selectAll(".axis-label")
+        .data(columns)
+        .enter().append("text")
+        .attr("class", "axis-label")
+        .attr("x", d => xScale(d))
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .text(d => d);
+
+
+      // Add axes
+      const parallelCoordinatesAxes = parallelCoordinatesSvg.append("g")
+        .attr("class", "axes")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+        .selectAll(".axis")
+        .data(columns)
+        .enter().append("g")
+        .attr("class", "axis")
+        .attr("transform", d => `translate(${xScale(d)}, 0)`)
+        .each(function (d) { d3.select(this).call(d3.axisLeft(yScale[d])); });
+      const parallelCoordinatesLines = parallelCoordinatesSvg.append("g")
+        .attr("transform", `translate(${margin.left}, ${margin.top})`)
+        .selectAll(".line")
+        .data(data)
+        .enter().append("path")
+        .attr("class", "line")
+        .attr("d", d => d3.line()(columns.map(column => [xScale(column), yScale[column](d[column])])))
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-width", 2)
+        .on("mouseover", function (event, d) {
+          // Show tooltip on mouseover
+          tooltip1.html(getUniversityDetailsHTML(d))
+            .style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 10) + "px")
+            .style("opacity", 1);
+          d3.select(this).attr("stroke", "orange").attr("stroke-width", 4);
+
+        })
+        .on("mouseout", function () {
+          // Hide tooltip on mouseout
+          tooltip1.style("opacity", 0);
+          d3.select(this).attr("stroke", "steelblue").attr("stroke-width", 2);
+
+        })
+        .on("mousemove", function (event, d) {
+          // Update tooltip position on mousemove
+          tooltip1.style("left", (event.pageX + 10) + "px")
+            .style("top", (event.pageY - 10) + "px");
+        });
+    }
+
+
+
+    function updateChart() {
+      const topN = +document.getElementById("topNSelector").value;
+      data.sort((a, b) => a.world_rank - b.world_rank);
+
+      const filteredData = data.slice(0, topN);
+
+      svg.selectAll("*").remove();
+      parallelCoordinatesSvg.selectAll("*").remove();
+
+      selectedUniversities.forEach(item => removeSelectedUniversity(item.universityData, item.i));
+
+      drawChart(filteredData);
+
+      //parallelCoordinatesSvg.selectAll("*").remove();
+      filteredData = data.slice(0, 10);
+      drawParallelCoordinates(filteredData);
+
+
+
+    }
+
+
+    function updateChartAndParallelCoordinates() {
+      console.log();
+      const topN = +document.getElementById("topNSelector").value;
+      data.sort((a, b) => a.world_rank - b.world_rank);
+
+      var filteredData = data.slice(0, topN);
+
+      // svg.selectAll("*").remove();
+      // parallelCoordinatesSvg.selectAll("*").remove();
+
+      // drawChart(filteredData);
+      // Inside updateChartAndParallelCoordinates function
+      parallelCoordinatesSvg.selectAll("*").remove();
+
+      if (selectedUniversities.length > 0) {
+        const selectedData = selectedUniversities.map(item => item.universityData);
+        drawParallelCoordinates(selectedData);
+      } else {
+        filteredData = data.slice(0, 10);
+        drawParallelCoordinates(filteredData);
+      }
+    }
+
+
+  </script>
 </body>
 
 </html>
