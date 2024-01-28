@@ -8,15 +8,20 @@
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <!-- Add Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Add Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<!-- Add Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
 </head>
 <body class="font-montserrat">
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
     <div  class="ml-10 mt-10">
       <label for="topNSelector" class="mr-2">Top N:</label>
       <select id="topNSelector" class="border p-1">
-        <option value="10" selected>10</option>
+        <option value="10" >10</option>
         <option value="50">50</option>
-        <option value="100">100</option>
+        <option value="100" selected>100</option>
         <option value="200">200</option>
         <option value="300">300</option>
         <option value="400">400</option>
@@ -158,7 +163,7 @@
     var data = [];
 
     // Load CSV data
-    d3.csv("your_data.csv").then(function (csvData) {
+    d3.csv("finalnewdata.csv").then(function (csvData) {
       data = csvData;
       const groupedData = d3.group(csvData, d => d.university_name);
 
@@ -267,7 +272,31 @@ function removeSelectedUniversity(rowId) {
       }
     }
 
+// Function to show map in the tooltip
+function showMapInTooltip(latitude, longitude, tooltip) {
+  const mapContainer = document.createElement("div");
+  mapContainer.id = "mapContainer";
+  mapContainer.style.width = "200px";
+  mapContainer.style.height = "200px";
 
+  tooltip.node().appendChild(mapContainer);
+
+  const map = L.map(mapContainer).setView([latitude, longitude], 17);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  L.marker([latitude, longitude]).addTo(map);
+}
+
+// Function to hide map in the tooltip
+function hideMapInTooltip() {
+  const mapContainer = document.getElementById("mapContainer");
+  if (mapContainer) {
+    mapContainer.remove();
+  }
+}
 
     function drawChart(data) {
       // Define scales
@@ -341,9 +370,15 @@ function removeSelectedUniversity(rowId) {
                     .style("left", (event.pageX + 10) + "px")
                     .style("top", (event.pageY - 10) + "px")
                     .style("opacity", 1);
+
+                    showMapInTooltip(universityData.latitude, universityData.longitude, tooltip);
+
                 })
                 .on("mouseout", function () {
                   tooltip.style("opacity", 0);
+
+                  hideMapInTooltip();
+
                 });
             }
           }
@@ -418,12 +453,15 @@ function removeSelectedUniversity(rowId) {
       function getUniversityDetailsHTML(d) {
         return `
       <strong>University:</strong> ${d.university_name}<br>
+
       <strong>Teaching:</strong> ${d.teaching}<br>
       <strong>International:</strong> ${d.international}<br>
       <strong>Research:</strong> ${d.research}<br>
       <strong>Citations:</strong> ${d.citations}<br>
       <strong>Income:</strong> ${d.income}<br>
       <strong>Total Score:</strong> ${d.total_score}<br>
+      <strong>Rank:</strong> ${d.world_rank}<br>
+
     `;
       }
       // Extract the list of columns from the data
@@ -439,6 +477,19 @@ function removeSelectedUniversity(rowId) {
 
 
       data = data.filter(d => columns.every(column => !isNaN(+d[column])));
+
+      
+
+// Get minimum values for each column
+const minValues = {};
+columns.forEach(column => {
+  minValues[column] = d3.min(data, d => +d[column]);
+});
+
+// Get the global minimum value
+const globalMinValue = d3.min(Object.values(minValues));
+
+
 
 
       parallelCoordinatesSvg = parallelCoordinatesSvg
@@ -463,9 +514,12 @@ function removeSelectedUniversity(rowId) {
 
       columns.forEach(column => {
         yScale[column] = d3.scaleLinear()
-          .domain(d3.extent(data, d => +d[column]))
+          .domain([globalMinValue, 100])  // Set a fixed range from 0 to 100 for all columns
           .range([height, 0]);
       });
+      const colorScale = d3.scaleSequential(d3.interpolateBlues)
+    .domain([data.length, 1]); // Reverse the domain to make lower ranks more prominent
+
       parallelCoordinatesSvg.append("g")
         .attr("class", "axis-labels")
         .attr("transform", `translate(${margin.left}, ${margin.top - 10})`)
@@ -477,6 +531,7 @@ function removeSelectedUniversity(rowId) {
         .attr("y", 0)
         .attr("text-anchor", "middle")
         .text(d => d);
+
 
 
       // Add axes
@@ -497,7 +552,7 @@ function removeSelectedUniversity(rowId) {
         .attr("class", "line")
         .attr("d", d => d3.line()(columns.map(column => [xScale(column), yScale[column](d[column])])))
         .attr("fill", "none")
-        .attr("stroke", "steelblue")
+        .attr("stroke", (d, i) => colorScale(i + 1))
         .attr("stroke-width", 2)
         .on("mouseover", function (event, d) {
           // Show tooltip on mouseover
@@ -505,13 +560,20 @@ function removeSelectedUniversity(rowId) {
             .style("left", (event.pageX + 10) + "px")
             .style("top", (event.pageY - 10) + "px")
             .style("opacity", 1);
-          d3.select(this).attr("stroke", "orange").attr("stroke-width", 4);
+            const initialColor = colorScale(data.indexOf(d)+ 1);
+
+          d3.select(this).attr("stroke", "orange").attr("stroke-width", 4).attr("data-initial-color", initialColor);
+;
 
         })
-        .on("mouseout", function () {
+        .on("mouseout", function (event, d) {
           // Hide tooltip on mouseout
-          tooltip1.style("opacity", 0);
-          d3.select(this).attr("stroke", "steelblue").attr("stroke-width", 2);
+          const line = d3.select(this);
+  tooltip1.style("opacity", 0);
+  // Get the initial color based on the world rank
+  const initialColor = line.attr("data-initial-color");
+
+          d3.select(this).attr("stroke", initialColor).attr("stroke-width", 2);
 
         })
         .on("mousemove", function (event, d) {
