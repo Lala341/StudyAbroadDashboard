@@ -42,8 +42,9 @@ const colorBarsvgMap = d3.select("#map-container").append("svg")
   .attr("width", colorBarwidthMap + colorBarMargin.left + colorBarMargin.right)
   .attr("height", colorBarheightMap + colorBarMargin.top + colorBarMargin.bottom)
   .style("position", "absolute")
+  .style("top", "2050px") 
   .style("right", "0px") // This will align it to the right edge of the map-container
-  .style("top", `${colorBarMargin.top}px`)
+  //.style("top", `${colorBarMargin.top}px`)
   .append("g")
   .attr("transform", "translate(" + colorBarMargin.left + "," + colorBarMargin.top + ")");
 
