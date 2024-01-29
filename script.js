@@ -1,46 +1,43 @@
-// Set dimensions and margins for the map
 const widthMap = 1400;
 const heightMap = 700;
 
-// Append the svgMap object to the map container
 const svgMap = d3.select("#map-container")
   .append("svg")
   .attr("width", widthMap)
   .attr("height", heightMap);
 
-// Map and projection
 const projection = d3.geoMercator()
-  .center([-15, 55]) // Centered on Europe
-  .scale(700) // Adjusted scale for Europe
+  .center([-15, 55]) 
+  .scale(700) 
   .translate([widthMap / 2, heightMap / 2]);
 
 
 const tooltip = d3.select("body").append("div")
   .attr("class", "tooltip")
   .style("opacity", 0)
-  .style("position", "absolute") // Important for correct positioning
+  .style("position", "absolute") 
   .style("font-size", "14px")
   .style("color", "#000")
   .style("background-color", "white")
   .style("padding", "5px")
   .style("border", "1px solid #000")
   .style("border-radius", "5px")
-  .style("pointer-events", "none") // Make sure it doesn't interfere with other mouse events
-  .style("opacity", 0) // Start it off invisible
-  .style("transition", "opacity 0.2s"); // Smooth transition for the tooltip
+  .style("pointer-events", "none") 
+  .style("opacity", 0)
+  .style("transition", "opacity 0.2s"); 
 
 
-const colorBarwidthMap = 20; // widthMap of the color bar
-const colorBarheightMap = 300; // heightMap of the color bar
-const colorBarMargin = { top: 200, right: 60, bottom: 40, left: 40 }; // Margins for the color bar
-const numStops = 10; // Number of stops in the gradient, you can increase this for a smoother gradient
+const colorBarwidthMap = 20; 
+const colorBarheightMap = 300;
+const colorBarMargin = { top: 200, right: 60, bottom: 40, left: 40 };
+const numStops = 10; 
 
 const colorBarsvgMap = d3.select("#map-container").append("svg")
   .attr("width", colorBarwidthMap + colorBarMargin.left + colorBarMargin.right)
   .attr("height", colorBarheightMap + colorBarMargin.top + colorBarMargin.bottom)
   .style("position", "absolute")
   .style("top", "2050px")
-  .style("right", "0px") // This will align it to the right edge of the map-container
+  .style("right", "0px") 
   //.style("top", `${colorBarMargin.top}px`)
   .append("g")
   .attr("transform", "translate(" + colorBarMargin.left + "," + colorBarMargin.top + ")");
@@ -48,39 +45,29 @@ const colorBarsvgMap = d3.select("#map-container").append("svg")
 
 
 
-// Load external data and boot
 d3.json("filtered_countries.geojson").then(function (data) {
-  // Draw the map
   const countries = svgMap.append("g")
     .selectAll("path")
     .data(data.features)
     .enter()
     .append("path")
-    // draw each country
     .attr("d", d3.geoPath().projection(projection))
-    // set the initial color of each country
     .attr("fill", "#cccccc")
     .attr("id", d => d.properties.ISO_A3)
 
-  // Load mobility data
   d3.csv("Cleaned_Mobility.csv").then(function (mobilityData) {
-    // Extract unique "From" countries for the dropdown
     const fromCountries = Array.from(new Set(mobilityData.map(d => d.From_Country)));
-    fromCountries.sort(); // Sort alphabetically
+    fromCountries.sort(); 
 
     const maxStudentValue = d3.max(mobilityData, d => {
-      return d.Value ? +d.Value : 0; // Convert to number and handle undefined
+      return d.Value ? +d.Value : 0; 
     });
 
-    // Define a color scale for representing student numbers
     const colorScale = d3.scaleLinear()
-      .domain([0, maxStudentValue]) // assuming 'Value' is the student numbers
-      .range(["#ffffff", "#377eb8"]); // light color for low values, dark color for high values
+      .domain([0, maxStudentValue]) 
+      .range(["#ffffff", "#377eb8"]); 
 
 
-
-
-    // Populate dropdown
     d3.select("#country-select")
       .selectAll('option')
       .data(fromCountries)
@@ -99,7 +86,6 @@ d3.json("filtered_countries.geojson").then(function (data) {
 
       const mobilityFromSelectedCountry = mobilityData.filter(d => d.From === selectedCountryCode);
 
-      // Recalculate the color scale domain based on the filtered data for the selected country
       const studentValues = mobilityFromSelectedCountry.map(d => +d.Value).filter(Boolean);
 
       const minStudentValue = studentValues.length > 0 ? d3.min(studentValues) : 0;
@@ -108,10 +94,7 @@ d3.json("filtered_countries.geojson").then(function (data) {
 
       colorScale.domain(colorDomain);
 
-      //console.log(colorScale)
-
-      // ... Inside your dropdown change event handler after updating color scale domain
-      const defs = colorBarsvgMap.append("defs");
+       const defs = colorBarsvgMap.append("defs");
       const linearGradient = defs.append("linearGradient")
         .attr("id", "gradient-color-bar")
         .attr("x1", "0%").attr("y1", "100%")
@@ -131,10 +114,8 @@ d3.json("filtered_countries.geojson").then(function (data) {
         .attr("offset", d => d.offset)
         .attr("stop-color", d => d.color);
 
-      // Remove old color bar before drawing a new one
       colorBarsvgMap.selectAll(".color-bar-rect").remove();
 
-      // Append the color bar only once, not inside the selection change handler
       colorBarsvgMap.append("rect")
         .attr("class", "color-bar-rect")
         .attr("x", 0)
@@ -147,7 +128,7 @@ d3.json("filtered_countries.geojson").then(function (data) {
 
 
       const yAxisScale = d3.scaleLinear()
-        .domain([minStudentValue, maxStudentValue]) // Use the dynamically calculated min and max values
+        .domain([minStudentValue, maxStudentValue]) 
         .range([colorBarheightMap, 0]);
 
       // console.log(minStudentValue)
@@ -164,9 +145,7 @@ d3.json("filtered_countries.geojson").then(function (data) {
 
 
 
-      // Reset all countries to the initial color, except for the selected "From" country
       countries.attr("fill", function (d) {
-        //console.log(d)
         const countryCode = d.properties.ISO_A3;
         const mobilityRecord = mobilityFromSelectedCountry.find(m => m.To === countryCode);
         return mobilityRecord ? colorScale(mobilityRecord.Value) : "#cccccc";
@@ -180,12 +159,12 @@ d3.json("filtered_countries.geojson").then(function (data) {
         const countryData = data.features.find(d => d.properties.ISO_A3 === countryCode);
         const countryName = countryData.properties.ADMIN;
         const mobility = mobilityFromSelectedCountry.find(m => m.To === countryCode);
-        const fromCountryCode = selectedCountryCode.toLowerCase(); // Assuming this is available in the scope
-        const fromCountryName = selectedCountry; // Adjust based on your data structure
+        const fromCountryCode = selectedCountryCode.toLowerCase(); 
+        const fromCountryName = selectedCountry; 
         const numberOfStudents = mobility ? mobility.Value : 0;
 
 
-        const fromCountryFlagPath = `gif/${fromCountryCode}.gif`; // Update with your actual path to the flags directory
+        const fromCountryFlagPath = `gif/${fromCountryCode}.gif`; 
         const destinationCountryFlagPath = `gif/${countryCode.toLowerCase()}.gif`;
 
         //console.log("PageX:", event.pageX, "PageY:", event.pageY);
@@ -224,31 +203,27 @@ d3.json("filtered_countries.geojson").then(function (data) {
 
       svgMap.selectAll(".arrow-path").remove();
 
-      // Color the selected country in red
       if (selectedCountryCode) {
         d3.select(`#${selectedCountryCode}`).attr("fill", "red");
       }
 
       function getCountryCentroid(countryCode) {
         if (countryCode === "FRA") {
-          return projection([2.2137, 46.2276]); // These coordinates are an example for mainland France
+          return projection([2.2137, 46.2276]); 
         } else {
           const countryFeature = data.features.find(d => d.properties.ISO_A3 === countryCode);
           return countryFeature ? projection(d3.geoCentroid(countryFeature)) : null;
         }
       }
 
-      // Define a scale for the arrow widthMaps
       const arrowwidthMapScale = d3.scaleLinear()
         .domain(d3.extent(mobilityData, d => d.Value))
-        .range([0.1, 0.5]); // Adjust the range based on what looks good on your map
+        .range([0.1, 0.5]); 
 
-      // Define a scale for the arrow marker sizes, similar to the arrowwidthMapScale
-      const arrowMarkerSizeScale = d3.scaleLinear()
+        const arrowMarkerSizeScale = d3.scaleLinear()
         .domain(d3.extent(mobilityData, d => d.Value))
-        .range([0.2, 0.8]); // Adjust the range min and max to suitable sizes for your smallest and largest arrows
-
-      // Update the colors of the destination countries
+        .range([0.2, 0.8]); 
+        
       mobilityFromSelectedCountry.forEach(mobility => {
         const fromCentroid = getCountryCentroid(selectedCountryCode);
         const toCentroid = getCountryCentroid(mobility.To);
@@ -259,7 +234,7 @@ d3.json("filtered_countries.geojson").then(function (data) {
 
         const markerSize = arrowMarkerSizeScale(value);
 
-        // Calculate the refX dynamically based on the stroke widthMap
+
         const refX = markerSize / 2 + strokewidthMap;
 
         if (destinationCountryCode !== selectedCountryCode) {
@@ -272,7 +247,7 @@ d3.json("filtered_countries.geojson").then(function (data) {
           const distance = Math.sqrt(dx * dx + dy * dy);
           const controlPoint = [
             (fromCentroid[0] + toCentroid[0]) / 2,
-            (fromCentroid[1] + toCentroid[1]) / 2 - distance * 0.2 // Adjust the 0.2 factor to control curvature
+            (fromCentroid[1] + toCentroid[1]) / 2 - distance * 0.2 
           ];
 
          
@@ -282,7 +257,7 @@ d3.json("filtered_countries.geojson").then(function (data) {
           svgMap.select("defs").append("marker")
             .attr("id", arrowId)
             .attr("viewBox", "0 -5 10 10")
-            .attr("refX", refX) // Position the arrowhead at the end of the line
+            .attr("refX", refX) 
             .attr("refY", 0)
             .attr("markerwidth", markerSize)
             .attr("markerheight", markerSize)

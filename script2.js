@@ -74,17 +74,15 @@ function addSelectedUniversity(universityData, i) {
   updateChartAndParallelCoordinates();
 }
 
-// Function to remove selected university from the list
 function removeSelectedUniversity(rowId) {
   selectedUniversities = selectedUniversities.filter(item => item.rowId !== rowId);
 
   const row = document.getElementById(rowId);
   if (row) {
-    row.remove(); // Remove the row
+    row.remove(); 
   }
 }
 
-// Function to check if a university is already selected
 function isUniversitySelected(universityData) {
 
   return selectedUniversities.some(item => item.universityData.university_name === universityData.university_name);
@@ -96,7 +94,7 @@ function handleDotClick(universityData, i) {
   if (!isUniversitySelected(universityData)) {
     dot.classed("selected", true)
       .attr("fill", "green")
-      .attr("data-id", universityData.university_name); // Set a data-id attribute with the index i
+      .attr("data-id", universityData.university_name); 
     addSelectedUniversity(universityData, i);
   } else {
     dot.classed("selected", false)
@@ -109,7 +107,6 @@ function handleDotClick(universityData, i) {
   }
 }
 
-// Function to show map in the tooltip
 function showMapInTooltip(latitude, longitude, tooltip) {
   const mapContainer = document.createElement("div");
   mapContainer.id = "mapContainer";
@@ -128,7 +125,6 @@ function showMapInTooltip(latitude, longitude, tooltip) {
   L.marker([latitude, longitude]).addTo(map);
 }
 
-// Function to hide map in the tooltip
 function hideMapInTooltip() {
   const mapContainer = document.getElementById("mapContainer");
   if (mapContainer) {
@@ -137,17 +133,12 @@ function hideMapInTooltip() {
 }
 
 function drawChart(data) {
-  // Define scales
-
-  // Group data by country
+  
   const groupedData = d3.group(data, d => d.country);
 
-  // Create a grid layout for countries
   const countries = Array.from(groupedData.keys());
-  const gridCols = 5;  // Number of columns in the grid
-  const gridRows = Math.ceil(countries.length / gridCols);  // Calculate the number of rows
-
-  // Calculate cell dimensions
+  const gridCols = 5; 
+  const gridRows = Math.ceil(countries.length / gridCols);  
   const cellWidth = (width - (gridCols - 1) * gridPadding) / gridCols;
   const cellHeight = 120;//(((height - (gridRows - 1) * gridPadding) )/ gridRows)+50;
 
@@ -158,7 +149,6 @@ function drawChart(data) {
   const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .attr("id", "tooltip");
-  // Create array of objects with normalizedQuery and avgCount
   const datosa = Array.from(groupedData).map(([normalizedQuery, universities]) => ({
     normalizedQuery,
     universities: universities,
@@ -313,10 +303,8 @@ function drawParallelCoordinates(data) {
 
  `;
   }
-  // Extract the list of columns from the data
   let columns = ['teaching', 'international', 'research', 'citations', 'income', 'total_score'];
 
-  // Get selected columns from checkboxes
   columns = columns.filter(column => {
     const checkbox = document.getElementById(`${column.toLowerCase()}Checkbox`);
 
@@ -332,7 +320,6 @@ function drawParallelCoordinates(data) {
     minValues[column] = d3.min(data, d => +d[column]);
   });
 
-  // Get the global minimum value
   const globalMinValue = d3.min(Object.values(minValues));
 
   parallelCoordinatesSvg = parallelCoordinatesSvg
@@ -340,7 +327,6 @@ function drawParallelCoordinates(data) {
     .attr("width", parallelCoordinatesWidth)
     .attr("height", parallelCoordinatesHeight);
 
-  // Define margins
   const margin = { top: 30, right: 40, bottom: 40, left: 40 };
   const width = parallelCoordinatesWidth - margin.left - margin.right;
   const height = parallelCoordinatesHeight - margin.top - margin.bottom;
@@ -348,7 +334,6 @@ function drawParallelCoordinates(data) {
   const tooltip1 = d3.select("body").append("div")
     .attr("class", "tooltip")
     .attr("id", "tooltip1");
-  // Define scales for parallel coordinates with margins
   const xScale = d3.scalePoint()
     .domain(columns)
     .range([0, width]);
@@ -397,7 +382,6 @@ function drawParallelCoordinates(data) {
     .attr("stroke", (d, i) => colorScale(i + 1))
     .attr("stroke-width", 2)
     .on("mouseover", function (event, d) {
-      // Show tooltip on mouseover
       tooltip1.html(getUniversityDetailsHTML(d))
         .style("left", (event.pageX + 10) + "px")
         .style("top", (event.pageY - 10) + "px")
@@ -409,7 +393,6 @@ function drawParallelCoordinates(data) {
 
     })
     .on("mouseout", function (event, d) {
-      // Hide tooltip on mouseout
       const line = d3.select(this);
       tooltip1.style("opacity", 0);
       const initialColor = line.attr("data-initial-color");
@@ -447,7 +430,6 @@ function updateChart() {
 
 
 function updateChartAndParallelCoordinates() {
-  console.log();
   const topN = +document.getElementById("topNSelector").value;
   data.sort((a, b) => a.world_rank - b.world_rank);
 
@@ -455,10 +437,28 @@ function updateChartAndParallelCoordinates() {
   parallelCoordinatesSvg.selectAll("*").remove();
 
   if (selectedUniversities.length > 0) {
-    const selectedData = selectedUniversities.map(item => item.universityData);
+    var selectedData = selectedUniversities.map(item => item.universityData);
+    selectedData.sort((a, b) => a.world_rank - b.world_rank);
+
     drawParallelCoordinates(selectedData);
+    getLink();
+
   } else {
     const filteredData2 = data.slice(0, 10);
     drawParallelCoordinates(filteredData2);
   }
 }
+
+function getLink() {
+
+  var linkfinal="https://www.european-funding-guide.eu/scholarship/abroad/United%20Kingdom";
+
+  if(selectedUniversities.length>0){
+    linkfinal = "https://www.european-funding-guide.eu/scholarship/abroad/"+encodeURIComponent(selectedUniversities[0].universityData.country);
+
+  }
+  document.getElementById("dynamicLink").href = linkfinal;
+}
+
+// Call the function to generate the dynamic href
+getLink();
