@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>University Rankings Scatter Plot with Country Grid</title>
   <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
   <!-- Add Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <!-- Add Leaflet CSS -->
@@ -15,6 +17,169 @@
 
 </head>
 <body class="font-montserrat">
+
+<div>
+
+<div class=" flex items-center mx-auto ">
+
+
+<div class="mt-10 text-center" >
+
+  <h1 class="m-10 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"><b>Study Abroad Program Exploration in <span class="text-blue-600 dark:text-blue-500">Europe</span> </b> </h1>
+
+    <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+		Welcome! This website aims to provide information for European students to do exchange programs or further study in other European countries. 
+	</p>
+
+	<p class="mt-10 font-normal text-gray-500 px-16 dark:text-gray-400">
+		Here is the detailed procedure of how to use our website, following the sequence of top to bottom:
+	</p>
+
+</div>
+</div>
+
+<div class="container grid grid-cols-4">
+  <!-- Card 1 -->
+  <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+     
+      <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+      </svg>
+      
+      <a href="#">
+          <h5 class="mb-4 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">1. Learn about Studying Abroad Trends</h5>
+      </a>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Explore general trends in studying abroad over recent years and understand the changing landscape.</p>
+     
+  </div>
+
+  <!-- Card 2 -->
+  <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <!-- Add content for the second card -->
+     
+    <svg  class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
+    </svg>
+    
+    <a href="#">
+        <h5 class="mb-4 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">2. Explore Student Mobility in Europe</h5>
+    </a>
+    <p class="text-base font-normal text-gray-500 dark:text-gray-400">Operate the map to learn about the student mobility situation in Europe. How many students move from one country to another?</p>
+   
+  </div>
+
+  <!-- Card 3 -->
+  <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <!-- Add content for the third card -->
+         
+      <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+      </svg>
+      
+
+      <a href="#">
+          <h5 class="mb-4 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">3. Compare Universities</h5>
+      </a>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Compare universities using scientific university ranking and scoring data. Campus environment comparison is also possible!</p>
+     
+  </div>
+
+  <!-- Card 4 -->
+  <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <!-- Add content for the fourth card -->
+        
+      <svg class="w-7 h-7 text-gray-500 dark:text-gray-400 mb-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+      </svg>
+      
+      <a href="#">
+          <h5 class="mb-4 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">4. Choose Your Ideal University</h5>
+      </a>
+      <p class="text-base font-normal text-gray-500 dark:text-gray-400">Choose your desired university based on your observation.</p>
+     
+  </div>
+</div>
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+    <div class="graph-title m-10 justify-center">
+
+  <p>Recent years, more and more European Students choose to study abroad. The data available suggests that there has been a significant movement of students within Europe for higher education. For instance, in 2021, a majority of the tertiary students from abroad in 15 of the EU Member States were from elsewhere in Europe, with the highest shares in Slovenia, Croatia, and Slovakia. The European Union has been cited as the world’s most popular destination for mobile students, as reported in the 2022 edition of Campus France's 'Key Figures', which aligns with the trend that almost 9 in 10 European students who studied abroad, chose to stay on the continent.  </p>
+
+      <div style="height: 50px;"></div>
+        <p style="font-size: 11px ;">[1] Key Figures on Student Mobility Worldwide, Campus France. <a href="https://ressources.campusfrance.org/publications/chiffres_cles/en/synthese_chiffres_cles_2022_en.pdf">Access Here</a></p>
+        <p style="font-size: 11px ;">[2] International student mobility – Key numbers (2022), Times Education. <a href = "https://timeassociation.org/2022/11/28/international-student-mobility-key-numbers-2022/">Access Here</a></p>
+        <p style="font-size: 11px ;">[3] 159 New Projects for Erasmus+, Erasmus Mundus Association. <a href="https://erasmus-plus.ec.europa.eu/news/results-2023-capacity-building-for-higher-education-call">Access Here</a></p>
+      
+    </div>
+
+<div class="infographic">
+  <p class="m-10">Here are some general facts about Study in Europe:</p>
+
+	<div class="stat-card">
+	  <span class="main-text ">EUROPE</span>
+	  <span class="small-text">#1 HOST REGION FOR MOBILE STUDENTS [1]</span>
+	</div>
+  
+	<div class="stat-card">
+	  <span class="main-text">United Kingdom, Germany, France</span>
+	  <span class="small-text">Top EU destinations for international students [2]</span>
+	</div>
+  
+	<div class="stat-card">
+	  <span class="main-text">€613 million</span>
+	  <span class="small-text">Budget for Erasmus+ program in 2021-2027 [3]</span>
+	</div>
+  
+	<div class="stat-card">
+	  <span class="main-text">88%</span>
+	  <span class="small-text">Mobile European students head for another country in Europe [1]</span>
+	</div>
+  
+	<div class="stat-card">
+	  <span class="main-text">39%</span>
+	  <span class="small-text">Students worldwide on mobility in Europe [2]</span>
+	</div>
+  
+  </div>
+  </div>
+
+
+
+
+  
+  
+
+</div>
+
+  
+
+<div id="container" class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
+  <div id="sidebar" style="position: absolute;" class="ml-10">
+      <div id="filter-container mb-10">
+          <label for="country-select">Select a country:</label>
+          <select id="country-select">
+              <option value="">Select a country</option>
+              <!-- Options will be populated by script.js -->
+          </select>
+          <!-- Add more filters or descriptions here -->
+      </div>
+      <div class="graph-title">
+          <!-- Your descriptive text goes here -->
+    <h2>Student Mobility in Europe</h2>
+    If you are an European student interested in studying in other EU countries. Select your origin country to see popular destination countries [1] that your country's students love to go for further study in recent 5 years.
+
+    <p style="font-size: 11px ;">
+    [1] Number and rates of international mobile students (inbound and outbound), UNESCO. <a href="http://data.uis.unesco.org/#">Access here</a>
+    </p>
+
+      </div>
+  </div>
+  <div id="map-container" style="height: 700px;">
+      <!-- The map will be appended here by D3.js -->
+  </div>
+</div>
+
   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
     <div  class="ml-10 mt-10">
       <label for="topNSelector" class="mr-2">Top N:</label>
@@ -107,6 +272,23 @@
       </table>
     </div>
   
+
+    <!-- Add this code at the end of your HTML body -->
+<div class="text-center mt-8">
+  <a href="https://www.european-funding-guide.eu/scholarship/abroad/United%20Kingdom" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white">
+    <svg  aria-hidden="true" class="w-5 h-5 me-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488M7.5 10.5h5.25m-5.25 3h5.25M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+    </svg>
+    <span class="w-full"> See More: Requirements and Funding Options</span>
+    <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+    </svg>
+  </a> 
+ 
+</div>
+
+
+
   
   </div>
 
@@ -114,547 +296,10 @@
   <div id="parallel-coordinates" class="parallel-coordinates mt-4"></div>
 
 </div>
-  <style>
-    .tooltip {
-      position: absolute;
-      padding: 10px;
-      background: white;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      pointer-events: none;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
 
+<script src="script2.js"></script>
+  <script src="script.js"></script>
 
-    .parallel-coordinates {
-      margin-top: 20px;
-    }
-
-    
-
-    .remove-button {
-      cursor: pointer;
-      color: red;
-      margin-left: 10px;
-    }
-    .graph-title h2 {
-      font-weight: bold;
-    }
-
-    .graph-title p {
-      margin-top: 10px;
-      font-size: 16px; /* Adjust font size as needed */
-    }
-  </style>
-
-  <script>
-    // Define dimensions
-    const width = 1000;
-    const height = 1000;
-    const gridPadding = 50;  // Padding between grid cells
-    var selectedUniversities = [];
-
-
-
-    // Append SVG
-    const svg = d3.select("#chart")
-      .append("svg")
-      .attr("width", width)
-      .attr("height", height);
-
-    const parallelCoordinatesWidth = 900;
-
-    const parallelCoordinatesHeight = 500;
-
-    var parallelCoordinatesSvg = d3.select("#parallel-coordinates");
-
-
-    var data = [];
-
-    // Load CSV data
-    d3.csv("finalnewdata.csv").then(function (csvData) {
-      data = csvData;
-      const groupedData = d3.group(csvData, d => d.university_name);
-
-      const uniqueUniversities = Array.from(groupedData, ([, universities]) => universities[0]);
-
-      data = uniqueUniversities;
-
-      const topN = +document.getElementById("topNSelector").value; // Get the selected top N value
-      data.sort((a, b) => a.world_rank - b.world_rank);
-
-      // Take the top N rows based on the sorted order
-      const filteredData = data.slice(0, topN);
-
-      drawChart(filteredData); // Call drawChart after loading the data
-
-
-      const filteredData2 = data.slice(0, 10);
-      drawParallelCoordinates(filteredData2);
-
-
-
-      // const selectedUniversitieshtml = document.getElementById("selectedUniversities");
-      //   const listItem = document.createElement("li");
-      //  listItem.id = `descriptions`;
-
-      // Create a span to hold the university name
-      //  const universityNameSpan = document.createElement("span");
-      //  universityNameSpan.textContent = 'Selected Universities:';
-      //  listItem.appendChild(universityNameSpan);
-
-      //  selectedUniversitieshtml.appendChild(listItem);
-
-
-    });
-
-// Function to add selected university to the list
-function addSelectedUniversity(universityData, i) {
-  const selectedUniversitiesTable = document.getElementById("selectedUniversities");
-  const rowId = `selected_${universityData.university_name}`;
-  
-  const row = selectedUniversitiesTable.insertRow();
-  row.id = rowId; // Set a unique identifier for the row
-
-  const cellName = row.insertCell(0);
-  cellName.textContent = universityData.university_name;
-
-  const cellActions = row.insertCell(1);
-  const deleteButton = document.createElement("button");
-  deleteButton.textContent = "Remove";
-  deleteButton.classList.add("bg-red-500", "text-white", "p-1", "ml-2");
-  deleteButton.addEventListener("click", function () {
-    const dot = d3.select(`circle[data-id="${universityData.university_name}"]`);
-    dot.classed("selected", false)
-      .attr("fill", d => d3.rgb(10, 255 - i * 30, 255 - i * 20))
-      .attr("data-id", null);
-
-    removeSelectedUniversity(rowId); // Pass the row identifier
-
-    // UpdateChartAndParallelCoordinates is now called outside the if block
-    updateChartAndParallelCoordinates();
-  });
-
-  cellActions.appendChild(deleteButton);
-
-  selectedUniversities.push({ universityData, i, rowId });
-
-  updateChartAndParallelCoordinates();
-}
-
-// Function to remove selected university from the list
-function removeSelectedUniversity(rowId) {
-  // Remove the universityData from the selectedUniversities array
-  selectedUniversities = selectedUniversities.filter(item => item.rowId !== rowId);
-
-  // Find the row corresponding to the rowId and remove it
-  const row = document.getElementById(rowId);
-  if (row) {
-    row.remove(); // Remove the row
-  }
-}
-
-    // Function to check if a university is already selected
-    function isUniversitySelected(universityData) {
-
-      return selectedUniversities.some(item => item.universityData.university_name === universityData.university_name);
-    }
-
-    function handleDotClick(universityData, i) {
-      const dot = d3.select(this);
-
-      if (!isUniversitySelected(universityData)) {
-        // Dot is not selected, mark it as selected
-        dot.classed("selected", true)
-          .attr("fill", "green")
-          .attr("data-id", universityData.university_name); // Set a data-id attribute with the index i
-        addSelectedUniversity(universityData, i);
-      } else {
-        // Dot is already selected, unselect it
-        dot.classed("selected", false)
-          .attr("fill", d => d3.rgb(10, 255 - i * 30, 255 - i * 20))
-          .attr("data-id", null); // Remove the data-id attribute
-          const selectedUniversity = selectedUniversities.find(item => item.universityData.university_name === universityData.university_name);
-    if (selectedUniversity) {
-      removeSelectedUniversity(selectedUniversity.rowId);
-    }
-      }
-    }
-
-// Function to show map in the tooltip
-function showMapInTooltip(latitude, longitude, tooltip) {
-  const mapContainer = document.createElement("div");
-  mapContainer.id = "mapContainer";
-  mapContainer.style.margin = "20px";
-  mapContainer.style.width = "400px";
-  mapContainer.style.height = "200px";
-
-  tooltip.node().appendChild(mapContainer);
-
-  const map = L.map(mapContainer).setView([latitude, longitude], 17);
-
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-  }).addTo(map);
-
-  L.marker([latitude, longitude]).addTo(map);
-}
-
-// Function to hide map in the tooltip
-function hideMapInTooltip() {
-  const mapContainer = document.getElementById("mapContainer");
-  if (mapContainer) {
-    mapContainer.remove();
-  }
-}
-
-    function drawChart(data) {
-      // Define scales
-
-      // Group data by country
-      const groupedData = d3.group(data, d => d.country);
-
-      // Create a grid layout for countries
-      const countries = Array.from(groupedData.keys());
-      const gridCols = 5;  // Number of columns in the grid
-      const gridRows = Math.ceil(countries.length / gridCols);  // Calculate the number of rows
-
-      // Calculate cell dimensions
-      const cellWidth = (width - (gridCols - 1) * gridPadding) / gridCols;
-      const cellHeight = 120;//(((height - (gridRows - 1) * gridPadding) )/ gridRows)+50;
-
-      const group = svg.append("g")
-        .attr("transform", "translate(" + (100) + "," + (-100) + ")")
-
-      const numpitch = 40;
-      const tooltip = d3.select("body").append("div")
-        .attr("class", "tooltip")
-        .attr("id", "tooltip");
-      // Create array of objects with normalizedQuery and avgCount
-      const datosa = Array.from(groupedData).map(([normalizedQuery, universities]) => ({
-        normalizedQuery,
-        universities: universities,
-        avgCount: universities.length
-      }));
-      const datos = datosa.sort((a, b) => b.avgCount - a.avgCount);
-
-      for (let i = 0; i < datos.length; i++) {
-        const row = Math.floor(i / gridCols);
-        const col = i % gridCols;
-
-        const dots = group.append("g")
-          .attr("transform", function () {
-            return "translate(" + (numpitch + 120 * col) + "," + (cellHeight * row) + ")rotate(0)";
-          });
-
-         
-
-        const balls = datos[i].avgCount;
-        const brack = 10;
-        const filas = balls / brack;
-        const enteros = Math.ceil(balls / brack) - 1;
-        const resto = (filas - enteros) * 10;
-
-        if (resto >= 0) {
-          for (let lev = 0; lev < enteros; lev++) {
-            for (let k = 1; k <= brack; k++) {
-              const universityData = datos[i].universities[brack * lev + k - 1];
-              const isSelected = selectedUniversities.some(selected => selected.i === i);
-
-              dots.append("circle")
-                .attr("cx", k * 10)
-                .attr("cy", 300 - lev * 10)
-                .attr("r", 4)
-                .attr("opacity", 1)
-                .attr("fill", isSelected ? "green" : d3.rgb(10, 255 - i * 30, 255 - i * 20))
-                .on("mousedown", function () {
-                  handleDotClick.call(this, universityData, i);
-                })
-                .on("mouseover", function () {
-                  const tooltipContent = `
-                  University: ${universityData.university_name}<br>
-                  Rank: ${universityData.world_rank}<br>
-                  Country: ${universityData.country}<br>
-                  Teaching: ${universityData.teaching}<br>
-                  International: ${universityData.international}<br>
-                `;
-                  tooltip.html(tooltipContent)
-                    .style("left", (event.pageX + 10) + "px")
-                    .style("top", (event.pageY - 10) + "px")
-                    .style("opacity", 1);
-
-                    showMapInTooltip(universityData.latitude, universityData.longitude, tooltip);
-
-                })
-                .on("mouseout", function () {
-                  tooltip.style("opacity", 0);
-
-                  hideMapInTooltip();
-
-                });
-            }
-          }
-
-          for (let r = 1; r <= resto; r++) {
-            const universityData = datos[i].universities[brack * enteros + r - 1];
-            const isSelected = selectedUniversities.some(selected => selected.i === i);
-
-            dots.append("circle")
-              .attr("cx", r * 10)
-              .attr("cy", 300 - (enteros) * 10)
-              .attr("r", 4)
-              .attr("opacity", 1)
-              .attr("fill", isSelected ? "green" : d3.rgb(10, 255 - i * 30, 255 - i * 20))
-              .on("mouseover", function () {
-
-                const tooltipContent = `
-                  University: ${universityData.university_name}<br>
-                  Rank: ${universityData.world_rank}<br>
-                  Country: ${universityData.country}<br>
-                  Teaching: ${universityData.teaching}<br>
-                  International: ${universityData.international}<br>
-                `;
-                tooltip.html(tooltipContent)
-                  .style("left", (event.pageX + 10) + "px")
-                  .style("top", (event.pageY - 10) + "px")
-                  .style("opacity", 1);
-              })
-              .on("mousedown", function () {
-                handleDotClick.call(this, universityData, i);
-              })
-              .on("mouseout", function () {
-                tooltip.style("opacity", 0);
-              });
-          }
-        }
-
-        dots.append("text")
-          .attr("x", 5)
-          .attr("y", 320)
-          .text(function (d) { return datos[i].avgCount; })
-          .attr("font-family", "Gill Sans, sans-serif")
-          .attr("font-size", 12)
-          .attr("text-anchor", "start")
-          .style("fill", "black")
-          ;
-
-
-          dots.append("foreignObject")
-          .attr("x", 90)
-          .attr("y", 325)
-          .attr("width", 20)
-          .attr("height", 15)
-          .attr("class", "flag-container")
-         .html(d => `<img class="flag" src="gif/${datos[i].universities[0]["country-iso"].toLowerCase()}.gif" alt="${datos[i].universities[0]["country-iso"]}"/>`);
-
-        const text = dots.append("text")
-          .attr("x", 5)
-          .attr("y", 335)
-          .attr("font-family", "Gill Sans, Century Gothic, sans-serif")
-          .attr("font-size", 12)
-          .attr("opacity", 1)
-          .style("fill", "black");
-
-        const nameWords = datos[i].normalizedQuery.toUpperCase().split(/\s+/);
-        const lineHeight = 1.1;
-        const dy = 12;
-
-        text.selectAll("tspan")
-          .data(nameWords)
-          .enter().append("tspan")
-          .attr("x", 5)
-          .attr("dy", (d, i) => i ? lineHeight + dy : 0)
-          .text(d => d);
-      }
-
-
-    }
-
-
-    function drawParallelCoordinates(data) {
-      function getUniversityDetailsHTML(d) {
-        return `
-      <strong>University:</strong> ${d.university_name}<br>
-
-      <strong>Teaching:</strong> ${d.teaching}<br>
-      <strong>International:</strong> ${d.international}<br>
-      <strong>Research:</strong> ${d.research}<br>
-      <strong>Citations:</strong> ${d.citations}<br>
-      <strong>Income:</strong> ${d.income}<br>
-      <strong>Total Score:</strong> ${d.total_score}<br>
-      <strong>Rank:</strong> ${d.world_rank}<br>
-
-    `;
-      }
-      // Extract the list of columns from the data
-      // Extract the list of columns from the data
-      let columns = ['teaching', 'international', 'research', 'citations', 'income', 'total_score'];
-
-      // Get selected columns from checkboxes
-      columns = columns.filter(column => {
-        const checkbox = document.getElementById(`${column.toLowerCase()}Checkbox`);
-
-        return checkbox && checkbox.checked;
-      });
-
-
-      data = data.filter(d => columns.every(column => !isNaN(+d[column])));
-
-      
-
-// Get minimum values for each column
-const minValues = {};
-columns.forEach(column => {
-  minValues[column] = d3.min(data, d => +d[column]);
-});
-
-// Get the global minimum value
-const globalMinValue = d3.min(Object.values(minValues));
-
-
-
-
-      parallelCoordinatesSvg = parallelCoordinatesSvg
-        .append("svg")
-        .attr("width", parallelCoordinatesWidth)
-        .attr("height", parallelCoordinatesHeight);
-
-      // Define margins
-      const margin = { top: 30, right: 40, bottom: 40, left: 40 };
-      const width = parallelCoordinatesWidth - margin.left - margin.right;
-      const height = parallelCoordinatesHeight - margin.top - margin.bottom;
-
-      const tooltip1 = d3.select("body").append("div")
-        .attr("class", "tooltip")
-        .attr("id", "tooltip1");
-      // Define scales for parallel coordinates with margins
-      const xScale = d3.scalePoint()
-        .domain(columns)
-        .range([0, width]);
-
-      const yScale = {};
-
-      columns.forEach(column => {
-        yScale[column] = d3.scaleLinear()
-          .domain([globalMinValue, 100])  // Set a fixed range from 0 to 100 for all columns
-          .range([height, 0]);
-      });
-      const colorScale = d3.scaleSequential(d3.interpolateBlues)
-    .domain([data.length, 1]); // Reverse the domain to make lower ranks more prominent
-
-      parallelCoordinatesSvg.append("g")
-        .attr("class", "axis-labels")
-        .attr("transform", `translate(${margin.left}, ${margin.top - 10})`)
-        .selectAll(".axis-label")
-        .data(columns)
-        .enter().append("text")
-        .attr("class", "axis-label")
-        .attr("x", d => xScale(d))
-        .attr("y", 0)
-        .attr("text-anchor", "middle")
-        .text(d => d);
-
-
-
-      // Add axes
-      const parallelCoordinatesAxes = parallelCoordinatesSvg.append("g")
-        .attr("class", "axes")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`)
-        .selectAll(".axis")
-        .data(columns)
-        .enter().append("g")
-        .attr("class", "axis")
-        .attr("transform", d => `translate(${xScale(d)}, 0)`)
-        .each(function (d) { d3.select(this).call(d3.axisLeft(yScale[d])); });
-      const parallelCoordinatesLines = parallelCoordinatesSvg.append("g")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`)
-        .selectAll(".line")
-        .data(data)
-        .enter().append("path")
-        .attr("class", "line")
-        .attr("d", d => d3.line()(columns.map(column => [xScale(column), yScale[column](d[column])])))
-        .attr("fill", "none")
-        .attr("stroke", (d, i) => colorScale(i + 1))
-        .attr("stroke-width", 2)
-        .on("mouseover", function (event, d) {
-          // Show tooltip on mouseover
-          tooltip1.html(getUniversityDetailsHTML(d))
-            .style("left", (event.pageX + 10) + "px")
-            .style("top", (event.pageY - 10) + "px")
-            .style("opacity", 1);
-            const initialColor = colorScale(data.indexOf(d)+ 1);
-
-          d3.select(this).attr("stroke", "orange").attr("stroke-width", 4).attr("data-initial-color", initialColor);
-;
-
-        })
-        .on("mouseout", function (event, d) {
-          // Hide tooltip on mouseout
-          const line = d3.select(this);
-  tooltip1.style("opacity", 0);
-  // Get the initial color based on the world rank
-  const initialColor = line.attr("data-initial-color");
-
-          d3.select(this).attr("stroke", initialColor).attr("stroke-width", 2);
-
-        })
-        .on("mousemove", function (event, d) {
-          // Update tooltip position on mousemove
-          tooltip1.style("left", (event.pageX + 10) + "px")
-            .style("top", (event.pageY - 10) + "px");
-        });
-    }
-
-
-
-    function updateChart() {
-      const topN = +document.getElementById("topNSelector").value;
-      data.sort((a, b) => a.world_rank - b.world_rank);
-
-      const filteredData = data.slice(0, topN);
-
-      svg.selectAll("*").remove();
-      parallelCoordinatesSvg.selectAll("*").remove();
-
-      selectedUniversities.forEach(item => removeSelectedUniversity(item.universityData, item.i));
-
-      drawChart(filteredData);
-
-      //parallelCoordinatesSvg.selectAll("*").remove();
-      const filteredData2 = data.slice(0, 10);
-      drawParallelCoordinates(filteredData2);
-
-
-
-    }
-
-
-    function updateChartAndParallelCoordinates() {
-      console.log();
-      const topN = +document.getElementById("topNSelector").value;
-      data.sort((a, b) => a.world_rank - b.world_rank);
-
-      const filteredData = data.slice(0, topN);
-
-      // svg.selectAll("*").remove();
-      // parallelCoordinatesSvg.selectAll("*").remove();
-
-      // drawChart(filteredData);
-      // Inside updateChartAndParallelCoordinates function
-      parallelCoordinatesSvg.selectAll("*").remove();
-
-      if (selectedUniversities.length > 0) {
-        const selectedData = selectedUniversities.map(item => item.universityData);
-        drawParallelCoordinates(selectedData);
-      } else {
-        const filteredData2 = data.slice(0, 10);
-      drawParallelCoordinates(filteredData2);
-      }
-    }
-
-
-  </script>
 </body>
 
 </html>

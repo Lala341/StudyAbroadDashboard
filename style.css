@@ -1,50 +1,135 @@
-body {
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.parallel-coordinates {
+  margin-top: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px; /* Maximum width of the grid */
+  margin: 0 auto; /* Center the grid horizontally */
+  height: auto; /* Let the grid determine its own height based on content */
+}
+
+.item {
+  border: 2px solid #ddd; /* Light grey border */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  padding: 20px;
+  border-radius: 8px; /* Slightly rounded corners for aesthetics */
+  background-color: #f9f9f9; /* Light background color */
+  display: flex;
+  align-items: center; /* Aligns text vertically */
+  justify-content: center; /* Aligns text horizontally */
+  text-align: center; /* Centers text within the content area */
+}
+
+
+
+/*  */
+
+.infographic {
   font-family: 'Arial', sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
-
-.responsive-svg-container {
-  margin-right: auto;
-  margin-left: auto;
+.stat-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 20px;
+  max-width: 600px;
   width: 100%;
-  max-width: 1000px;
+  position: relative;
+}
+.main-text {
+  font-size: 2em; /* Larger text */
+  color: #0d47a1; /* deep blue */
+  margin: 0 0 10px 0; /* Additional margin at the bottom */
+}
+.small-text {
+  font-size: 0.8em; /* Smaller text */
+  color: #333; /* default text color */
+  display: block; /* Makes the text go on a new line */
 }
 
-.definitions p {
-  font-size: 0.7em;
+.remove-button {
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
+}
+.graph-title h2 {
+  font-weight: bold;
 }
 
-.controlpanel {
-  border-radius: 20px;
-  padding: 1%;
+.graph-title p {
+  margin-top: 10px;
+  font-size: 16px; /* Adjust font size as needed */
+}
+#container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 12px;
-  margin: 10px;
+
+
+#sidebar {
+  width: 300px; /* Adjust as needed */
+  margin-top: 100px;
+
+  /* Style as needed */
 }
 
-th,
-td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+
+#map-container {
+  width: calc(100% - 300px); /* Adjust width based on the sidebar width */
+  height: 500px; /* Adjust as needed */
+  /* Style as needed */
+  flex-grow: 1;
+
 }
 
-th {
-  background-color: #f2f2f2;
+/* Ensure the body or a higher-level container uses flexbox to align items in a row */
+/* body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+} */
+
+
+#country-select {
+  display: block;
+  margin-bottom: 10px; /* Space between the select and the text */
 }
 
-.controlpaneltwo {
-  background-color: #f2f2f2;
-  border-radius: 20px;
-  padding: 2%;
+#selection-text {
+  font-size: 0.9em; /* Adjust as needed */
+  color: #333; /* Adjust as needed */
+  /* Add other styles as needed */
 }
-.gauge-bar {
-  fill: #3498db;
-}
-.gauge-label {
-  font-size: 14px;
-  text-anchor: middle;
+
+#description-text {
+  margin-top: 10px; /* Adjust the space between the select and the text */
+  font-size: 15px; /* Adjust text size as needed */
+  color: #333; /* Adjust text color as needed */
+  /* Add other styles as needed */
 }

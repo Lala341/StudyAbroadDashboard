@@ -1,0 +1,2026 @@
+From,From_Country,To,To_Country,Value
+ALB,Albania,ALB,Albania,
+ALB,Albania,AND,Andorra,
+ALB,Albania,AUT,Austria,429
+ALB,Albania,BEL,Belgium,117
+ALB,Albania,BGR,Bulgaria,294
+ALB,Albania,BIH,Bosnia and Herzegovina,8
+ALB,Albania,BLR,Belarus,
+ALB,Albania,CHE,Switzerland,141
+ALB,Albania,CYP,Cyprus,12
+ALB,Albania,CZE,Czech Republic,57
+ALB,Albania,DEU,Germany,1637
+ALB,Albania,DNK,Denmark,18
+ALB,Albania,ESP,Spain,46
+ALB,Albania,EST,Estonia,9
+ALB,Albania,FIN,Finland,45
+ALB,Albania,FRA,France,576
+ALB,Albania,GBR,United Kingdom,403
+ALB,Albania,GIB,Gibraltar,
+ALB,Albania,GRC,Greece,1418
+ALB,Albania,HRV,Croatia,10
+ALB,Albania,HUN,Hungary,39
+ALB,Albania,IRL,Ireland,13
+ALB,Albania,ISL,Iceland,5
+ALB,Albania,ITA,Italy,5499
+ALB,Albania,LIE,Liechtenstein,10
+ALB,Albania,LTU,Lithuania,28
+ALB,Albania,LUX,Luxembourg,22
+ALB,Albania,LVA,Latvia,4
+ALB,Albania,MCO,Monaco,1
+ALB,Albania,MDA,Moldova,2
+ALB,Albania,MKD,North Macedonia,102
+ALB,Albania,MLT,Malta,4
+ALB,Albania,MNE,Montenegro,
+ALB,Albania,NLD,Netherlands,200
+ALB,Albania,NOR,Norway,63
+ALB,Albania,POL,Poland,58
+ALB,Albania,PRT,Portugal,10
+ALB,Albania,ROU,Romania,343
+ALB,Albania,RUS,Russia,9
+ALB,Albania,SMR,San Marino,8
+ALB,Albania,SRB,Serbia,25
+ALB,Albania,SVK,Slovakia,14
+ALB,Albania,SVN,Slovenia,6
+ALB,Albania,SWE,Sweden,66
+ALB,Albania,UKR,Ukraine,1
+AND,Andorra,ALB,Albania,
+AND,Andorra,AND,Andorra,
+AND,Andorra,AUT,Austria,2
+AND,Andorra,BEL,Belgium,1
+AND,Andorra,BGR,Bulgaria,1
+AND,Andorra,BIH,Bosnia and Herzegovina,1
+AND,Andorra,BLR,Belarus,
+AND,Andorra,CHE,Switzerland,4
+AND,Andorra,CYP,Cyprus,
+AND,Andorra,CZE,Czech Republic,
+AND,Andorra,DEU,Germany,6
+AND,Andorra,DNK,Denmark,2
+AND,Andorra,ESP,Spain,1092
+AND,Andorra,EST,Estonia,
+AND,Andorra,FIN,Finland,
+AND,Andorra,FRA,France,325
+AND,Andorra,GBR,United Kingdom,13
+AND,Andorra,GIB,Gibraltar,
+AND,Andorra,GRC,Greece,
+AND,Andorra,HRV,Croatia,4
+AND,Andorra,HUN,Hungary,
+AND,Andorra,IRL,Ireland,
+AND,Andorra,ISL,Iceland,
+AND,Andorra,ITA,Italy,2
+AND,Andorra,LIE,Liechtenstein,
+AND,Andorra,LTU,Lithuania,
+AND,Andorra,LUX,Luxembourg,1
+AND,Andorra,LVA,Latvia,
+AND,Andorra,MCO,Monaco,
+AND,Andorra,MDA,Moldova,
+AND,Andorra,MKD,North Macedonia,7
+AND,Andorra,MLT,Malta,
+AND,Andorra,MNE,Montenegro,
+AND,Andorra,NLD,Netherlands,1
+AND,Andorra,NOR,Norway,1
+AND,Andorra,POL,Poland,
+AND,Andorra,PRT,Portugal,11
+AND,Andorra,ROU,Romania,1
+AND,Andorra,RUS,Russia,1
+AND,Andorra,SMR,San Marino,
+AND,Andorra,SRB,Serbia,3
+AND,Andorra,SVK,Slovakia,1
+AND,Andorra,SVN,Slovenia,
+AND,Andorra,SWE,Sweden,1
+AND,Andorra,UKR,Ukraine,
+AUT,Austria,ALB,Albania,
+AUT,Austria,AND,Andorra,
+AUT,Austria,AUT,Austria,
+AUT,Austria,BEL,Belgium,55
+AUT,Austria,BGR,Bulgaria,46
+AUT,Austria,BIH,Bosnia and Herzegovina,15
+AUT,Austria,BLR,Belarus,2
+AUT,Austria,CHE,Switzerland,1525
+AUT,Austria,CYP,Cyprus,33
+AUT,Austria,CZE,Czech Republic,178
+AUT,Austria,DEU,Germany,13358
+AUT,Austria,DNK,Denmark,222
+AUT,Austria,ESP,Spain,228
+AUT,Austria,EST,Estonia,9
+AUT,Austria,FIN,Finland,78
+AUT,Austria,FRA,France,343
+AUT,Austria,GBR,United Kingdom,1935
+AUT,Austria,GIB,Gibraltar,
+AUT,Austria,GRC,Greece,23
+AUT,Austria,HRV,Croatia,29
+AUT,Austria,HUN,Hungary,163
+AUT,Austria,IRL,Ireland,58
+AUT,Austria,ISL,Iceland,12
+AUT,Austria,ITA,Italy,245
+AUT,Austria,LIE,Liechtenstein,315
+AUT,Austria,LTU,Lithuania,18
+AUT,Austria,LUX,Luxembourg,19
+AUT,Austria,LVA,Latvia,36
+AUT,Austria,MCO,Monaco,5
+AUT,Austria,MDA,Moldova,1
+AUT,Austria,MKD,North Macedonia,4
+AUT,Austria,MLT,Malta,7
+AUT,Austria,MNE,Montenegro,
+AUT,Austria,NLD,Netherlands,654
+AUT,Austria,NOR,Norway,62
+AUT,Austria,POL,Poland,65
+AUT,Austria,PRT,Portugal,53
+AUT,Austria,ROU,Romania,87
+AUT,Austria,RUS,Russia,26
+AUT,Austria,SMR,San Marino,
+AUT,Austria,SRB,Serbia,16
+AUT,Austria,SVK,Slovakia,173
+AUT,Austria,SVN,Slovenia,50
+AUT,Austria,SWE,Sweden,199
+AUT,Austria,UKR,Ukraine,7
+BLR,Belarus,ALB,Albania,
+BLR,Belarus,AND,Andorra,
+BLR,Belarus,AUT,Austria,173
+BLR,Belarus,BEL,Belgium,42
+BLR,Belarus,BGR,Bulgaria,15
+BLR,Belarus,BIH,Bosnia and Herzegovina,1
+BLR,Belarus,BLR,Belarus,47
+BLR,Belarus,CHE,Switzerland,71
+BLR,Belarus,CYP,Cyprus,5
+BLR,Belarus,CZE,Czech Republic,820
+BLR,Belarus,DEU,Germany,1102
+BLR,Belarus,DNK,Denmark,15
+BLR,Belarus,ESP,Spain,40
+BLR,Belarus,EST,Estonia,44
+BLR,Belarus,FIN,Finland,45
+BLR,Belarus,FRA,France,248
+BLR,Belarus,GBR,United Kingdom,156
+BLR,Belarus,GIB,Gibraltar,
+BLR,Belarus,GRC,Greece,31
+BLR,Belarus,HRV,Croatia,3
+BLR,Belarus,HUN,Hungary,25
+BLR,Belarus,IRL,Ireland,8
+BLR,Belarus,ISL,Iceland,1
+BLR,Belarus,ITA,Italy,363
+BLR,Belarus,LIE,Liechtenstein,2
+BLR,Belarus,LTU,Lithuania,948
+BLR,Belarus,LUX,Luxembourg,5
+BLR,Belarus,LVA,Latvia,120
+BLR,Belarus,MCO,Monaco,1
+BLR,Belarus,MDA,Moldova,5
+BLR,Belarus,MKD,North Macedonia,2
+BLR,Belarus,MLT,Malta,1
+BLR,Belarus,MNE,Montenegro,
+BLR,Belarus,NLD,Netherlands,64
+BLR,Belarus,NOR,Norway,41
+BLR,Belarus,POL,Poland,6550
+BLR,Belarus,PRT,Portugal,23
+BLR,Belarus,ROU,Romania,3
+BLR,Belarus,RUS,Russia,11669
+BLR,Belarus,SMR,San Marino,
+BLR,Belarus,SRB,Serbia,6
+BLR,Belarus,SVK,Slovakia,54
+BLR,Belarus,SVN,Slovenia,8
+BLR,Belarus,SWE,Sweden,47
+BLR,Belarus,UKR,Ukraine,348
+BEL,Belgium,ALB,Albania,
+BEL,Belgium,AND,Andorra,
+BEL,Belgium,AUT,Austria,208
+BEL,Belgium,BEL,Belgium,
+BEL,Belgium,BGR,Bulgaria,28
+BEL,Belgium,BIH,Bosnia and Herzegovina,1
+BEL,Belgium,BLR,Belarus,1
+BEL,Belgium,CHE,Switzerland,495
+BEL,Belgium,CYP,Cyprus,9
+BEL,Belgium,CZE,Czech Republic,22
+BEL,Belgium,DEU,Germany,2349
+BEL,Belgium,DNK,Denmark,198
+BEL,Belgium,ESP,Spain,425
+BEL,Belgium,EST,Estonia,5
+BEL,Belgium,FIN,Finland,64
+BEL,Belgium,FRA,France,2292
+BEL,Belgium,GBR,United Kingdom,3101
+BEL,Belgium,GIB,Gibraltar,
+BEL,Belgium,GRC,Greece,89
+BEL,Belgium,HRV,Croatia,28
+BEL,Belgium,HUN,Hungary,93
+BEL,Belgium,IRL,Ireland,167
+BEL,Belgium,ISL,Iceland,12
+BEL,Belgium,ITA,Italy,291
+BEL,Belgium,LIE,Liechtenstein,1
+BEL,Belgium,LTU,Lithuania,17
+BEL,Belgium,LUX,Luxembourg,404
+BEL,Belgium,LVA,Latvia,15
+BEL,Belgium,MCO,Monaco,5
+BEL,Belgium,MDA,Moldova,1
+BEL,Belgium,MKD,North Macedonia,1
+BEL,Belgium,MLT,Malta,12
+BEL,Belgium,MNE,Montenegro,
+BEL,Belgium,NLD,Netherlands,3268
+BEL,Belgium,NOR,Norway,37
+BEL,Belgium,POL,Poland,30
+BEL,Belgium,PRT,Portugal,162
+BEL,Belgium,ROU,Romania,85
+BEL,Belgium,RUS,Russia,32
+BEL,Belgium,SMR,San Marino,1
+BEL,Belgium,SRB,Serbia,3
+BEL,Belgium,SVK,Slovakia,4
+BEL,Belgium,SVN,Slovenia,5
+BEL,Belgium,SWE,Sweden,104
+BEL,Belgium,UKR,Ukraine,4
+BIH,Bosnia and Herzegovina,ALB,Albania,
+BIH,Bosnia and Herzegovina,AND,Andorra,
+BIH,Bosnia and Herzegovina,AUT,Austria,2934
+BIH,Bosnia and Herzegovina,BEL,Belgium,19
+BIH,Bosnia and Herzegovina,BGR,Bulgaria,4
+BIH,Bosnia and Herzegovina,BIH,Bosnia and Herzegovina,
+BIH,Bosnia and Herzegovina,BLR,Belarus,
+BIH,Bosnia and Herzegovina,CHE,Switzerland,83
+BIH,Bosnia and Herzegovina,CYP,Cyprus,1
+BIH,Bosnia and Herzegovina,CZE,Czech Republic,95
+BIH,Bosnia and Herzegovina,DEU,Germany,898
+BIH,Bosnia and Herzegovina,DNK,Denmark,51
+BIH,Bosnia and Herzegovina,ESP,Spain,22
+BIH,Bosnia and Herzegovina,EST,Estonia,1
+BIH,Bosnia and Herzegovina,FIN,Finland,11
+BIH,Bosnia and Herzegovina,FRA,France,76
+BIH,Bosnia and Herzegovina,GBR,United Kingdom,68
+BIH,Bosnia and Herzegovina,GIB,Gibraltar,
+BIH,Bosnia and Herzegovina,GRC,Greece,15
+BIH,Bosnia and Herzegovina,HRV,Croatia,2369
+BIH,Bosnia and Herzegovina,HUN,Hungary,38
+BIH,Bosnia and Herzegovina,IRL,Ireland,6
+BIH,Bosnia and Herzegovina,ISL,Iceland,2
+BIH,Bosnia and Herzegovina,ITA,Italy,194
+BIH,Bosnia and Herzegovina,LIE,Liechtenstein,3
+BIH,Bosnia and Herzegovina,LTU,Lithuania,1
+BIH,Bosnia and Herzegovina,LUX,Luxembourg,6
+BIH,Bosnia and Herzegovina,LVA,Latvia,2
+BIH,Bosnia and Herzegovina,MCO,Monaco,
+BIH,Bosnia and Herzegovina,MDA,Moldova,
+BIH,Bosnia and Herzegovina,MKD,North Macedonia,12
+BIH,Bosnia and Herzegovina,MLT,Malta,2
+BIH,Bosnia and Herzegovina,MNE,Montenegro,
+BIH,Bosnia and Herzegovina,NLD,Netherlands,29
+BIH,Bosnia and Herzegovina,NOR,Norway,34
+BIH,Bosnia and Herzegovina,POL,Poland,6
+BIH,Bosnia and Herzegovina,PRT,Portugal,4
+BIH,Bosnia and Herzegovina,ROU,Romania,4
+BIH,Bosnia and Herzegovina,RUS,Russia,14
+BIH,Bosnia and Herzegovina,SMR,San Marino,
+BIH,Bosnia and Herzegovina,SRB,Serbia,6164
+BIH,Bosnia and Herzegovina,SVK,Slovakia,20
+BIH,Bosnia and Herzegovina,SVN,Slovenia,938
+BIH,Bosnia and Herzegovina,SWE,Sweden,43
+BIH,Bosnia and Herzegovina,UKR,Ukraine,1
+BGR,Bulgaria,ALB,Albania,2
+BGR,Bulgaria,AND,Andorra,1
+BGR,Bulgaria,AUT,Austria,1438
+BGR,Bulgaria,BEL,Belgium,114
+BGR,Bulgaria,BGR,Bulgaria,
+BGR,Bulgaria,BIH,Bosnia and Herzegovina,3
+BGR,Bulgaria,BLR,Belarus,1
+BGR,Bulgaria,CHE,Switzerland,203
+BGR,Bulgaria,CYP,Cyprus,29
+BGR,Bulgaria,CZE,Czech Republic,94
+BGR,Bulgaria,DEU,Germany,6272
+BGR,Bulgaria,DNK,Denmark,860
+BGR,Bulgaria,ESP,Spain,294
+BGR,Bulgaria,EST,Estonia,5
+BGR,Bulgaria,FIN,Finland,75
+BGR,Bulgaria,FRA,France,869
+BGR,Bulgaria,GBR,United Kingdom,6032
+BGR,Bulgaria,GIB,Gibraltar,
+BGR,Bulgaria,GRC,Greece,288
+BGR,Bulgaria,HRV,Croatia,17
+BGR,Bulgaria,HUN,Hungary,39
+BGR,Bulgaria,IRL,Ireland,26
+BGR,Bulgaria,ISL,Iceland,4
+BGR,Bulgaria,ITA,Italy,599
+BGR,Bulgaria,LIE,Liechtenstein,3
+BGR,Bulgaria,LTU,Lithuania,2
+BGR,Bulgaria,LUX,Luxembourg,34
+BGR,Bulgaria,LVA,Latvia,3
+BGR,Bulgaria,MCO,Monaco,7
+BGR,Bulgaria,MDA,Moldova,5
+BGR,Bulgaria,MKD,North Macedonia,14
+BGR,Bulgaria,MLT,Malta,24
+BGR,Bulgaria,MNE,Montenegro,
+BGR,Bulgaria,NLD,Netherlands,2626
+BGR,Bulgaria,NOR,Norway,39
+BGR,Bulgaria,POL,Poland,52
+BGR,Bulgaria,PRT,Portugal,20
+BGR,Bulgaria,ROU,Romania,171
+BGR,Bulgaria,RUS,Russia,66
+BGR,Bulgaria,SMR,San Marino,1
+BGR,Bulgaria,SRB,Serbia,5
+BGR,Bulgaria,SVK,Slovakia,11
+BGR,Bulgaria,SVN,Slovenia,16
+BGR,Bulgaria,SWE,Sweden,134
+BGR,Bulgaria,UKR,Ukraine,227
+HRV,Croatia,ALB,Albania,
+HRV,Croatia,AND,Andorra,
+HRV,Croatia,AUT,Austria,1064
+HRV,Croatia,BEL,Belgium,41
+HRV,Croatia,BGR,Bulgaria,6
+HRV,Croatia,BIH,Bosnia and Herzegovina,2522
+HRV,Croatia,BLR,Belarus,
+HRV,Croatia,CHE,Switzerland,150
+HRV,Croatia,CYP,Cyprus,3
+HRV,Croatia,CZE,Czech Republic,99
+HRV,Croatia,DEU,Germany,828
+HRV,Croatia,DNK,Denmark,363
+HRV,Croatia,ESP,Spain,56
+HRV,Croatia,EST,Estonia,4
+HRV,Croatia,FIN,Finland,27
+HRV,Croatia,FRA,France,150
+HRV,Croatia,GBR,United Kingdom,1041
+HRV,Croatia,GIB,Gibraltar,
+HRV,Croatia,GRC,Greece,9
+HRV,Croatia,HRV,Croatia,
+HRV,Croatia,HUN,Hungary,86
+HRV,Croatia,IRL,Ireland,49
+HRV,Croatia,ISL,Iceland,4
+HRV,Croatia,ITA,Italy,690
+HRV,Croatia,LIE,Liechtenstein,
+HRV,Croatia,LTU,Lithuania,4
+HRV,Croatia,LUX,Luxembourg,14
+HRV,Croatia,LVA,Latvia,3
+HRV,Croatia,MCO,Monaco,2
+HRV,Croatia,MDA,Moldova,
+HRV,Croatia,MKD,North Macedonia,14
+HRV,Croatia,MLT,Malta,9
+HRV,Croatia,MNE,Montenegro,
+HRV,Croatia,NLD,Netherlands,352
+HRV,Croatia,NOR,Norway,39
+HRV,Croatia,POL,Poland,27
+HRV,Croatia,PRT,Portugal,18
+HRV,Croatia,ROU,Romania,4
+HRV,Croatia,RUS,Russia,9
+HRV,Croatia,SMR,San Marino,
+HRV,Croatia,SRB,Serbia,480
+HRV,Croatia,SVK,Slovakia,42
+HRV,Croatia,SVN,Slovenia,959
+HRV,Croatia,SWE,Sweden,67
+HRV,Croatia,UKR,Ukraine,5
+DNK,Denmark,ALB,Albania,
+DNK,Denmark,AND,Andorra,
+DNK,Denmark,AUT,Austria,100
+DNK,Denmark,BEL,Belgium,22
+DNK,Denmark,BGR,Bulgaria,24
+DNK,Denmark,BIH,Bosnia and Herzegovina,2
+DNK,Denmark,BLR,Belarus,2
+DNK,Denmark,CHE,Switzerland,89
+DNK,Denmark,CYP,Cyprus,3
+DNK,Denmark,CZE,Czech Republic,13
+DNK,Denmark,DEU,Germany,595
+DNK,Denmark,DNK,Denmark,
+DNK,Denmark,ESP,Spain,87
+DNK,Denmark,EST,Estonia,6
+DNK,Denmark,FIN,Finland,55
+DNK,Denmark,FRA,France,158
+DNK,Denmark,GBR,United Kingdom,1525
+DNK,Denmark,GIB,Gibraltar,
+DNK,Denmark,GRC,Greece,6
+DNK,Denmark,HRV,Croatia,2
+DNK,Denmark,HUN,Hungary,23
+DNK,Denmark,IRL,Ireland,24
+DNK,Denmark,ISL,Iceland,72
+DNK,Denmark,ITA,Italy,50
+DNK,Denmark,LIE,Liechtenstein,1
+DNK,Denmark,LTU,Lithuania,9
+DNK,Denmark,LUX,Luxembourg,16
+DNK,Denmark,LVA,Latvia,28
+DNK,Denmark,MCO,Monaco,3
+DNK,Denmark,MDA,Moldova,3
+DNK,Denmark,MKD,North Macedonia,2
+DNK,Denmark,MLT,Malta,7
+DNK,Denmark,MNE,Montenegro,
+DNK,Denmark,NLD,Netherlands,355
+DNK,Denmark,NOR,Norway,479
+DNK,Denmark,POL,Poland,70
+DNK,Denmark,PRT,Portugal,16
+DNK,Denmark,ROU,Romania,21
+DNK,Denmark,RUS,Russia,14
+DNK,Denmark,SMR,San Marino,
+DNK,Denmark,SRB,Serbia,4
+DNK,Denmark,SVK,Slovakia,5
+DNK,Denmark,SVN,Slovenia,11
+DNK,Denmark,SWE,Sweden,321
+DNK,Denmark,UKR,Ukraine,7
+EST,Estonia,ALB,Albania,
+EST,Estonia,AND,Andorra,
+EST,Estonia,AUT,Austria,63
+EST,Estonia,BEL,Belgium,14
+EST,Estonia,BGR,Bulgaria,3
+EST,Estonia,BIH,Bosnia and Herzegovina,1
+EST,Estonia,BLR,Belarus,11
+EST,Estonia,CHE,Switzerland,41
+EST,Estonia,CYP,Cyprus,2
+EST,Estonia,CZE,Czech Republic,11
+EST,Estonia,DEU,Germany,387
+EST,Estonia,DNK,Denmark,270
+EST,Estonia,ESP,Spain,51
+EST,Estonia,EST,Estonia,
+EST,Estonia,FIN,Finland,393
+EST,Estonia,FRA,France,71
+EST,Estonia,GBR,United Kingdom,921
+EST,Estonia,GIB,Gibraltar,
+EST,Estonia,GRC,Greece,8
+EST,Estonia,HRV,Croatia,3
+EST,Estonia,HUN,Hungary,15
+EST,Estonia,IRL,Ireland,12
+EST,Estonia,ISL,Iceland,3
+EST,Estonia,ITA,Italy,45
+EST,Estonia,LIE,Liechtenstein,1
+EST,Estonia,LTU,Lithuania,16
+EST,Estonia,LUX,Luxembourg,5
+EST,Estonia,LVA,Latvia,72
+EST,Estonia,MCO,Monaco,1
+EST,Estonia,MDA,Moldova,1
+EST,Estonia,MKD,North Macedonia,
+EST,Estonia,MLT,Malta,4
+EST,Estonia,MNE,Montenegro,
+EST,Estonia,NLD,Netherlands,326
+EST,Estonia,NOR,Norway,29
+EST,Estonia,POL,Poland,10
+EST,Estonia,PRT,Portugal,6
+EST,Estonia,ROU,Romania,1
+EST,Estonia,RUS,Russia,294
+EST,Estonia,SMR,San Marino,
+EST,Estonia,SRB,Serbia,
+EST,Estonia,SVK,Slovakia,1
+EST,Estonia,SVN,Slovenia,1
+EST,Estonia,SWE,Sweden,109
+EST,Estonia,UKR,Ukraine,5
+FIN,Finland,ALB,Albania,
+FIN,Finland,AND,Andorra,1
+FIN,Finland,AUT,Austria,137
+FIN,Finland,BEL,Belgium,45
+FIN,Finland,BGR,Bulgaria,26
+FIN,Finland,BIH,Bosnia and Herzegovina,1
+FIN,Finland,BLR,Belarus,
+FIN,Finland,CHE,Switzerland,114
+FIN,Finland,CYP,Cyprus,3
+FIN,Finland,CZE,Czech Republic,41
+FIN,Finland,DEU,Germany,843
+FIN,Finland,DNK,Denmark,369
+FIN,Finland,ESP,Spain,116
+FIN,Finland,EST,Estonia,1338
+FIN,Finland,FIN,Finland,
+FIN,Finland,FRA,France,198
+FIN,Finland,GBR,United Kingdom,1999
+FIN,Finland,GIB,Gibraltar,
+FIN,Finland,GRC,Greece,19
+FIN,Finland,HRV,Croatia,18
+FIN,Finland,HUN,Hungary,84
+FIN,Finland,IRL,Ireland,51
+FIN,Finland,ISL,Iceland,27
+FIN,Finland,ITA,Italy,82
+FIN,Finland,LIE,Liechtenstein,2
+FIN,Finland,LTU,Lithuania,42
+FIN,Finland,LUX,Luxembourg,7
+FIN,Finland,LVA,Latvia,276
+FIN,Finland,MCO,Monaco,4
+FIN,Finland,MDA,Moldova,14
+FIN,Finland,MKD,North Macedonia,
+FIN,Finland,MLT,Malta,12
+FIN,Finland,MNE,Montenegro,
+FIN,Finland,NLD,Netherlands,828
+FIN,Finland,NOR,Norway,191
+FIN,Finland,POL,Poland,64
+FIN,Finland,PRT,Portugal,17
+FIN,Finland,ROU,Romania,170
+FIN,Finland,RUS,Russia,71
+FIN,Finland,SMR,San Marino,
+FIN,Finland,SRB,Serbia,3
+FIN,Finland,SVK,Slovakia,8
+FIN,Finland,SVN,Slovenia,4
+FIN,Finland,SWE,Sweden,2326
+FIN,Finland,UKR,Ukraine,43
+FRA,France,ALB,Albania,
+FRA,France,AND,Andorra,7
+FRA,France,AUT,Austria,523
+FRA,France,BEL,Belgium,16690
+FRA,France,BGR,Bulgaria,94
+FRA,France,BIH,Bosnia and Herzegovina,5
+FRA,France,BLR,Belarus,3
+FRA,France,CHE,Switzerland,11023
+FRA,France,CYP,Cyprus,14
+FRA,France,CZE,Czech Republic,170
+FRA,France,DEU,Germany,8548
+FRA,France,DNK,Denmark,574
+FRA,France,ESP,Spain,8898
+FRA,France,EST,Estonia,19
+FRA,France,FIN,Finland,308
+FRA,France,FRA,France,
+FRA,France,GBR,United Kingdom,13627
+FRA,France,GIB,Gibraltar,
+FRA,France,GRC,Greece,94
+FRA,France,HRV,Croatia,151
+FRA,France,HUN,Hungary,619
+FRA,France,IRL,Ireland,700
+FRA,France,ISL,Iceland,80
+FRA,France,ITA,Italy,1660
+FRA,France,LIE,Liechtenstein,3
+FRA,France,LTU,Lithuania,37
+FRA,France,LUX,Luxembourg,925
+FRA,France,LVA,Latvia,55
+FRA,France,MCO,Monaco,574
+FRA,France,MDA,Moldova,1
+FRA,France,MKD,North Macedonia,38
+FRA,France,MLT,Malta,43
+FRA,France,MNE,Montenegro,
+FRA,France,NLD,Netherlands,2360
+FRA,France,NOR,Norway,217
+FRA,France,POL,Poland,327
+FRA,France,PRT,Portugal,1574
+FRA,France,ROU,Romania,2526
+FRA,France,RUS,Russia,264
+FRA,France,SMR,San Marino,
+FRA,France,SRB,Serbia,11
+FRA,France,SVK,Slovakia,43
+FRA,France,SVN,Slovenia,32
+FRA,France,SWE,Sweden,504
+FRA,France,UKR,Ukraine,21
+DEU,Germany,ALB,Albania,
+DEU,Germany,AND,Andorra,2
+DEU,Germany,AUT,Austria,30272
+DEU,Germany,BEL,Belgium,590
+DEU,Germany,BGR,Bulgaria,1355
+DEU,Germany,BIH,Bosnia and Herzegovina,48
+DEU,Germany,BLR,Belarus,13
+DEU,Germany,CHE,Switzerland,11218
+DEU,Germany,CYP,Cyprus,85
+DEU,Germany,CZE,Czech Republic,821
+DEU,Germany,DEU,Germany,
+DEU,Germany,DNK,Denmark,3477
+DEU,Germany,ESP,Spain,1933
+DEU,Germany,EST,Estonia,73
+DEU,Germany,FIN,Finland,646
+DEU,Germany,FRA,France,4371
+DEU,Germany,GBR,United Kingdom,12795
+DEU,Germany,GIB,Gibraltar,
+DEU,Germany,GRC,Greece,1311
+DEU,Germany,HRV,Croatia,318
+DEU,Germany,HUN,Hungary,3357
+DEU,Germany,IRL,Ireland,647
+DEU,Germany,ISL,Iceland,120
+DEU,Germany,ITA,Italy,1552
+DEU,Germany,LIE,Liechtenstein,198
+DEU,Germany,LTU,Lithuania,350
+DEU,Germany,LUX,Luxembourg,473
+DEU,Germany,LVA,Latvia,997
+DEU,Germany,MCO,Monaco,12
+DEU,Germany,MDA,Moldova,8
+DEU,Germany,MKD,North Macedonia,13
+DEU,Germany,MLT,Malta,60
+DEU,Germany,MNE,Montenegro,
+DEU,Germany,NLD,Netherlands,22189
+DEU,Germany,NOR,Norway,559
+DEU,Germany,POL,Poland,1297
+DEU,Germany,PRT,Portugal,673
+DEU,Germany,ROU,Romania,1437
+DEU,Germany,RUS,Russia,330
+DEU,Germany,SMR,San Marino,1
+DEU,Germany,SRB,Serbia,61
+DEU,Germany,SVK,Slovakia,780
+DEU,Germany,SVN,Slovenia,45
+DEU,Germany,SWE,Sweden,2013
+DEU,Germany,UKR,Ukraine,112
+GIB,Gibraltar,ALB,Albania,
+GIB,Gibraltar,AND,Andorra,
+GIB,Gibraltar,AUT,Austria,
+GIB,Gibraltar,BEL,Belgium,
+GIB,Gibraltar,BGR,Bulgaria,
+GIB,Gibraltar,BIH,Bosnia and Herzegovina,
+GIB,Gibraltar,BLR,Belarus,
+GIB,Gibraltar,CHE,Switzerland,
+GIB,Gibraltar,CYP,Cyprus,
+GIB,Gibraltar,CZE,Czech Republic,2
+GIB,Gibraltar,DEU,Germany,7
+GIB,Gibraltar,DNK,Denmark,
+GIB,Gibraltar,ESP,Spain,
+GIB,Gibraltar,EST,Estonia,
+GIB,Gibraltar,FIN,Finland,
+GIB,Gibraltar,FRA,France,
+GIB,Gibraltar,GBR,United Kingdom,949
+GIB,Gibraltar,GIB,Gibraltar,
+GIB,Gibraltar,GRC,Greece,
+GIB,Gibraltar,HRV,Croatia,194
+GIB,Gibraltar,HUN,Hungary,
+GIB,Gibraltar,IRL,Ireland,2
+GIB,Gibraltar,ISL,Iceland,6
+GIB,Gibraltar,ITA,Italy,
+GIB,Gibraltar,LIE,Liechtenstein,
+GIB,Gibraltar,LTU,Lithuania,
+GIB,Gibraltar,LUX,Luxembourg,1
+GIB,Gibraltar,LVA,Latvia,
+GIB,Gibraltar,MCO,Monaco,
+GIB,Gibraltar,MDA,Moldova,
+GIB,Gibraltar,MKD,North Macedonia,
+GIB,Gibraltar,MLT,Malta,1
+GIB,Gibraltar,MNE,Montenegro,
+GIB,Gibraltar,NLD,Netherlands,
+GIB,Gibraltar,NOR,Norway,
+GIB,Gibraltar,POL,Poland,1
+GIB,Gibraltar,PRT,Portugal,
+GIB,Gibraltar,ROU,Romania,
+GIB,Gibraltar,RUS,Russia,
+GIB,Gibraltar,SMR,San Marino,
+GIB,Gibraltar,SRB,Serbia,
+GIB,Gibraltar,SVK,Slovakia,
+GIB,Gibraltar,SVN,Slovenia,
+GIB,Gibraltar,SWE,Sweden,
+GIB,Gibraltar,UKR,Ukraine,
+GRC,Greece,ALB,Albania,155
+GRC,Greece,AND,Andorra,
+GRC,Greece,AUT,Austria,550
+GRC,Greece,BEL,Belgium,314
+GRC,Greece,BGR,Bulgaria,3889
+GRC,Greece,BIH,Bosnia and Herzegovina,4
+GRC,Greece,BLR,Belarus,2
+GRC,Greece,CHE,Switzerland,777
+GRC,Greece,CYP,Cyprus,4027
+GRC,Greece,CZE,Czech Republic,214
+GRC,Greece,DEU,Germany,3772
+GRC,Greece,DNK,Denmark,705
+GRC,Greece,ESP,Spain,321
+GRC,Greece,EST,Estonia,13
+GRC,Greece,FIN,Finland,145
+GRC,Greece,FRA,France,2147
+GRC,Greece,GBR,United Kingdom,9885
+GRC,Greece,GIB,Gibraltar,
+GRC,Greece,GRC,Greece,
+GRC,Greece,HRV,Croatia,17
+GRC,Greece,HUN,Hungary,107
+GRC,Greece,IRL,Ireland,93
+GRC,Greece,ISL,Iceland,6
+GRC,Greece,ITA,Italy,1515
+GRC,Greece,LIE,Liechtenstein,1
+GRC,Greece,LTU,Lithuania,10
+GRC,Greece,LUX,Luxembourg,78
+GRC,Greece,LVA,Latvia,8
+GRC,Greece,MCO,Monaco,4
+GRC,Greece,MDA,Moldova,15
+GRC,Greece,MKD,North Macedonia,7
+GRC,Greece,MLT,Malta,32
+GRC,Greece,MNE,Montenegro,
+GRC,Greece,NLD,Netherlands,2706
+GRC,Greece,NOR,Norway,119
+GRC,Greece,POL,Poland,52
+GRC,Greece,PRT,Portugal,43
+GRC,Greece,ROU,Romania,923
+GRC,Greece,RUS,Russia,146
+GRC,Greece,SMR,San Marino,
+GRC,Greece,SRB,Serbia,90
+GRC,Greece,SVK,Slovakia,322
+GRC,Greece,SVN,Slovenia,10
+GRC,Greece,SWE,Sweden,706
+GRC,Greece,UKR,Ukraine,49
+HUN,Hungary,ALB,Albania,
+HUN,Hungary,AND,Andorra,
+HUN,Hungary,AUT,Austria,2215
+HUN,Hungary,BEL,Belgium,91
+HUN,Hungary,BGR,Bulgaria,12
+HUN,Hungary,BIH,Bosnia and Herzegovina,
+HUN,Hungary,BLR,Belarus,
+HUN,Hungary,CHE,Switzerland,277
+HUN,Hungary,CYP,Cyprus,5
+HUN,Hungary,CZE,Czech Republic,67
+HUN,Hungary,DEU,Germany,2149
+HUN,Hungary,DNK,Denmark,1204
+HUN,Hungary,ESP,Spain,123
+HUN,Hungary,EST,Estonia,10
+HUN,Hungary,FIN,Finland,169
+HUN,Hungary,FRA,France,376
+HUN,Hungary,GBR,United Kingdom,2369
+HUN,Hungary,GIB,Gibraltar,
+HUN,Hungary,GRC,Greece,20
+HUN,Hungary,HRV,Croatia,23
+HUN,Hungary,HUN,Hungary,
+HUN,Hungary,IRL,Ireland,57
+HUN,Hungary,ISL,Iceland,12
+HUN,Hungary,ITA,Italy,204
+HUN,Hungary,LIE,Liechtenstein,2
+HUN,Hungary,LTU,Lithuania,7
+HUN,Hungary,LUX,Luxembourg,14
+HUN,Hungary,LVA,Latvia,3
+HUN,Hungary,MCO,Monaco,6
+HUN,Hungary,MDA,Moldova,
+HUN,Hungary,MKD,North Macedonia,1
+HUN,Hungary,MLT,Malta,15
+HUN,Hungary,MNE,Montenegro,
+HUN,Hungary,NLD,Netherlands,870
+HUN,Hungary,NOR,Norway,63
+HUN,Hungary,POL,Poland,115
+HUN,Hungary,PRT,Portugal,18
+HUN,Hungary,ROU,Romania,614
+HUN,Hungary,RUS,Russia,19
+HUN,Hungary,SMR,San Marino,
+HUN,Hungary,SRB,Serbia,57
+HUN,Hungary,SVK,Slovakia,574
+HUN,Hungary,SVN,Slovenia,14
+HUN,Hungary,SWE,Sweden,134
+HUN,Hungary,UKR,Ukraine,14
+ISL,Iceland,ALB,Albania,
+ISL,Iceland,AND,Andorra,
+ISL,Iceland,AUT,Austria,14
+ISL,Iceland,BEL,Belgium,11
+ISL,Iceland,BGR,Bulgaria,2
+ISL,Iceland,BIH,Bosnia and Herzegovina,
+ISL,Iceland,BLR,Belarus,
+ISL,Iceland,CHE,Switzerland,49
+ISL,Iceland,CYP,Cyprus,5
+ISL,Iceland,CZE,Czech Republic,8
+ISL,Iceland,DEU,Germany,141
+ISL,Iceland,DNK,Denmark,887
+ISL,Iceland,ESP,Spain,31
+ISL,Iceland,EST,Estonia,4
+ISL,Iceland,FIN,Finland,26
+ISL,Iceland,FRA,France,25
+ISL,Iceland,GBR,United Kingdom,254
+ISL,Iceland,GIB,Gibraltar,
+ISL,Iceland,GRC,Greece,1
+ISL,Iceland,HRV,Croatia,4
+ISL,Iceland,HUN,Hungary,81
+ISL,Iceland,IRL,Ireland,11
+ISL,Iceland,ISL,Iceland,
+ISL,Iceland,ITA,Italy,19
+ISL,Iceland,LIE,Liechtenstein,
+ISL,Iceland,LTU,Lithuania,4
+ISL,Iceland,LUX,Luxembourg,2
+ISL,Iceland,LVA,Latvia,2
+ISL,Iceland,MCO,Monaco,
+ISL,Iceland,MDA,Moldova,
+ISL,Iceland,MKD,North Macedonia,
+ISL,Iceland,MLT,Malta,2
+ISL,Iceland,MNE,Montenegro,
+ISL,Iceland,NLD,Netherlands,140
+ISL,Iceland,NOR,Norway,121
+ISL,Iceland,POL,Poland,8
+ISL,Iceland,PRT,Portugal,4
+ISL,Iceland,ROU,Romania,7
+ISL,Iceland,RUS,Russia,2
+ISL,Iceland,SMR,San Marino,
+ISL,Iceland,SRB,Serbia,
+ISL,Iceland,SVK,Slovakia,158
+ISL,Iceland,SVN,Slovenia,1
+ISL,Iceland,SWE,Sweden,218
+ISL,Iceland,UKR,Ukraine,1
+IRL,Ireland,ALB,Albania,
+IRL,Ireland,AND,Andorra,
+IRL,Ireland,AUT,Austria,110
+IRL,Ireland,BEL,Belgium,47
+IRL,Ireland,BGR,Bulgaria,214
+IRL,Ireland,BIH,Bosnia and Herzegovina,1
+IRL,Ireland,BLR,Belarus,1
+IRL,Ireland,CHE,Switzerland,60
+IRL,Ireland,CYP,Cyprus,5
+IRL,Ireland,CZE,Czech Republic,61
+IRL,Ireland,DEU,Germany,767
+IRL,Ireland,DNK,Denmark,125
+IRL,Ireland,ESP,Spain,141
+IRL,Ireland,EST,Estonia,7
+IRL,Ireland,FIN,Finland,61
+IRL,Ireland,FRA,France,319
+IRL,Ireland,GBR,United Kingdom,9598
+IRL,Ireland,GIB,Gibraltar,
+IRL,Ireland,GRC,Greece,2
+IRL,Ireland,HRV,Croatia,7
+IRL,Ireland,HUN,Hungary,281
+IRL,Ireland,IRL,Ireland,
+IRL,Ireland,ISL,Iceland,7
+IRL,Ireland,ITA,Italy,99
+IRL,Ireland,LIE,Liechtenstein,1
+IRL,Ireland,LTU,Lithuania,55
+IRL,Ireland,LUX,Luxembourg,6
+IRL,Ireland,LVA,Latvia,29
+IRL,Ireland,MCO,Monaco,3
+IRL,Ireland,MDA,Moldova,3
+IRL,Ireland,MKD,North Macedonia,
+IRL,Ireland,MLT,Malta,24
+IRL,Ireland,MNE,Montenegro,
+IRL,Ireland,NLD,Netherlands,758
+IRL,Ireland,NOR,Norway,18
+IRL,Ireland,POL,Poland,306
+IRL,Ireland,PRT,Portugal,22
+IRL,Ireland,ROU,Romania,43
+IRL,Ireland,RUS,Russia,6
+IRL,Ireland,SMR,San Marino,
+IRL,Ireland,SRB,Serbia,4
+IRL,Ireland,SVK,Slovakia,61
+IRL,Ireland,SVN,Slovenia,1
+IRL,Ireland,SWE,Sweden,70
+IRL,Ireland,UKR,Ukraine,14
+ITA,Italy,ALB,Albania,719
+ITA,Italy,AND,Andorra,2
+ITA,Italy,AUT,Austria,9059
+ITA,Italy,BEL,Belgium,1044
+ITA,Italy,BGR,Bulgaria,601
+ITA,Italy,BIH,Bosnia and Herzegovina,8
+ITA,Italy,BLR,Belarus,4
+ITA,Italy,CHE,Switzerland,5789
+ITA,Italy,CYP,Cyprus,29
+ITA,Italy,CZE,Czech Republic,451
+ITA,Italy,DEU,Germany,8857
+ITA,Italy,DNK,Denmark,1299
+ITA,Italy,ESP,Spain,6725
+ITA,Italy,EST,Estonia,56
+ITA,Italy,FIN,Finland,374
+ITA,Italy,FRA,France,8485
+ITA,Italy,GBR,United Kingdom,14125
+ITA,Italy,GIB,Gibraltar,
+ITA,Italy,GRC,Greece,103
+ITA,Italy,HRV,Croatia,132
+ITA,Italy,HUN,Hungary,546
+ITA,Italy,IRL,Ireland,527
+ITA,Italy,ISL,Iceland,47
+ITA,Italy,ITA,Italy,
+ITA,Italy,LIE,Liechtenstein,4
+ITA,Italy,LTU,Lithuania,80
+ITA,Italy,LUX,Luxembourg,163
+ITA,Italy,LVA,Latvia,115
+ITA,Italy,MCO,Monaco,105
+ITA,Italy,MDA,Moldova,15
+ITA,Italy,MKD,North Macedonia,2
+ITA,Italy,MLT,Malta,231
+ITA,Italy,MNE,Montenegro,
+ITA,Italy,NLD,Netherlands,4278
+ITA,Italy,NOR,Norway,236
+ITA,Italy,POL,Poland,343
+ITA,Italy,PRT,Portugal,860
+ITA,Italy,ROU,Romania,1961
+ITA,Italy,RUS,Russia,224
+ITA,Italy,SMR,San Marino,782
+ITA,Italy,SRB,Serbia,23
+ITA,Italy,SVK,Slovakia,124
+ITA,Italy,SVN,Slovenia,310
+ITA,Italy,SWE,Sweden,797
+ITA,Italy,UKR,Ukraine,20
+LVA,Latvia,ALB,Albania,
+LVA,Latvia,AND,Andorra,
+LVA,Latvia,AUT,Austria,77
+LVA,Latvia,BEL,Belgium,33
+LVA,Latvia,BGR,Bulgaria,8
+LVA,Latvia,BIH,Bosnia and Herzegovina,1
+LVA,Latvia,BLR,Belarus,44
+LVA,Latvia,CHE,Switzerland,72
+LVA,Latvia,CYP,Cyprus,6
+LVA,Latvia,CZE,Czech Republic,15
+LVA,Latvia,DEU,Germany,606
+LVA,Latvia,DNK,Denmark,601
+LVA,Latvia,ESP,Spain,34
+LVA,Latvia,EST,Estonia,123
+LVA,Latvia,FIN,Finland,106
+LVA,Latvia,FRA,France,109
+LVA,Latvia,GBR,United Kingdom,1340
+LVA,Latvia,GIB,Gibraltar,
+LVA,Latvia,GRC,Greece,3
+LVA,Latvia,HRV,Croatia,11
+LVA,Latvia,HUN,Hungary,14
+LVA,Latvia,IRL,Ireland,31
+LVA,Latvia,ISL,Iceland,11
+LVA,Latvia,ITA,Italy,70
+LVA,Latvia,LIE,Liechtenstein,2
+LVA,Latvia,LTU,Lithuania,85
+LVA,Latvia,LUX,Luxembourg,6
+LVA,Latvia,LVA,Latvia,
+LVA,Latvia,MCO,Monaco,2
+LVA,Latvia,MDA,Moldova,
+LVA,Latvia,MKD,North Macedonia,
+LVA,Latvia,MLT,Malta,11
+LVA,Latvia,MNE,Montenegro,
+LVA,Latvia,NLD,Netherlands,576
+LVA,Latvia,NOR,Norway,57
+LVA,Latvia,POL,Poland,43
+LVA,Latvia,PRT,Portugal,7
+LVA,Latvia,ROU,Romania,2
+LVA,Latvia,RUS,Russia,500
+LVA,Latvia,SMR,San Marino,
+LVA,Latvia,SRB,Serbia,
+LVA,Latvia,SVK,Slovakia,3
+LVA,Latvia,SVN,Slovenia,1
+LVA,Latvia,SWE,Sweden,93
+LVA,Latvia,UKR,Ukraine,18
+LIE,Liechtenstein,ALB,Albania,
+LIE,Liechtenstein,AND,Andorra,
+LIE,Liechtenstein,AUT,Austria,162
+LIE,Liechtenstein,BEL,Belgium,1
+LIE,Liechtenstein,BGR,Bulgaria,
+LIE,Liechtenstein,BIH,Bosnia and Herzegovina,
+LIE,Liechtenstein,BLR,Belarus,
+LIE,Liechtenstein,CHE,Switzerland,865
+LIE,Liechtenstein,CYP,Cyprus,
+LIE,Liechtenstein,CZE,Czech Republic,3
+LIE,Liechtenstein,DEU,Germany,48
+LIE,Liechtenstein,DNK,Denmark,4
+LIE,Liechtenstein,ESP,Spain,3
+LIE,Liechtenstein,EST,Estonia,
+LIE,Liechtenstein,FIN,Finland,1
+LIE,Liechtenstein,FRA,France,2
+LIE,Liechtenstein,GBR,United Kingdom,19
+LIE,Liechtenstein,GIB,Gibraltar,
+LIE,Liechtenstein,GRC,Greece,1
+LIE,Liechtenstein,HRV,Croatia,
+LIE,Liechtenstein,HUN,Hungary,1
+LIE,Liechtenstein,IRL,Ireland,
+LIE,Liechtenstein,ISL,Iceland,
+LIE,Liechtenstein,ITA,Italy,2
+LIE,Liechtenstein,LIE,Liechtenstein,
+LIE,Liechtenstein,LTU,Lithuania,
+LIE,Liechtenstein,LUX,Luxembourg,
+LIE,Liechtenstein,LVA,Latvia,
+LIE,Liechtenstein,MCO,Monaco,
+LIE,Liechtenstein,MDA,Moldova,
+LIE,Liechtenstein,MKD,North Macedonia,
+LIE,Liechtenstein,MLT,Malta,
+LIE,Liechtenstein,MNE,Montenegro,
+LIE,Liechtenstein,NLD,Netherlands,3
+LIE,Liechtenstein,NOR,Norway,1
+LIE,Liechtenstein,POL,Poland,
+LIE,Liechtenstein,PRT,Portugal,1
+LIE,Liechtenstein,ROU,Romania,
+LIE,Liechtenstein,RUS,Russia,
+LIE,Liechtenstein,SMR,San Marino,
+LIE,Liechtenstein,SRB,Serbia,2
+LIE,Liechtenstein,SVK,Slovakia,1
+LIE,Liechtenstein,SVN,Slovenia,
+LIE,Liechtenstein,SWE,Sweden,1
+LIE,Liechtenstein,UKR,Ukraine,
+LTU,Lithuania,ALB,Albania,
+LTU,Lithuania,AND,Andorra,
+LTU,Lithuania,AUT,Austria,77
+LTU,Lithuania,BEL,Belgium,56
+LTU,Lithuania,BGR,Bulgaria,8
+LTU,Lithuania,BIH,Bosnia and Herzegovina,3
+LTU,Lithuania,BLR,Belarus,83
+LTU,Lithuania,CHE,Switzerland,89
+LTU,Lithuania,CYP,Cyprus,4
+LTU,Lithuania,CZE,Czech Republic,20
+LTU,Lithuania,DEU,Germany,777
+LTU,Lithuania,DNK,Denmark,1095
+LTU,Lithuania,ESP,Spain,64
+LTU,Lithuania,EST,Estonia,27
+LTU,Lithuania,FIN,Finland,102
+LTU,Lithuania,FRA,France,211
+LTU,Lithuania,GBR,United Kingdom,4234
+LTU,Lithuania,GIB,Gibraltar,
+LTU,Lithuania,GRC,Greece,11
+LTU,Lithuania,HRV,Croatia,33
+LTU,Lithuania,HUN,Hungary,31
+LTU,Lithuania,IRL,Ireland,66
+LTU,Lithuania,ISL,Iceland,19
+LTU,Lithuania,ITA,Italy,118
+LTU,Lithuania,LIE,Liechtenstein,1
+LTU,Lithuania,LTU,Lithuania,
+LTU,Lithuania,LUX,Luxembourg,15
+LTU,Lithuania,LVA,Latvia,150
+LTU,Lithuania,MCO,Monaco,3
+LTU,Lithuania,MDA,Moldova,
+LTU,Lithuania,MKD,North Macedonia,
+LTU,Lithuania,MLT,Malta,6
+LTU,Lithuania,MNE,Montenegro,
+LTU,Lithuania,NLD,Netherlands,1008
+LTU,Lithuania,NOR,Norway,87
+LTU,Lithuania,POL,Poland,627
+LTU,Lithuania,PRT,Portugal,29
+LTU,Lithuania,ROU,Romania,2
+LTU,Lithuania,RUS,Russia,243
+LTU,Lithuania,SMR,San Marino,1
+LTU,Lithuania,SRB,Serbia,2
+LTU,Lithuania,SVK,Slovakia,6
+LTU,Lithuania,SVN,Slovenia,2
+LTU,Lithuania,SWE,Sweden,175
+LTU,Lithuania,UKR,Ukraine,27
+LUX,Luxembourg,ALB,Albania,
+LUX,Luxembourg,AND,Andorra,
+LUX,Luxembourg,AUT,Austria,1127
+LUX,Luxembourg,BEL,Belgium,1914
+LUX,Luxembourg,BGR,Bulgaria,5
+LUX,Luxembourg,BIH,Bosnia and Herzegovina,2
+LUX,Luxembourg,BLR,Belarus,
+LUX,Luxembourg,CHE,Switzerland,473
+LUX,Luxembourg,CYP,Cyprus,2
+LUX,Luxembourg,CZE,Czech Republic,4
+LUX,Luxembourg,DEU,Germany,4912
+LUX,Luxembourg,DNK,Denmark,102
+LUX,Luxembourg,ESP,Spain,107
+LUX,Luxembourg,EST,Estonia,1
+LUX,Luxembourg,FIN,Finland,6
+LUX,Luxembourg,FRA,France,1291
+LUX,Luxembourg,GBR,United Kingdom,1133
+LUX,Luxembourg,GIB,Gibraltar,
+LUX,Luxembourg,GRC,Greece,15
+LUX,Luxembourg,HRV,Croatia,2
+LUX,Luxembourg,HUN,Hungary,15
+LUX,Luxembourg,IRL,Ireland,96
+LUX,Luxembourg,ISL,Iceland,3
+LUX,Luxembourg,ITA,Italy,78
+LUX,Luxembourg,LIE,Liechtenstein,2
+LUX,Luxembourg,LTU,Lithuania,4
+LUX,Luxembourg,LUX,Luxembourg,
+LUX,Luxembourg,LVA,Latvia,3
+LUX,Luxembourg,MCO,Monaco,2
+LUX,Luxembourg,MDA,Moldova,
+LUX,Luxembourg,MKD,North Macedonia,
+LUX,Luxembourg,MLT,Malta,3
+LUX,Luxembourg,MNE,Montenegro,
+LUX,Luxembourg,NLD,Netherlands,422
+LUX,Luxembourg,NOR,Norway,3
+LUX,Luxembourg,POL,Poland,3
+LUX,Luxembourg,PRT,Portugal,135
+LUX,Luxembourg,ROU,Romania,23
+LUX,Luxembourg,RUS,Russia,2
+LUX,Luxembourg,SMR,San Marino,1
+LUX,Luxembourg,SRB,Serbia,1
+LUX,Luxembourg,SVK,Slovakia,1
+LUX,Luxembourg,SVN,Slovenia,2
+LUX,Luxembourg,SWE,Sweden,21
+LUX,Luxembourg,UKR,Ukraine,2
+MLT,Malta,ALB,Albania,
+MLT,Malta,AND,Andorra,
+MLT,Malta,AUT,Austria,6
+MLT,Malta,BEL,Belgium,6
+MLT,Malta,BGR,Bulgaria,2
+MLT,Malta,BIH,Bosnia and Herzegovina,
+MLT,Malta,BLR,Belarus,
+MLT,Malta,CHE,Switzerland,6
+MLT,Malta,CYP,Cyprus,4
+MLT,Malta,CZE,Czech Republic,2
+MLT,Malta,DEU,Germany,37
+MLT,Malta,DNK,Denmark,13
+MLT,Malta,ESP,Spain,20
+MLT,Malta,EST,Estonia,4
+MLT,Malta,FIN,Finland,9
+MLT,Malta,FRA,France,14
+MLT,Malta,GBR,United Kingdom,762
+MLT,Malta,GIB,Gibraltar,
+MLT,Malta,GRC,Greece,1
+MLT,Malta,HRV,Croatia,
+MLT,Malta,HUN,Hungary,40
+MLT,Malta,IRL,Ireland,50
+MLT,Malta,ISL,Iceland,3
+MLT,Malta,ITA,Italy,39
+MLT,Malta,LIE,Liechtenstein,
+MLT,Malta,LTU,Lithuania,3
+MLT,Malta,LUX,Luxembourg,2
+MLT,Malta,LVA,Latvia,1
+MLT,Malta,MCO,Monaco,2
+MLT,Malta,MDA,Moldova,
+MLT,Malta,MKD,North Macedonia,
+MLT,Malta,MLT,Malta,
+MLT,Malta,MNE,Montenegro,
+MLT,Malta,NLD,Netherlands,45
+MLT,Malta,NOR,Norway,4
+MLT,Malta,POL,Poland,4
+MLT,Malta,PRT,Portugal,11
+MLT,Malta,ROU,Romania,1
+MLT,Malta,RUS,Russia,2
+MLT,Malta,SMR,San Marino,1
+MLT,Malta,SRB,Serbia,
+MLT,Malta,SVK,Slovakia,7
+MLT,Malta,SVN,Slovenia,1
+MLT,Malta,SWE,Sweden,5
+MLT,Malta,UKR,Ukraine,1
+MCO,Monaco,ALB,Albania,
+MCO,Monaco,AND,Andorra,
+MCO,Monaco,AUT,Austria,2
+MCO,Monaco,BEL,Belgium,5
+MCO,Monaco,BGR,Bulgaria,
+MCO,Monaco,BIH,Bosnia and Herzegovina,
+MCO,Monaco,BLR,Belarus,
+MCO,Monaco,CHE,Switzerland,35
+MCO,Monaco,CYP,Cyprus,
+MCO,Monaco,CZE,Czech Republic,9
+MCO,Monaco,DEU,Germany,4
+MCO,Monaco,DNK,Denmark,4
+MCO,Monaco,ESP,Spain,20
+MCO,Monaco,EST,Estonia,
+MCO,Monaco,FIN,Finland,
+MCO,Monaco,FRA,France,181
+MCO,Monaco,GBR,United Kingdom,126
+MCO,Monaco,GIB,Gibraltar,
+MCO,Monaco,GRC,Greece,
+MCO,Monaco,HRV,Croatia,1
+MCO,Monaco,HUN,Hungary,
+MCO,Monaco,IRL,Ireland,1
+MCO,Monaco,ISL,Iceland,
+MCO,Monaco,ITA,Italy,26
+MCO,Monaco,LIE,Liechtenstein,
+MCO,Monaco,LTU,Lithuania,
+MCO,Monaco,LUX,Luxembourg,2
+MCO,Monaco,LVA,Latvia,
+MCO,Monaco,MCO,Monaco,
+MCO,Monaco,MDA,Moldova,
+MCO,Monaco,MKD,North Macedonia,2
+MCO,Monaco,MLT,Malta,
+MCO,Monaco,MNE,Montenegro,
+MCO,Monaco,NLD,Netherlands,
+MCO,Monaco,NOR,Norway,1
+MCO,Monaco,POL,Poland,
+MCO,Monaco,PRT,Portugal,3
+MCO,Monaco,ROU,Romania,2
+MCO,Monaco,RUS,Russia,
+MCO,Monaco,SMR,San Marino,
+MCO,Monaco,SRB,Serbia,1
+MCO,Monaco,SVK,Slovakia,
+MCO,Monaco,SVN,Slovenia,1
+MCO,Monaco,SWE,Sweden,2
+MCO,Monaco,UKR,Ukraine,3
+MNE,Montenegro,ALB,Albania,180
+MNE,Montenegro,AND,Andorra,
+MNE,Montenegro,AUT,Austria,121
+MNE,Montenegro,BEL,Belgium,43
+MNE,Montenegro,BGR,Bulgaria,6
+MNE,Montenegro,BIH,Bosnia and Herzegovina,740
+MNE,Montenegro,BLR,Belarus,
+MNE,Montenegro,CHE,Switzerland,18
+MNE,Montenegro,CYP,Cyprus,
+MNE,Montenegro,CZE,Czech Republic,23
+MNE,Montenegro,DEU,Germany,112
+MNE,Montenegro,DNK,Denmark,3
+MNE,Montenegro,ESP,Spain,11
+MNE,Montenegro,EST,Estonia,3
+MNE,Montenegro,FIN,Finland,1
+MNE,Montenegro,FRA,France,35
+MNE,Montenegro,GBR,United Kingdom,56
+MNE,Montenegro,GIB,Gibraltar,
+MNE,Montenegro,GRC,Greece,5
+MNE,Montenegro,HRV,Croatia,53
+MNE,Montenegro,HUN,Hungary,31
+MNE,Montenegro,IRL,Ireland,2
+MNE,Montenegro,ISL,Iceland,2
+MNE,Montenegro,ITA,Italy,183
+MNE,Montenegro,LIE,Liechtenstein,
+MNE,Montenegro,LTU,Lithuania,
+MNE,Montenegro,LUX,Luxembourg,5
+MNE,Montenegro,LVA,Latvia,
+MNE,Montenegro,MCO,Monaco,
+MNE,Montenegro,MDA,Moldova,
+MNE,Montenegro,MKD,North Macedonia,64
+MNE,Montenegro,MLT,Malta,2
+MNE,Montenegro,MNE,Montenegro,
+MNE,Montenegro,NLD,Netherlands,14
+MNE,Montenegro,NOR,Norway,8
+MNE,Montenegro,POL,Poland,7
+MNE,Montenegro,PRT,Portugal,4
+MNE,Montenegro,ROU,Romania,2
+MNE,Montenegro,RUS,Russia,16
+MNE,Montenegro,SMR,San Marino,
+MNE,Montenegro,SRB,Serbia,2887
+MNE,Montenegro,SVK,Slovakia,7
+MNE,Montenegro,SVN,Slovenia,146
+MNE,Montenegro,SWE,Sweden,7
+MNE,Montenegro,UKR,Ukraine,2
+MKD,North Macedonia,ALB,Albania,99
+MKD,North Macedonia,AND,Andorra,
+MKD,North Macedonia,AUT,Austria,258
+MKD,North Macedonia,BEL,Belgium,20
+MKD,North Macedonia,BGR,Bulgaria,878
+MKD,North Macedonia,BIH,Bosnia and Herzegovina,24
+MKD,North Macedonia,BLR,Belarus,
+MKD,North Macedonia,CHE,Switzerland,135
+MKD,North Macedonia,CYP,Cyprus,
+MKD,North Macedonia,CZE,Czech Republic,93
+MKD,North Macedonia,DEU,Germany,547
+MKD,North Macedonia,DNK,Denmark,25
+MKD,North Macedonia,ESP,Spain,24
+MKD,North Macedonia,EST,Estonia,6
+MKD,North Macedonia,FIN,Finland,8
+MKD,North Macedonia,FRA,France,140
+MKD,North Macedonia,GBR,United Kingdom,107
+MKD,North Macedonia,GIB,Gibraltar,
+MKD,North Macedonia,GRC,Greece,33
+MKD,North Macedonia,HRV,Croatia,61
+MKD,North Macedonia,HUN,Hungary,49
+MKD,North Macedonia,IRL,Ireland,3
+MKD,North Macedonia,ISL,Iceland,3
+MKD,North Macedonia,ITA,Italy,318
+MKD,North Macedonia,LIE,Liechtenstein,4
+MKD,North Macedonia,LTU,Lithuania,11
+MKD,North Macedonia,LUX,Luxembourg,7
+MKD,North Macedonia,LVA,Latvia,2
+MKD,North Macedonia,MCO,Monaco,1
+MKD,North Macedonia,MDA,Moldova,
+MKD,North Macedonia,MKD,North Macedonia,
+MKD,North Macedonia,MLT,Malta,5
+MKD,North Macedonia,MNE,Montenegro,
+MKD,North Macedonia,NLD,Netherlands,100
+MKD,North Macedonia,NOR,Norway,19
+MKD,North Macedonia,POL,Poland,13
+MKD,North Macedonia,PRT,Portugal,6
+MKD,North Macedonia,ROU,Romania,63
+MKD,North Macedonia,RUS,Russia,35
+MKD,North Macedonia,SMR,San Marino,3
+MKD,North Macedonia,SRB,Serbia,139
+MKD,North Macedonia,SVK,Slovakia,24
+MKD,North Macedonia,SVN,Slovenia,956
+MKD,North Macedonia,SWE,Sweden,32
+MKD,North Macedonia,UKR,Ukraine,8
+NOR,Norway,ALB,Albania,
+NOR,Norway,AND,Andorra,
+NOR,Norway,AUT,Austria,66
+NOR,Norway,BEL,Belgium,53
+NOR,Norway,BGR,Bulgaria,78
+NOR,Norway,BIH,Bosnia and Herzegovina,2
+NOR,Norway,BLR,Belarus,2
+NOR,Norway,CHE,Switzerland,95
+NOR,Norway,CYP,Cyprus,13
+NOR,Norway,CZE,Czech Republic,254
+NOR,Norway,DEU,Germany,510
+NOR,Norway,DNK,Denmark,3047
+NOR,Norway,ESP,Spain,287
+NOR,Norway,EST,Estonia,4
+NOR,Norway,FIN,Finland,58
+NOR,Norway,FRA,France,283
+NOR,Norway,GBR,United Kingdom,4187
+NOR,Norway,GIB,Gibraltar,
+NOR,Norway,GRC,Greece,6
+NOR,Norway,HRV,Croatia,43
+NOR,Norway,HUN,Hungary,920
+NOR,Norway,IRL,Ireland,63
+NOR,Norway,ISL,Iceland,41
+NOR,Norway,ITA,Italy,167
+NOR,Norway,LIE,Liechtenstein,3
+NOR,Norway,LTU,Lithuania,43
+NOR,Norway,LUX,Luxembourg,18
+NOR,Norway,LVA,Latvia,176
+NOR,Norway,MCO,Monaco,6
+NOR,Norway,MDA,Moldova,8
+NOR,Norway,MKD,North Macedonia,1
+NOR,Norway,MLT,Malta,4
+NOR,Norway,MNE,Montenegro,
+NOR,Norway,NLD,Netherlands,520
+NOR,Norway,NOR,Norway,
+NOR,Norway,POL,Poland,1412
+NOR,Norway,PRT,Portugal,28
+NOR,Norway,ROU,Romania,44
+NOR,Norway,RUS,Russia,74
+NOR,Norway,SMR,San Marino,1
+NOR,Norway,SRB,Serbia,8
+NOR,Norway,SVK,Slovakia,550
+NOR,Norway,SVN,Slovenia,4
+NOR,Norway,SWE,Sweden,431
+NOR,Norway,UKR,Ukraine,10
+POL,Poland,ALB,Albania,
+POL,Poland,AND,Andorra,1
+POL,Poland,AUT,Austria,767
+POL,Poland,BEL,Belgium,188
+POL,Poland,BGR,Bulgaria,36
+POL,Poland,BIH,Bosnia and Herzegovina,2
+POL,Poland,BLR,Belarus,12
+POL,Poland,CHE,Switzerland,544
+POL,Poland,CYP,Cyprus,9
+POL,Poland,CZE,Czech Republic,339
+POL,Poland,DEU,Germany,5139
+POL,Poland,DNK,Denmark,1425
+POL,Poland,ESP,Spain,432
+POL,Poland,EST,Estonia,15
+POL,Poland,FIN,Finland,186
+POL,Poland,FRA,France,1092
+POL,Poland,GBR,United Kingdom,8513
+POL,Poland,GIB,Gibraltar,
+POL,Poland,GRC,Greece,67
+POL,Poland,HRV,Croatia,155
+POL,Poland,HUN,Hungary,188
+POL,Poland,IRL,Ireland,206
+POL,Poland,ISL,Iceland,63
+POL,Poland,ITA,Italy,783
+POL,Poland,LIE,Liechtenstein,5
+POL,Poland,LTU,Lithuania,59
+POL,Poland,LUX,Luxembourg,30
+POL,Poland,LVA,Latvia,17
+POL,Poland,MCO,Monaco,4
+POL,Poland,MDA,Moldova,2
+POL,Poland,MKD,North Macedonia,2
+POL,Poland,MLT,Malta,21
+POL,Poland,MNE,Montenegro,
+POL,Poland,NLD,Netherlands,1437
+POL,Poland,NOR,Norway,228
+POL,Poland,POL,Poland,
+POL,Poland,PRT,Portugal,100
+POL,Poland,ROU,Romania,36
+POL,Poland,RUS,Russia,51
+POL,Poland,SMR,San Marino,
+POL,Poland,SRB,Serbia,12
+POL,Poland,SVK,Slovakia,480
+POL,Poland,SVN,Slovenia,8
+POL,Poland,SWE,Sweden,243
+POL,Poland,UKR,Ukraine,656
+PRT,Portugal,ALB,Albania,
+PRT,Portugal,AND,Andorra,38
+PRT,Portugal,AUT,Austria,117
+PRT,Portugal,BEL,Belgium,210
+PRT,Portugal,BGR,Bulgaria,36
+PRT,Portugal,BIH,Bosnia and Herzegovina,1
+PRT,Portugal,BLR,Belarus,1
+PRT,Portugal,CHE,Switzerland,384
+PRT,Portugal,CYP,Cyprus,4
+PRT,Portugal,CZE,Czech Republic,239
+PRT,Portugal,DEU,Germany,1002
+PRT,Portugal,DNK,Denmark,397
+PRT,Portugal,ESP,Spain,1950
+PRT,Portugal,EST,Estonia,20
+PRT,Portugal,FIN,Finland,91
+PRT,Portugal,FRA,France,1479
+PRT,Portugal,GBR,United Kingdom,6011
+PRT,Portugal,GIB,Gibraltar,
+PRT,Portugal,GRC,Greece,14
+PRT,Portugal,HRV,Croatia,63
+PRT,Portugal,HUN,Hungary,227
+PRT,Portugal,IRL,Ireland,74
+PRT,Portugal,ISL,Iceland,9
+PRT,Portugal,ITA,Italy,217
+PRT,Portugal,LIE,Liechtenstein,
+PRT,Portugal,LTU,Lithuania,27
+PRT,Portugal,LUX,Luxembourg,56
+PRT,Portugal,LVA,Latvia,74
+PRT,Portugal,MCO,Monaco,3
+PRT,Portugal,MDA,Moldova,4
+PRT,Portugal,MKD,North Macedonia,
+PRT,Portugal,MLT,Malta,8
+PRT,Portugal,MNE,Montenegro,
+PRT,Portugal,NLD,Netherlands,899
+PRT,Portugal,NOR,Norway,47
+PRT,Portugal,POL,Poland,96
+PRT,Portugal,PRT,Portugal,
+PRT,Portugal,ROU,Romania,52
+PRT,Portugal,RUS,Russia,1663
+PRT,Portugal,SMR,San Marino,
+PRT,Portugal,SRB,Serbia,1
+PRT,Portugal,SVK,Slovakia,63
+PRT,Portugal,SVN,Slovenia,13
+PRT,Portugal,SWE,Sweden,158
+PRT,Portugal,UKR,Ukraine,10
+ROU,Romania,ALB,Albania,
+ROU,Romania,AND,Andorra,1
+ROU,Romania,AUT,Austria,1149
+ROU,Romania,BEL,Belgium,318
+ROU,Romania,BGR,Bulgaria,23
+ROU,Romania,BIH,Bosnia and Herzegovina,1
+ROU,Romania,BLR,Belarus,2
+ROU,Romania,CHE,Switzerland,428
+ROU,Romania,CYP,Cyprus,26
+ROU,Romania,CZE,Czech Republic,99
+ROU,Romania,DEU,Germany,2652
+ROU,Romania,DNK,Denmark,1788
+ROU,Romania,ESP,Spain,1248
+ROU,Romania,EST,Estonia,7
+ROU,Romania,FIN,Finland,120
+ROU,Romania,FRA,France,2473
+ROU,Romania,GBR,United Kingdom,10040
+ROU,Romania,GIB,Gibraltar,
+ROU,Romania,GRC,Greece,172
+ROU,Romania,HRV,Croatia,22
+ROU,Romania,HUN,Hungary,2330
+ROU,Romania,IRL,Ireland,82
+ROU,Romania,ISL,Iceland,8
+ROU,Romania,ITA,Italy,4343
+ROU,Romania,LIE,Liechtenstein,3
+ROU,Romania,LTU,Lithuania,50
+ROU,Romania,LUX,Luxembourg,56
+ROU,Romania,LVA,Latvia,5
+ROU,Romania,MCO,Monaco,7
+ROU,Romania,MDA,Moldova,2181
+ROU,Romania,MKD,North Macedonia,1
+ROU,Romania,MLT,Malta,20
+ROU,Romania,MNE,Montenegro,
+ROU,Romania,NLD,Netherlands,2353
+ROU,Romania,NOR,Norway,91
+ROU,Romania,POL,Poland,61
+ROU,Romania,PRT,Portugal,70
+ROU,Romania,ROU,Romania,
+ROU,Romania,RUS,Russia,11
+ROU,Romania,SMR,San Marino,4
+ROU,Romania,SRB,Serbia,21
+ROU,Romania,SVK,Slovakia,51
+ROU,Romania,SVN,Slovenia,7
+ROU,Romania,SWE,Sweden,215
+ROU,Romania,UKR,Ukraine,10
+SMR,San Marino,ALB,Albania,
+SMR,San Marino,AND,Andorra,
+SMR,San Marino,AUT,Austria,
+SMR,San Marino,BEL,Belgium,28
+SMR,San Marino,BGR,Bulgaria,
+SMR,San Marino,BIH,Bosnia and Herzegovina,
+SMR,San Marino,BLR,Belarus,
+SMR,San Marino,CHE,Switzerland,3
+SMR,San Marino,CYP,Cyprus,
+SMR,San Marino,CZE,Czech Republic,2244
+SMR,San Marino,DEU,Germany,2
+SMR,San Marino,DNK,Denmark,
+SMR,San Marino,ESP,Spain,2
+SMR,San Marino,EST,Estonia,
+SMR,San Marino,FIN,Finland,
+SMR,San Marino,FRA,France,2
+SMR,San Marino,GBR,United Kingdom,3
+SMR,San Marino,GIB,Gibraltar,
+SMR,San Marino,GRC,Greece,
+SMR,San Marino,HRV,Croatia,1
+SMR,San Marino,HUN,Hungary,
+SMR,San Marino,IRL,Ireland,1
+SMR,San Marino,ISL,Iceland,
+SMR,San Marino,ITA,Italy,757
+SMR,San Marino,LIE,Liechtenstein,
+SMR,San Marino,LTU,Lithuania,
+SMR,San Marino,LUX,Luxembourg,
+SMR,San Marino,LVA,Latvia,
+SMR,San Marino,MCO,Monaco,
+SMR,San Marino,MDA,Moldova,
+SMR,San Marino,MKD,North Macedonia,
+SMR,San Marino,MLT,Malta,
+SMR,San Marino,MNE,Montenegro,
+SMR,San Marino,NLD,Netherlands,
+SMR,San Marino,NOR,Norway,
+SMR,San Marino,POL,Poland,
+SMR,San Marino,PRT,Portugal,
+SMR,San Marino,ROU,Romania,
+SMR,San Marino,RUS,Russia,97
+SMR,San Marino,SMR,San Marino,
+SMR,San Marino,SRB,Serbia,
+SMR,San Marino,SVK,Slovakia,
+SMR,San Marino,SVN,Slovenia,
+SMR,San Marino,SWE,Sweden,1
+SMR,San Marino,UKR,Ukraine,
+SRB,Serbia,ALB,Albania,196
+SRB,Serbia,AND,Andorra,
+SRB,Serbia,AUT,Austria,1839
+SRB,Serbia,BEL,Belgium,50
+SRB,Serbia,BGR,Bulgaria,547
+SRB,Serbia,BIH,Bosnia and Herzegovina,1630
+SRB,Serbia,BLR,Belarus,1
+SRB,Serbia,CHE,Switzerland,355
+SRB,Serbia,CYP,Cyprus,12
+SRB,Serbia,CZE,Czech Republic,186
+SRB,Serbia,DEU,Germany,1050
+SRB,Serbia,DNK,Denmark,45
+SRB,Serbia,ESP,Spain,113
+SRB,Serbia,EST,Estonia,13
+SRB,Serbia,FIN,Finland,49
+SRB,Serbia,FRA,France,392
+SRB,Serbia,GBR,United Kingdom,285
+SRB,Serbia,GIB,Gibraltar,
+SRB,Serbia,GRC,Greece,106
+SRB,Serbia,HRV,Croatia,123
+SRB,Serbia,HUN,Hungary,2046
+SRB,Serbia,IRL,Ireland,11
+SRB,Serbia,ISL,Iceland,11
+SRB,Serbia,ITA,Italy,549
+SRB,Serbia,LIE,Liechtenstein,2
+SRB,Serbia,LTU,Lithuania,3
+SRB,Serbia,LUX,Luxembourg,13
+SRB,Serbia,LVA,Latvia,2
+SRB,Serbia,MCO,Monaco,2
+SRB,Serbia,MDA,Moldova,
+SRB,Serbia,MKD,North Macedonia,518
+SRB,Serbia,MLT,Malta,23
+SRB,Serbia,MNE,Montenegro,
+SRB,Serbia,NLD,Netherlands,133
+SRB,Serbia,NOR,Norway,97
+SRB,Serbia,POL,Poland,24
+SRB,Serbia,PRT,Portugal,29
+SRB,Serbia,ROU,Romania,741
+SRB,Serbia,RUS,Russia,94
+SRB,Serbia,SMR,San Marino,
+SRB,Serbia,SRB,Serbia,
+SRB,Serbia,SVK,Slovakia,796
+SRB,Serbia,SVN,Slovenia,681
+SRB,Serbia,SWE,Sweden,75
+SRB,Serbia,UKR,Ukraine,10
+SVK,Slovakia,ALB,Albania,
+SVK,Slovakia,AND,Andorra,1
+SVK,Slovakia,AUT,Austria,959
+SVK,Slovakia,BEL,Belgium,42
+SVK,Slovakia,BGR,Bulgaria,6
+SVK,Slovakia,BIH,Bosnia and Herzegovina,6
+SVK,Slovakia,BLR,Belarus,2
+SVK,Slovakia,CHE,Switzerland,146
+SVK,Slovakia,CYP,Cyprus,3
+SVK,Slovakia,CZE,Czech Republic,20175
+SVK,Slovakia,DEU,Germany,749
+SVK,Slovakia,DNK,Denmark,1346
+SVK,Slovakia,ESP,Spain,94
+SVK,Slovakia,EST,Estonia,6
+SVK,Slovakia,FIN,Finland,51
+SVK,Slovakia,FRA,France,220
+SVK,Slovakia,GBR,United Kingdom,1858
+SVK,Slovakia,GIB,Gibraltar,
+SVK,Slovakia,GRC,Greece,11
+SVK,Slovakia,HRV,Croatia,39
+SVK,Slovakia,HUN,Hungary,1761
+SVK,Slovakia,IRL,Ireland,24
+SVK,Slovakia,ISL,Iceland,7
+SVK,Slovakia,ITA,Italy,131
+SVK,Slovakia,LIE,Liechtenstein,1
+SVK,Slovakia,LTU,Lithuania,3
+SVK,Slovakia,LUX,Luxembourg,11
+SVK,Slovakia,LVA,Latvia,4
+SVK,Slovakia,MCO,Monaco,2
+SVK,Slovakia,MDA,Moldova,
+SVK,Slovakia,MKD,North Macedonia,1
+SVK,Slovakia,MLT,Malta,5
+SVK,Slovakia,MNE,Montenegro,
+SVK,Slovakia,NLD,Netherlands,517
+SVK,Slovakia,NOR,Norway,45
+SVK,Slovakia,POL,Poland,402
+SVK,Slovakia,PRT,Portugal,9
+SVK,Slovakia,ROU,Romania,9
+SVK,Slovakia,RUS,Russia,19
+SVK,Slovakia,SMR,San Marino,
+SVK,Slovakia,SRB,Serbia,19
+SVK,Slovakia,SVK,Slovakia,
+SVK,Slovakia,SVN,Slovenia,5
+SVK,Slovakia,SWE,Sweden,52
+SVK,Slovakia,UKR,Ukraine,49
+SVN,Slovenia,ALB,Albania,
+SVN,Slovenia,AND,Andorra,
+SVN,Slovenia,AUT,Austria,692
+SVN,Slovenia,BEL,Belgium,95
+SVN,Slovenia,BGR,Bulgaria,3
+SVN,Slovenia,BIH,Bosnia and Herzegovina,22
+SVN,Slovenia,BLR,Belarus,
+SVN,Slovenia,CHE,Switzerland,100
+SVN,Slovenia,CYP,Cyprus,3
+SVN,Slovenia,CZE,Czech Republic,59
+SVN,Slovenia,DEU,Germany,437
+SVN,Slovenia,DNK,Denmark,69
+SVN,Slovenia,ESP,Spain,42
+SVN,Slovenia,EST,Estonia,2
+SVN,Slovenia,FIN,Finland,38
+SVN,Slovenia,FRA,France,71
+SVN,Slovenia,GBR,United Kingdom,403
+SVN,Slovenia,GIB,Gibraltar,
+SVN,Slovenia,GRC,Greece,2
+SVN,Slovenia,HRV,Croatia,220
+SVN,Slovenia,HUN,Hungary,40
+SVN,Slovenia,IRL,Ireland,13
+SVN,Slovenia,ISL,Iceland,3
+SVN,Slovenia,ITA,Italy,325
+SVN,Slovenia,LIE,Liechtenstein,1
+SVN,Slovenia,LTU,Lithuania,22
+SVN,Slovenia,LUX,Luxembourg,6
+SVN,Slovenia,LVA,Latvia,1
+SVN,Slovenia,MCO,Monaco,1
+SVN,Slovenia,MDA,Moldova,1
+SVN,Slovenia,MKD,North Macedonia,4
+SVN,Slovenia,MLT,Malta,4
+SVN,Slovenia,MNE,Montenegro,
+SVN,Slovenia,NLD,Netherlands,252
+SVN,Slovenia,NOR,Norway,11
+SVN,Slovenia,POL,Poland,8
+SVN,Slovenia,PRT,Portugal,13
+SVN,Slovenia,ROU,Romania,1
+SVN,Slovenia,RUS,Russia,19
+SVN,Slovenia,SMR,San Marino,
+SVN,Slovenia,SRB,Serbia,95
+SVN,Slovenia,SVK,Slovakia,6
+SVN,Slovenia,SVN,Slovenia,
+SVN,Slovenia,SWE,Sweden,45
+SVN,Slovenia,UKR,Ukraine,3
+ESP,Spain,ALB,Albania,
+ESP,Spain,AND,Andorra,274
+ESP,Spain,AUT,Austria,551
+ESP,Spain,BEL,Belgium,535
+ESP,Spain,BGR,Bulgaria,105
+ESP,Spain,BIH,Bosnia and Herzegovina,4
+ESP,Spain,BLR,Belarus,2
+ESP,Spain,CHE,Switzerland,1110
+ESP,Spain,CYP,Cyprus,9
+ESP,Spain,CZE,Czech Republic,154
+ESP,Spain,DEU,Germany,6582
+ESP,Spain,DNK,Denmark,1134
+ESP,Spain,ESP,Spain,
+ESP,Spain,EST,Estonia,35
+ESP,Spain,FIN,Finland,352
+ESP,Spain,FRA,France,4514
+ESP,Spain,GBR,United Kingdom,10612
+ESP,Spain,GIB,Gibraltar,
+ESP,Spain,GRC,Greece,50
+ESP,Spain,HRV,Croatia,131
+ESP,Spain,HUN,Hungary,519
+ESP,Spain,IRL,Ireland,361
+ESP,Spain,ISL,Iceland,39
+ESP,Spain,ITA,Italy,914
+ESP,Spain,LIE,Liechtenstein,1
+ESP,Spain,LTU,Lithuania,104
+ESP,Spain,LUX,Luxembourg,58
+ESP,Spain,LVA,Latvia,30
+ESP,Spain,MCO,Monaco,6
+ESP,Spain,MDA,Moldova,1
+ESP,Spain,MKD,North Macedonia,
+ESP,Spain,MLT,Malta,27
+ESP,Spain,MNE,Montenegro,
+ESP,Spain,NLD,Netherlands,2451
+ESP,Spain,NOR,Norway,209
+ESP,Spain,POL,Poland,742
+ESP,Spain,PRT,Portugal,1004
+ESP,Spain,ROU,Romania,172
+ESP,Spain,RUS,Russia,38
+ESP,Spain,SMR,San Marino,
+ESP,Spain,SRB,Serbia,24
+ESP,Spain,SVK,Slovakia,214
+ESP,Spain,SVN,Slovenia,12
+ESP,Spain,SWE,Sweden,649
+ESP,Spain,UKR,Ukraine,19
+SWE,Sweden,ALB,Albania,
+SWE,Sweden,AND,Andorra,
+SWE,Sweden,AUT,Austria,138
+SWE,Sweden,BEL,Belgium,52
+SWE,Sweden,BGR,Bulgaria,209
+SWE,Sweden,BIH,Bosnia and Herzegovina,3
+SWE,Sweden,BLR,Belarus,3
+SWE,Sweden,CHE,Switzerland,199
+SWE,Sweden,CYP,Cyprus,10
+SWE,Sweden,CZE,Czech Republic,136
+SWE,Sweden,DEU,Germany,669
+SWE,Sweden,DNK,Denmark,1645
+SWE,Sweden,ESP,Spain,205
+SWE,Sweden,EST,Estonia,13
+SWE,Sweden,FIN,Finland,398
+SWE,Sweden,FRA,France,312
+SWE,Sweden,GBR,United Kingdom,2894
+SWE,Sweden,GIB,Gibraltar,
+SWE,Sweden,GRC,Greece,30
+SWE,Sweden,HRV,Croatia,43
+SWE,Sweden,HUN,Hungary,188
+SWE,Sweden,IRL,Ireland,52
+SWE,Sweden,ISL,Iceland,39
+SWE,Sweden,ITA,Italy,356
+SWE,Sweden,LIE,Liechtenstein,1
+SWE,Sweden,LTU,Lithuania,187
+SWE,Sweden,LUX,Luxembourg,22
+SWE,Sweden,LVA,Latvia,428
+SWE,Sweden,MCO,Monaco,6
+SWE,Sweden,MDA,Moldova,17
+SWE,Sweden,MKD,North Macedonia,2
+SWE,Sweden,MLT,Malta,5
+SWE,Sweden,MNE,Montenegro,
+SWE,Sweden,NLD,Netherlands,509
+SWE,Sweden,NOR,Norway,701
+SWE,Sweden,POL,Poland,1017
+SWE,Sweden,PRT,Portugal,18
+SWE,Sweden,ROU,Romania,236
+SWE,Sweden,RUS,Russia,25
+SWE,Sweden,SMR,San Marino,1
+SWE,Sweden,SRB,Serbia,24
+SWE,Sweden,SVK,Slovakia,104
+SWE,Sweden,SVN,Slovenia,4
+SWE,Sweden,SWE,Sweden,
+SWE,Sweden,UKR,Ukraine,46
+CHE,Switzerland,ALB,Albania,
+CHE,Switzerland,AND,Andorra,2
+CHE,Switzerland,AUT,Austria,1052
+CHE,Switzerland,BEL,Belgium,240
+CHE,Switzerland,BGR,Bulgaria,17
+CHE,Switzerland,BIH,Bosnia and Herzegovina,2
+CHE,Switzerland,BLR,Belarus,
+CHE,Switzerland,CHE,Switzerland,
+CHE,Switzerland,CYP,Cyprus,3
+CHE,Switzerland,CZE,Czech Republic,211
+CHE,Switzerland,DEU,Germany,4851
+CHE,Switzerland,DNK,Denmark,179
+CHE,Switzerland,ESP,Spain,412
+CHE,Switzerland,EST,Estonia,6
+CHE,Switzerland,FIN,Finland,58
+CHE,Switzerland,FRA,France,1169
+CHE,Switzerland,GBR,United Kingdom,3972
+CHE,Switzerland,GIB,Gibraltar,
+CHE,Switzerland,GRC,Greece,15
+CHE,Switzerland,HRV,Croatia,31
+CHE,Switzerland,HUN,Hungary,81
+CHE,Switzerland,IRL,Ireland,82
+CHE,Switzerland,ISL,Iceland,13
+CHE,Switzerland,ITA,Italy,918
+CHE,Switzerland,LIE,Liechtenstein,154
+CHE,Switzerland,LTU,Lithuania,7
+CHE,Switzerland,LUX,Luxembourg,8
+CHE,Switzerland,LVA,Latvia,20
+CHE,Switzerland,MCO,Monaco,8
+CHE,Switzerland,MDA,Moldova,1
+CHE,Switzerland,MKD,North Macedonia,4
+CHE,Switzerland,MLT,Malta,9
+CHE,Switzerland,MNE,Montenegro,
+CHE,Switzerland,NLD,Netherlands,456
+CHE,Switzerland,NOR,Norway,63
+CHE,Switzerland,POL,Poland,35
+CHE,Switzerland,PRT,Portugal,77
+CHE,Switzerland,ROU,Romania,107
+CHE,Switzerland,RUS,Russia,18
+CHE,Switzerland,SMR,San Marino,
+CHE,Switzerland,SRB,Serbia,15
+CHE,Switzerland,SVK,Slovakia,9
+CHE,Switzerland,SVN,Slovenia,7
+CHE,Switzerland,SWE,Sweden,135
+CHE,Switzerland,UKR,Ukraine,5
+CZE,Czech Republic,ALB,Albania,
+CZE,Czech Republic,AND,Andorra,
+CZE,Czech Republic,AUT,Austria,465
+CZE,Czech Republic,BEL,Belgium,39
+CZE,Czech Republic,BGR,Bulgaria,10
+CZE,Czech Republic,BIH,Bosnia and Herzegovina,2
+CZE,Czech Republic,BLR,Belarus,1
+CZE,Czech Republic,CHE,Switzerland,207
+CZE,Czech Republic,CYP,Cyprus,3
+CZE,Czech Republic,CZE,Czech Republic,
+CZE,Czech Republic,DEU,Germany,1391
+CZE,Czech Republic,DNK,Denmark,675
+CZE,Czech Republic,ESP,Spain,70
+CZE,Czech Republic,EST,Estonia,10
+CZE,Czech Republic,FIN,Finland,87
+CZE,Czech Republic,FRA,France,336
+CZE,Czech Republic,GBR,United Kingdom,2657
+CZE,Czech Republic,GIB,Gibraltar,
+CZE,Czech Republic,GRC,Greece,16
+CZE,Czech Republic,HRV,Croatia,34
+CZE,Czech Republic,HUN,Hungary,57
+CZE,Czech Republic,IRL,Ireland,29
+CZE,Czech Republic,ISL,Iceland,17
+CZE,Czech Republic,ITA,Italy,95
+CZE,Czech Republic,LIE,Liechtenstein,4
+CZE,Czech Republic,LTU,Lithuania,2
+CZE,Czech Republic,LUX,Luxembourg,14
+CZE,Czech Republic,LVA,Latvia,6
+CZE,Czech Republic,MCO,Monaco,3
+CZE,Czech Republic,MDA,Moldova,1
+CZE,Czech Republic,MKD,North Macedonia,
+CZE,Czech Republic,MLT,Malta,6
+CZE,Czech Republic,MNE,Montenegro,
+CZE,Czech Republic,NLD,Netherlands,391
+CZE,Czech Republic,NOR,Norway,38
+CZE,Czech Republic,POL,Poland,702
+CZE,Czech Republic,PRT,Portugal,14
+CZE,Czech Republic,ROU,Romania,3
+CZE,Czech Republic,RUS,Russia,25
+CZE,Czech Republic,SMR,San Marino,
+CZE,Czech Republic,SRB,Serbia,3
+CZE,Czech Republic,SVK,Slovakia,3445
+CZE,Czech Republic,SVN,Slovenia,11
+CZE,Czech Republic,SWE,Sweden,85
+CZE,Czech Republic,UKR,Ukraine,58
+VAT,Vatican City,ALB,Albania,
+VAT,Vatican City,AND,Andorra,
+VAT,Vatican City,AUT,Austria,6
+VAT,Vatican City,BEL,Belgium,2
+VAT,Vatican City,BGR,Bulgaria,
+VAT,Vatican City,BIH,Bosnia and Herzegovina,
+VAT,Vatican City,BLR,Belarus,
+VAT,Vatican City,CHE,Switzerland,
+VAT,Vatican City,CYP,Cyprus,
+VAT,Vatican City,CZE,Czech Republic,
+VAT,Vatican City,DEU,Germany,17
+VAT,Vatican City,DNK,Denmark,
+VAT,Vatican City,ESP,Spain,1
+VAT,Vatican City,EST,Estonia,
+VAT,Vatican City,FIN,Finland,
+VAT,Vatican City,FRA,France,
+VAT,Vatican City,GBR,United Kingdom,2
+VAT,Vatican City,GIB,Gibraltar,
+VAT,Vatican City,GRC,Greece,
+VAT,Vatican City,HRV,Croatia,
+VAT,Vatican City,HUN,Hungary,
+VAT,Vatican City,IRL,Ireland,
+VAT,Vatican City,ISL,Iceland,
+VAT,Vatican City,ITA,Italy,4
+VAT,Vatican City,LIE,Liechtenstein,
+VAT,Vatican City,LTU,Lithuania,
+VAT,Vatican City,LUX,Luxembourg,
+VAT,Vatican City,LVA,Latvia,1
+VAT,Vatican City,MCO,Monaco,
+VAT,Vatican City,MDA,Moldova,
+VAT,Vatican City,MKD,North Macedonia,
+VAT,Vatican City,MLT,Malta,
+VAT,Vatican City,MNE,Montenegro,
+VAT,Vatican City,NLD,Netherlands,
+VAT,Vatican City,NOR,Norway,
+VAT,Vatican City,POL,Poland,
+VAT,Vatican City,PRT,Portugal,
+VAT,Vatican City,ROU,Romania,15
+VAT,Vatican City,RUS,Russia,
+VAT,Vatican City,SMR,San Marino,
+VAT,Vatican City,SRB,Serbia,2
+VAT,Vatican City,SVK,Slovakia,
+VAT,Vatican City,SVN,Slovenia,
+VAT,Vatican City,SWE,Sweden,
+VAT,Vatican City,UKR,Ukraine,
+NLD,Netherlands,ALB,Albania,
+NLD,Netherlands,AND,Andorra,3
+NLD,Netherlands,AUT,Austria,512
+NLD,Netherlands,BEL,Belgium,4385
+NLD,Netherlands,BGR,Bulgaria,56
+NLD,Netherlands,BIH,Bosnia and Herzegovina,3
+NLD,Netherlands,BLR,Belarus,1
+NLD,Netherlands,CHE,Switzerland,494
+NLD,Netherlands,CYP,Cyprus,3
+NLD,Netherlands,CZE,Czech Republic,102
+NLD,Netherlands,DEU,Germany,1846
+NLD,Netherlands,DNK,Denmark,484
+NLD,Netherlands,ESP,Spain,371
+NLD,Netherlands,EST,Estonia,22
+NLD,Netherlands,FIN,Finland,173
+NLD,Netherlands,FRA,France,501
+NLD,Netherlands,GBR,United Kingdom,3639
+NLD,Netherlands,GIB,Gibraltar,
+NLD,Netherlands,GRC,Greece,20
+NLD,Netherlands,HRV,Croatia,23
+NLD,Netherlands,HUN,Hungary,165
+NLD,Netherlands,IRL,Ireland,179
+NLD,Netherlands,ISL,Iceland,24
+NLD,Netherlands,ITA,Italy,231
+NLD,Netherlands,LIE,Liechtenstein,2
+NLD,Netherlands,LTU,Lithuania,17
+NLD,Netherlands,LUX,Luxembourg,26
+NLD,Netherlands,LVA,Latvia,54
+NLD,Netherlands,MCO,Monaco,4
+NLD,Netherlands,MDA,Moldova,3
+NLD,Netherlands,MKD,North Macedonia,1
+NLD,Netherlands,MLT,Malta,25
+NLD,Netherlands,MNE,Montenegro,
+NLD,Netherlands,NLD,Netherlands,
+NLD,Netherlands,NOR,Norway,177
+NLD,Netherlands,POL,Poland,39
+NLD,Netherlands,PRT,Portugal,97
+NLD,Netherlands,ROU,Romania,10
+NLD,Netherlands,RUS,Russia,31
+NLD,Netherlands,SMR,San Marino,
+NLD,Netherlands,SRB,Serbia,7
+NLD,Netherlands,SVK,Slovakia,8
+NLD,Netherlands,SVN,Slovenia,8
+NLD,Netherlands,SWE,Sweden,456
+NLD,Netherlands,UKR,Ukraine,10
+MDA,Moldova,ALB,Albania,
+MDA,Moldova,AND,Andorra,
+MDA,Moldova,AUT,Austria,113
+MDA,Moldova,BEL,Belgium,73
+MDA,Moldova,BGR,Bulgaria,319
+MDA,Moldova,BIH,Bosnia and Herzegovina,1
+MDA,Moldova,BLR,Belarus,24
+MDA,Moldova,CHE,Switzerland,77
+MDA,Moldova,CYP,Cyprus,8
+MDA,Moldova,CZE,Czech Republic,453
+MDA,Moldova,DEU,Germany,764
+MDA,Moldova,DNK,Denmark,173
+MDA,Moldova,ESP,Spain,62
+MDA,Moldova,EST,Estonia,10
+MDA,Moldova,FIN,Finland,8
+MDA,Moldova,FRA,France,433
+MDA,Moldova,GBR,United Kingdom,73
+MDA,Moldova,GIB,Gibraltar,
+MDA,Moldova,GRC,Greece,60
+MDA,Moldova,HRV,Croatia,5
+MDA,Moldova,HUN,Hungary,57
+MDA,Moldova,IRL,Ireland,11
+MDA,Moldova,ISL,Iceland,1
+MDA,Moldova,ITA,Italy,1300
+MDA,Moldova,LIE,Liechtenstein,1
+MDA,Moldova,LTU,Lithuania,26
+MDA,Moldova,LUX,Luxembourg,15
+MDA,Moldova,LVA,Latvia,29
+MDA,Moldova,MCO,Monaco,1
+MDA,Moldova,MDA,Moldova,
+MDA,Moldova,MKD,North Macedonia,1
+MDA,Moldova,MLT,Malta,2
+MDA,Moldova,MNE,Montenegro,
+MDA,Moldova,NLD,Netherlands,49
+MDA,Moldova,NOR,Norway,15
+MDA,Moldova,POL,Poland,101
+MDA,Moldova,PRT,Portugal,29
+MDA,Moldova,ROU,Romania,10431
+MDA,Moldova,RUS,Russia,2785
+MDA,Moldova,SMR,San Marino,1
+MDA,Moldova,SRB,Serbia,1
+MDA,Moldova,SVK,Slovakia,22
+MDA,Moldova,SVN,Slovenia,2
+MDA,Moldova,SWE,Sweden,35
+MDA,Moldova,UKR,Ukraine,576
+RUS,Russia,ALB,Albania,
+RUS,Russia,AND,Andorra,1
+RUS,Russia,AUT,Austria,1506
+RUS,Russia,BEL,Belgium,229
+RUS,Russia,BGR,Bulgaria,307
+RUS,Russia,BIH,Bosnia and Herzegovina,7
+RUS,Russia,BLR,Belarus,1828
+RUS,Russia,CHE,Switzerland,972
+RUS,Russia,CYP,Cyprus,164
+RUS,Russia,CZE,Czech Republic,6065
+RUS,Russia,DEU,Germany,10318
+RUS,Russia,DNK,Denmark,133
+RUS,Russia,ESP,Spain,656
+RUS,Russia,EST,Estonia,388
+RUS,Russia,FIN,Finland,2164
+RUS,Russia,FRA,France,2985
+RUS,Russia,GBR,United Kingdom,3609
+RUS,Russia,GIB,Gibraltar,
+RUS,Russia,GRC,Greece,455
+RUS,Russia,HRV,Croatia,29
+RUS,Russia,HUN,Hungary,451
+RUS,Russia,IRL,Ireland,107
+RUS,Russia,ISL,Iceland,38
+RUS,Russia,ITA,Italy,1862
+RUS,Russia,LIE,Liechtenstein,5
+RUS,Russia,LTU,Lithuania,203
+RUS,Russia,LUX,Luxembourg,55
+RUS,Russia,LVA,Latvia,530
+RUS,Russia,MCO,Monaco,11
+RUS,Russia,MDA,Moldova,61
+RUS,Russia,MKD,North Macedonia,3
+RUS,Russia,MLT,Malta,29
+RUS,Russia,MNE,Montenegro,
+RUS,Russia,NLD,Netherlands,902
+RUS,Russia,NOR,Norway,331
+RUS,Russia,POL,Poland,1020
+RUS,Russia,PRT,Portugal,108
+RUS,Russia,ROU,Romania,34
+RUS,Russia,RUS,Russia,
+RUS,Russia,SMR,San Marino,
+RUS,Russia,SRB,Serbia,129
+RUS,Russia,SVK,Slovakia,283
+RUS,Russia,SVN,Slovenia,156
+RUS,Russia,SWE,Sweden,309
+RUS,Russia,UKR,Ukraine,874
+UKR,Ukraine,ALB,Albania,
+UKR,Ukraine,AND,Andorra,1
+UKR,Ukraine,AUT,Austria,1449
+UKR,Ukraine,BEL,Belgium,143
+UKR,Ukraine,BGR,Bulgaria,1018
+UKR,Ukraine,BIH,Bosnia and Herzegovina,2
+UKR,Ukraine,BLR,Belarus,349
+UKR,Ukraine,CHE,Switzerland,342
+UKR,Ukraine,CYP,Cyprus,78
+UKR,Ukraine,CZE,Czech Republic,3487
+UKR,Ukraine,DEU,Germany,6454
+UKR,Ukraine,DNK,Denmark,116
+UKR,Ukraine,ESP,Spain,417
+UKR,Ukraine,EST,Estonia,270
+UKR,Ukraine,FIN,Finland,163
+UKR,Ukraine,FRA,France,1099
+UKR,Ukraine,GBR,United Kingdom,857
+UKR,Ukraine,GIB,Gibraltar,
+UKR,Ukraine,GRC,Greece,260
+UKR,Ukraine,HRV,Croatia,34
+UKR,Ukraine,HUN,Hungary,1188
+UKR,Ukraine,IRL,Ireland,39
+UKR,Ukraine,ISL,Iceland,15
+UKR,Ukraine,ITA,Italy,1515
+UKR,Ukraine,LIE,Liechtenstein,6
+UKR,Ukraine,LTU,Lithuania,483
+UKR,Ukraine,LUX,Luxembourg,20
+UKR,Ukraine,LVA,Latvia,443
+UKR,Ukraine,MCO,Monaco,3
+UKR,Ukraine,MDA,Moldova,161
+UKR,Ukraine,MKD,North Macedonia,
+UKR,Ukraine,MLT,Malta,12
+UKR,Ukraine,MNE,Montenegro,
+UKR,Ukraine,NLD,Netherlands,485
+UKR,Ukraine,NOR,Norway,179
+UKR,Ukraine,POL,Poland,29293
+UKR,Ukraine,PRT,Portugal,152
+UKR,Ukraine,ROU,Romania,469
+UKR,Ukraine,RUS,Russia,19547
+UKR,Ukraine,SMR,San Marino,2
+UKR,Ukraine,SRB,Serbia,20
+UKR,Ukraine,SVK,Slovakia,3001
+UKR,Ukraine,SVN,Slovenia,64
+UKR,Ukraine,SWE,Sweden,160
+UKR,Ukraine,UKR,Ukraine,
+GBR,United Kingdom,ALB,Albania,
+GBR,United Kingdom,AND,Andorra,2
+GBR,United Kingdom,AUT,Austria,890
+GBR,United Kingdom,BEL,Belgium,287
+GBR,United Kingdom,BGR,Bulgaria,2324
+GBR,United Kingdom,BIH,Bosnia and Herzegovina,4
+GBR,United Kingdom,BLR,Belarus,6
+GBR,United Kingdom,CHE,Switzerland,735
+GBR,United Kingdom,CYP,Cyprus,93
+GBR,United Kingdom,CZE,Czech Republic,423
+GBR,United Kingdom,DEU,Germany,4338
+GBR,United Kingdom,DNK,Denmark,938
+GBR,United Kingdom,ESP,Spain,1094
+GBR,United Kingdom,EST,Estonia,49
+GBR,United Kingdom,FIN,Finland,339
+GBR,United Kingdom,FRA,France,1270
+GBR,United Kingdom,GBR,United Kingdom,
+GBR,United Kingdom,GIB,Gibraltar,
+GBR,United Kingdom,GRC,Greece,68
+GBR,United Kingdom,HRV,Croatia,32
+GBR,United Kingdom,HUN,Hungary,368
+GBR,United Kingdom,IRL,Ireland,1697
+GBR,United Kingdom,ISL,Iceland,89
+GBR,United Kingdom,ITA,Italy,641
+GBR,United Kingdom,LIE,Liechtenstein,4
+GBR,United Kingdom,LTU,Lithuania,132
+GBR,United Kingdom,LUX,Luxembourg,32
+GBR,United Kingdom,LVA,Latvia,146
+GBR,United Kingdom,MCO,Monaco,10
+GBR,United Kingdom,MDA,Moldova,6
+GBR,United Kingdom,MKD,North Macedonia,1
+GBR,United Kingdom,MLT,Malta,293
+GBR,United Kingdom,MNE,Montenegro,
+GBR,United Kingdom,NLD,Netherlands,2943
+GBR,United Kingdom,NOR,Norway,190
+GBR,United Kingdom,POL,Poland,304
+GBR,United Kingdom,PRT,Portugal,150
+GBR,United Kingdom,ROU,Romania,314
+GBR,United Kingdom,RUS,Russia,56
+GBR,United Kingdom,SMR,San Marino,1
+GBR,United Kingdom,SRB,Serbia,19
+GBR,United Kingdom,SVK,Slovakia,107
+GBR,United Kingdom,SVN,Slovenia,13
+GBR,United Kingdom,SWE,Sweden,470
+GBR,United Kingdom,UKR,Ukraine,90
