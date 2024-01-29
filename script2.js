@@ -1,7 +1,7 @@
 // Define dimensions
 const width = 1000;
 const height = 1000;
-const gridPadding = 50;  // Padding between grid cells
+const gridPadding = 50;  
 var selectedUniversities = [];
 
 
@@ -33,32 +33,16 @@ d3.csv("RankingsClean.csv").then(function (csvData) {
   const topN = +document.getElementById("topNSelector").value; // Get the selected top N value
   data.sort((a, b) => a.world_rank - b.world_rank);
 
-  // Take the top N rows based on the sorted order
   const filteredData = data.slice(0, topN);
 
-  drawChart(filteredData); // Call drawChart after loading the data
-
+  drawChart(filteredData); 
 
   const filteredData2 = data.slice(0, 10);
   drawParallelCoordinates(filteredData2);
 
 
-
-  // const selectedUniversitieshtml = document.getElementById("selectedUniversities");
-  //   const listItem = document.createElement("li");
-  //  listItem.id = `descriptions`;
-
-  // Create a span to hold the university name
-  //  const universityNameSpan = document.createElement("span");
-  //  universityNameSpan.textContent = 'Selected Universities:';
-  //  listItem.appendChild(universityNameSpan);
-
-  //  selectedUniversitieshtml.appendChild(listItem);
-
-
 });
 
-// Function to add selected university to the list
 function addSelectedUniversity(universityData, i) {
   const selectedUniversitiesTable = document.getElementById("selectedUniversities");
   const rowId = `selected_${universityData.university_name}`;
@@ -79,9 +63,7 @@ function addSelectedUniversity(universityData, i) {
       .attr("fill", d => d3.rgb(10, 255 - i * 30, 255 - i * 20))
       .attr("data-id", null);
 
-    removeSelectedUniversity(rowId); // Pass the row identifier
-
-    // UpdateChartAndParallelCoordinates is now called outside the if block
+    removeSelectedUniversity(rowId);
     updateChartAndParallelCoordinates();
   });
 
@@ -94,10 +76,8 @@ function addSelectedUniversity(universityData, i) {
 
 // Function to remove selected university from the list
 function removeSelectedUniversity(rowId) {
-  // Remove the universityData from the selectedUniversities array
   selectedUniversities = selectedUniversities.filter(item => item.rowId !== rowId);
 
-  // Find the row corresponding to the rowId and remove it
   const row = document.getElementById(rowId);
   if (row) {
     row.remove(); // Remove the row
@@ -114,13 +94,11 @@ function handleDotClick(universityData, i) {
   const dot = d3.select(this);
 
   if (!isUniversitySelected(universityData)) {
-    // Dot is not selected, mark it as selected
     dot.classed("selected", true)
       .attr("fill", "green")
       .attr("data-id", universityData.university_name); // Set a data-id attribute with the index i
     addSelectedUniversity(universityData, i);
   } else {
-    // Dot is already selected, unselect it
     dot.classed("selected", false)
       .attr("fill", d => d3.rgb(10, 255 - i * 30, 255 - i * 20))
       .attr("data-id", null); // Remove the data-id attribute
@@ -325,7 +303,6 @@ function drawParallelCoordinates(data) {
   function getUniversityDetailsHTML(d) {
     return `
    <strong>University:</strong> ${d.university_name}<br>
-
    <strong>Teaching:</strong> ${d.teaching}<br>
    <strong>International:</strong> ${d.international}<br>
    <strong>Research:</strong> ${d.research}<br>
@@ -336,7 +313,6 @@ function drawParallelCoordinates(data) {
 
  `;
   }
-  // Extract the list of columns from the data
   // Extract the list of columns from the data
   let columns = ['teaching', 'international', 'research', 'citations', 'income', 'total_score'];
 
@@ -351,8 +327,6 @@ function drawParallelCoordinates(data) {
   data = data.filter(d => columns.every(column => !isNaN(+d[column])));
 
 
-
-  // Get minimum values for each column
   const minValues = {};
   columns.forEach(column => {
     minValues[column] = d3.min(data, d => +d[column]);
@@ -360,9 +334,6 @@ function drawParallelCoordinates(data) {
 
   // Get the global minimum value
   const globalMinValue = d3.min(Object.values(minValues));
-
-
-
 
   parallelCoordinatesSvg = parallelCoordinatesSvg
     .append("svg")
@@ -386,11 +357,11 @@ function drawParallelCoordinates(data) {
 
   columns.forEach(column => {
     yScale[column] = d3.scaleLinear()
-      .domain([globalMinValue, 100])  // Set a fixed range from 0 to 100 for all columns
+      .domain([globalMinValue, 100])  
       .range([height, 0]);
   });
   const colorScale = d3.scaleSequential(d3.interpolateBlues)
-    .domain([data.length, 1]); // Reverse the domain to make lower ranks more prominent
+    .domain([data.length, 1]); 
 
   parallelCoordinatesSvg.append("g")
     .attr("class", "axis-labels")
@@ -406,7 +377,6 @@ function drawParallelCoordinates(data) {
 
 
 
-  // Add axes
   const parallelCoordinatesAxes = parallelCoordinatesSvg.append("g")
     .attr("class", "axes")
     .attr("transform", `translate(${margin.left}, ${margin.top})`)
@@ -442,14 +412,12 @@ function drawParallelCoordinates(data) {
       // Hide tooltip on mouseout
       const line = d3.select(this);
       tooltip1.style("opacity", 0);
-      // Get the initial color based on the world rank
       const initialColor = line.attr("data-initial-color");
 
       d3.select(this).attr("stroke", initialColor).attr("stroke-width", 2);
 
     })
     .on("mousemove", function (event, d) {
-      // Update tooltip position on mousemove
       tooltip1.style("left", (event.pageX + 10) + "px")
         .style("top", (event.pageY - 10) + "px");
     });
@@ -470,7 +438,6 @@ function updateChart() {
 
   drawChart(filteredData);
 
-  //parallelCoordinatesSvg.selectAll("*").remove();
   const filteredData2 = data.slice(0, 10);
   drawParallelCoordinates(filteredData2);
 
@@ -485,12 +452,6 @@ function updateChartAndParallelCoordinates() {
   data.sort((a, b) => a.world_rank - b.world_rank);
 
   const filteredData = data.slice(0, topN);
-
-  // svg.selectAll("*").remove();
-  // parallelCoordinatesSvg.selectAll("*").remove();
-
-  // drawChart(filteredData);
-  // Inside updateChartAndParallelCoordinates function
   parallelCoordinatesSvg.selectAll("*").remove();
 
   if (selectedUniversities.length > 0) {
